@@ -1,3 +1,4 @@
+/* global Controllers */
 /* global classes */
 /* global findClass */
 /* global findSubclass */
@@ -15,29 +16,7 @@ spelllistApp.config(function ($stateProvider, $urlRouterProvider) {
 		url: "/list{ignore1:/?}{className:(?:[^/?]*)?}{ignore2:/?}{subclassName:(?:[^/?]*)?}",
 		// url: "/list?class&subclass",
 		templateUrl: "pages/list.html",
-		controller: function ($scope, $state) {
-			window.scope = $scope;
-			window.state = $state;
-			$scope.spellFilters = {};
-
-			var lookupClass, lookupSubclass
-
-			if ( $state.params.className ) {
-				lookupClass = findClass($state.params.className);
-				if (lookupClass) {
-					$scope.spellFilters.selectedClass = lookupClass;
-					if ( $state.params.subclassName ) {
-						lookupSubclass = findSubclass( $scope.spellFilters.selectedClass, $state.params.subclassName );
-						if (lookupSubclass) {
-							$scope.spellFilters.subclass = lookupSubclass;
-						}
-					}
-				}
-			}
-
-			$scope.spells = spells;
-			$scope.classes = classes;
-		},
+		controller: Controllers.list,
 	});
 });
 
