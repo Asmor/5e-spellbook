@@ -1,7 +1,7 @@
 <select
 	ng-model="spellFilters.selectedClass"
 	ng-options="class as class.name for class in classes"
-	ng-change="changeClass()"
+	ng-change="updateState(true)"
 >
 	<option value="">All</option>
 </select>
@@ -10,13 +10,13 @@
 	<select
 		ng-model="spellFilters.subclass"
 		ng-options="subclass as subclass.name for subclass in spellFilters.selectedClass.subtypes"
-		ng-change="changeSubclass()"
+		ng-change="updateState()"
 	>
 		<option value="">None</option>
 	</select>
-	<label>
+	<label ng-if="spellFilters.subclass">
 		Only show {{ spellFilters.selectedClass.subtypeName | lowercase }} spells:
-		<input type="checkbox" ng-model="spellFilters.subclassOnly" ng-change="changeSubclass()">
+		<input type="checkbox" ng-model="spellFilters.subclassOnly" ng-change="updateState()">
 	</label>
 </span>
 <table class="list" ng-class="(spellFilters.selectedClass) ? 'list__class-filtered' : ''">

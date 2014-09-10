@@ -28,32 +28,27 @@ Controllers.list = function ($scope, $state) {
 	$scope.spells = spells;
 	$scope.classes = classes;
 
-	$scope.changeClass = function () {
-		delete $scope.spellFilters.subclass;
-		if ($scope.spellFilters.selectedClass) {
-			$state.go("list.class", {
-				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
-			});
-		} else {
-			delete $scope.spellFilters.selectedClass;
-			$state.go("list");
+	$scope.updateState = function (clearSubclass) {
+		var stateObj = {},
+			destination = ["list"];
+
+		if (clearSubclass) {
+			delete $scope.spellFilters.subclass;
 		}
-	};
 
-	$scope.changeSubclass = function () {
-		if ($scope.spellFilters.subclass) {
-			var stateObj = {
-				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
-				subclassName: $scope.spellFilters.subclass.name.replace(/ /g, "_"),
-				only: !!$scope.spellFilters.subclassOnly,
-			};
+		if ( $scope.spellFilters.selectedClass ) {
+			stateObj.className = $scope.spellFilters.selectedClass.name.replace(/ /g, "_");
+			destination.push("class");
 
-			$state.go("list.class.subclass", stateObj);
+			if ( $scope.spellFilters.subclass ) {
+				stateObj.subclassName = $scope.spellFilters.subclass.name.replace(/ /g, "_");
+				stateObj.only = $scope.spellFilters.subclassOnly;
+				destination.push("subclass");
+			}
 		} else {
 			delete $scope.spellFilters.subclass;
-			$state.go("list.class", {
-				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
-			});
 		}
+
+		$state.go(destination.join("."), stateObj);
 	};
 };
