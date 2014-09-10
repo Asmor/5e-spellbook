@@ -31,7 +31,7 @@ Controllers.list = function ($scope, $state) {
 	$scope.changeClass = function () {
 		if ($scope.spellFilters.selectedClass) {
 			$state.go("list.class", {
-				className: $scope.spellFilters.selectedClass.name,
+				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 			});
 		}
 	};
@@ -39,8 +39,8 @@ Controllers.list = function ($scope, $state) {
 	$scope.changeSubclass = function () {
 		if ($scope.spellFilters.subclass) {
 			$state.go("list.class.subclass", {
-				className: $scope.spellFilters.selectedClass.name,
-				subclassName: $scope.spellFilters.subclass.name,
+				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
+				subclassName: $scope.spellFilters.subclass.name.replace(/ /g, "_"),
 			});
 		}
 	};
