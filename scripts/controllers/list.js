@@ -1,9 +1,16 @@
+/* global Controllers */
+/* global classes */
+/* global findClass */
+/* global findSubclass */
+/* global spells */
+"use strict";
+
 Controllers.list = function ($scope, $state) {
 	window.scope = $scope;
 	window.state = $state;
 	$scope.spellFilters = {};
 
-	var lookupClass, lookupSubclass
+	var lookupClass, lookupSubclass;
 
 	if ( $state.params.className ) {
 		lookupClass = findClass($state.params.className);
@@ -27,7 +34,8 @@ Controllers.list = function ($scope, $state) {
 				className: $scope.spellFilters.selectedClass.name,
 			});
 		}
-	}
+	};
+
 	$scope.changeSubclass = function () {
 		if ($scope.spellFilters.subclass) {
 			$state.go("list.class.subclass", {
@@ -35,5 +43,5 @@ Controllers.list = function ($scope, $state) {
 				subclassName: $scope.spellFilters.subclass.name,
 			});
 		}
-	}
+	};
 };

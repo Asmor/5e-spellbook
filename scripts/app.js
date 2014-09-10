@@ -1,8 +1,4 @@
 /* global Controllers */
-/* global classes */
-/* global findClass */
-/* global findSubclass */
-/* global spells */
 "use strict";
 
 var spelllistApp = angular.module("spelllist", ["ui.router"]);
