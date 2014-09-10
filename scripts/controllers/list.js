@@ -60,6 +60,9 @@ Controllers.list = function ($scope, $state) {
 
 		if ( typeof f.level === "number" ) {
 			stateObj.level = f.level;
+		} else {
+			stateObj.level = "";
+			delete f.level;
 		}
 
 		$state.go(destination.join("."), stateObj);
