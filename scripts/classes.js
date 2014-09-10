@@ -64,17 +64,19 @@ var classes = [
 ];
 
 function findClass(className) {
+	className = className.replace(/[+_]/g, " ").toLowerCase();
 	for ( var i = 0; i < classes.length; i++ ) {
-		if (classes[i].name === className) {
+		if (classes[i].name.toLowerCase() === className) {
 			return classes[i];
 		}
 	}
 }
 
-function findSubclass(class, subclassName) {
-	for ( var i = 0; i < class.subtypes.length; i++ ) {
-		if (class.subtypes[i].name === subclassName) {
-			return class.subtypes[i];
+function findSubclass(classObj, subclassName) {
+	subclassName = subclassName.replace(/[+_]/g, " ").toLowerCase();
+	for ( var i = 0; i < classObj.subtypes.length; i++ ) {
+		if (classObj.subtypes[i].name.toLowerCase() === subclassName) {
+			return classObj.subtypes[i];
 		}
 	}
 }

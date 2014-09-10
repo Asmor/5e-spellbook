@@ -1,9 +1,15 @@
-<select ng-model="spellFilters.selectedClass" ng-options="class as class.name for class in classes">
+<select
+	ng-model="spellFilters.selectedClass"
+	ng-options="class as class.name for class in classes"
+>
 	<option value="">All</option>
 </select>
 <span ng-if="spellFilters.selectedClass.subtypeName">
 	{{ spellFilters.selectedClass.subtypeName }}: 
-	<select ng-model="spellFilters.subclass" ng-options="subclass as subclass.name for subclass in spellFilters.selectedClass.subtypes">
+	<select
+		ng-model="spellFilters.subclass"
+		ng-options="subclass as subclass.name for subclass in spellFilters.selectedClass.subtypes"
+	>
 		<option value="">None</option>
 	</select>
 </span>
