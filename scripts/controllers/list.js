@@ -42,10 +42,13 @@ Controllers.list = function ($scope, $state) {
 
 	$scope.changeSubclass = function () {
 		if ($scope.spellFilters.subclass) {
-			$state.go("list.class.subclass", {
+			var stateObj = {
 				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 				subclassName: $scope.spellFilters.subclass.name.replace(/ /g, "_"),
-			});
+				only: !!$scope.spellFilters.subclassOnly,
+			};
+
+			$state.go("list.class.subclass", stateObj);
 		} else {
 			delete $scope.spellFilters.subclass;
 			$state.go("list.class", {

@@ -19,7 +19,7 @@ spelllistApp.config(function ($stateProvider, $urlRouterProvider) {
 		controller: Controllers.list,
 	});
 	$stateProvider.state("list.class.subclass", {
-		url: "/:subclassName",
+		url: "/:subclassName?only",
 		templateUrl: "pages/list.html",
 		controller: Controllers.list,
 	});

@@ -16,7 +16,7 @@
 	</select>
 	<label>
 		Only show {{ spellFilters.selectedClass.subtypeName | lowercase }} spells:
-		<input type="checkbox" ng-model="spellFilters.subclassOnly">
+		<input type="checkbox" ng-model="spellFilters.subclassOnly" ng-change="changeSubclass()">
 	</label>
 </span>
 <table class="list" ng-class="(spellFilters.selectedClass) ? 'list__class-filtered' : ''">
