@@ -29,11 +29,14 @@ Controllers.list = function ($scope, $state) {
 	$scope.classes = classes;
 
 	$scope.changeClass = function () {
+		delete $scope.spellFilters.subclass;
 		if ($scope.spellFilters.selectedClass) {
-			delete $scope.spellFilters.subclass;
 			$state.go("list.class", {
 				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 			});
+		} else {
+			delete $scope.spellFilters.selectedClass;
+			$state.go("list");
 		}
 	};
 
@@ -42,6 +45,11 @@ Controllers.list = function ($scope, $state) {
 			$state.go("list.class.subclass", {
 				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 				subclassName: $scope.spellFilters.subclass.name.replace(/ /g, "_"),
+			});
+		} else {
+			delete $scope.spellFilters.subclass;
+			$state.go("list.class", {
+				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 			});
 		}
 	};
