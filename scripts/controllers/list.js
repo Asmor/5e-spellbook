@@ -10,7 +10,7 @@ Controllers.list = function ($scope, $state) {
 	window.state = $state;
 	$scope.spellFilters = {};
 
-	var lookupClass, lookupSubclass;
+	var lookupClass, lookupSubclass, levelMatch;
 
 	if ( $state.params.className ) {
 		lookupClass = findClass($state.params.className);
@@ -25,28 +25,41 @@ Controllers.list = function ($scope, $state) {
 		}
 	}
 
+	if ( $state.params.level && typeof $state.params.level === "string" ) {
+		levelMatch = $state.params.level.match(/^\d+$/);
+
+		if (levelMatch) {
+			$scope.spellFilters.level = parseInt(levelMatch[0]);
+		}
+	}
+
 	$scope.spells = spells;
 	$scope.classes = classes;
 
 	$scope.updateState = function (clearSubclass) {
 		var stateObj = {},
-			destination = ["list"];
+			destination = ["list"],
+			f = $scope.spellFilters;
 
 		if (clearSubclass) {
-			delete $scope.spellFilters.subclass;
+			delete f.subclass;
 		}
 
-		if ( $scope.spellFilters.selectedClass ) {
-			stateObj.className = $scope.spellFilters.selectedClass.name.replace(/ /g, "_");
+		if ( f.selectedClass ) {
+			stateObj.className = f.selectedClass.name.replace(/ /g, "_");
 			destination.push("class");
 
-			if ( $scope.spellFilters.subclass ) {
-				stateObj.subclassName = $scope.spellFilters.subclass.name.replace(/ /g, "_");
-				stateObj.only = $scope.spellFilters.subclassOnly;
+			if ( f.subclass ) {
+				stateObj.subclassName = f.subclass.name.replace(/ /g, "_");
+				stateObj.only = f.subclassOnly;
 				destination.push("subclass");
 			}
 		} else {
-			delete $scope.spellFilters.subclass;
+			delete f.subclass;
+		}
+
+		if ( typeof f.level === "number" ) {
+			stateObj.level = f.level;
 		}
 
 		$state.go(destination.join("."), stateObj);

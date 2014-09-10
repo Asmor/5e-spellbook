@@ -9,7 +9,7 @@ spelllistApp.config(function ($stateProvider, $urlRouterProvider) {
 
 	// Main spell list
 	$stateProvider.state("list", {
-		url: "/list",
+		url: "/list?level",
 		templateUrl: "pages/list.html",
 		controller: Controllers.list,
 	});
@@ -49,6 +49,10 @@ spelllistApp.filter("spellsFilter", function () {
 		}
 
 		for ( i = 0; i < input.length; i++ ) {
+			if ( (typeof spellFilters.level === "number") && input[i].level !== spellFilters.level ) {
+				continue;
+			}
+
 			if (
 				!className ||
 				( showClass && (input[i].classes.indexOf(className) !== -1) ) ||
