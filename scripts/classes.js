@@ -38,7 +38,7 @@ var classes = [
 		name: "Paladin",
 		subtypeName: "Oath",
 		subtypes: [
-			{ name: "the Ancients", source: "Player's Handbook" },
+			{ name: "Ancients", source: "Player's Handbook" },
 			{ name: "Devotion", source: "Player's Handbook" },
 			{ name: "Vengeance", source: "Player's Handbook" },
 		],

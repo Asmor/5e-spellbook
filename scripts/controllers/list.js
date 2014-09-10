@@ -30,6 +30,7 @@ Controllers.list = function ($scope, $state) {
 
 	$scope.changeClass = function () {
 		if ($scope.spellFilters.selectedClass) {
+			delete $scope.spellFilters.subclass;
 			$state.go("list.class", {
 				className: $scope.spellFilters.selectedClass.name.replace(/ /g, "_"),
 			});

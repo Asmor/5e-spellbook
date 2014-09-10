@@ -36,6 +36,7 @@ spelllistApp.filter("spellsFilter", function () {
 		var out = [],
 			className,
 			subclassName,
+			showClass = true,
 			i;
 
 		if ( spellFilters.selectedClass ) {
@@ -43,13 +44,14 @@ spelllistApp.filter("spellsFilter", function () {
 
 			if ( spellFilters.subclass ) {
 				subclassName = className + ":" + spellFilters.subclass.name;
+				showClass = !spellFilters.subclassOnly;
 			}
 		}
 
 		for ( i = 0; i < input.length; i++ ) {
 			if (
 				!className ||
-				(input[i].classes.indexOf(className) !== -1) ||
+				( showClass && (input[i].classes.indexOf(className) !== -1) ) ||
 				(subclassName && input[i].classes.indexOf(subclassName) !== -1)
 			) {
 				out.push(input[i]);
