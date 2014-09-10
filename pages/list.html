@@ -1,6 +1,7 @@
 <select
 	ng-model="spellFilters.selectedClass"
 	ng-options="class as class.name for class in classes"
+	ng-change="changeClass()"
 >
 	<option value="">All</option>
 </select>
@@ -9,6 +10,7 @@
 	<select
 		ng-model="spellFilters.subclass"
 		ng-options="subclass as subclass.name for subclass in spellFilters.selectedClass.subtypes"
+		ng-change="changeSubclass()"
 	>
 		<option value="">None</option>
 	</select>

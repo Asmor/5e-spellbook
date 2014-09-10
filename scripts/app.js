@@ -13,8 +13,17 @@ spelllistApp.config(function ($stateProvider, $urlRouterProvider) {
 
 	// Main spell list
 	$stateProvider.state("list", {
-		url: "/list{ignore1:/?}{className:(?:[^/?]*)?}{ignore2:/?}{subclassName:(?:[^/?]*)?}",
-		// url: "/list?class&subclass",
+		url: "/list",
+		templateUrl: "pages/list.html",
+		controller: Controllers.list,
+	});
+	$stateProvider.state("list.class", {
+		url: "/:className",
+		templateUrl: "pages/list.html",
+		controller: Controllers.list,
+	});
+	$stateProvider.state("list.class.subclass", {
+		url: "/:subclassName",
 		templateUrl: "pages/list.html",
 		controller: Controllers.list,
 	});
