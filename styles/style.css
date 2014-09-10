@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse; }
+
+td {
+  vertical-align: top; }
+
+.list--column__spell {
+  width: 250px; }
+.list--column__school {
+  width: 150px; }
+.list--column__classes {
+  width: 200px; }
+.list--column__sources {
+  width: 200px; }
+.list--row__even-row {
+  background-color: #ccc; }
+.list__class-filtered .list--column__classes {
+  display: none; }
+.list--spell-tags {
+  font-style: italic;
+  font-size: 0.8rem; }

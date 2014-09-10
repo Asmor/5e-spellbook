@@ -1,0 +1,36 @@
+@import "global";
+
+.list {
+	&--column {
+		&__spell {
+			width: 250px;
+		}
+		&__school {
+			width: 150px;
+		}
+		&__classes {
+			width: 200px;
+		}
+		&__sources {
+			width: 200px;
+		}
+	}
+
+	&--row {
+		&__even-row {
+			background-color: #ccc;
+		}
+	}
+
+	&__class-filtered {
+		.list--column__classes {
+			display: none;
+		}
+	}
+
+	&--spell-tags {
+		font-style: italic;
+		font-size: 0.8rem;
+	}
+}
+
