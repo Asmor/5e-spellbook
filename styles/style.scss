@@ -1,6 +1,14 @@
 @import "global";
 
 .list {
+	border: 1px solid $primary-dark;
+
+	> thead {
+		background-color: $contrast-dark;
+		color: #fff;
+		font-weight: bold;
+	}
+
 	&--column {
 		padding: 5px;
 
@@ -20,7 +28,7 @@
 
 	&--row {
 		&__even-row {
-			background-color: #ccc;
+			background-color: $primary-light;
 		}
 	}
 
@@ -36,3 +44,15 @@
 	}
 }
 
+.list-controls {
+	background-color: $primary-color;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	border-radius: 20px 20px 0 0;
+	margin-top: 10px;
+	line-height: 2.2rem;
+
+	&--select {
+		font-size: 1.2rem;
+	}
+}

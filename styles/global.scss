@@ -1,6 +1,30 @@
+$primary-double-light: #fee;
+$primary-light: #d88;
+$primary-color: #a44;
+$primary-dark: #711;
+$primary-double-dark: #500;
+
+$contrast-double-light: #bcb;
+$contrast-light: #6a6;
+$contrast-color: #383;
+$contrast-dark: #060;
+$contrast-double-dark: #040;
+
 * {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	text-align: center;
+	background-color: $primary-double-light;
+	color: #000;
+	font-family: sans-serif;
+}
+
+.container {
+	display: inline-block;
+	text-align: left;
 }
 
 table {
