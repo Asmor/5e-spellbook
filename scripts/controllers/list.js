@@ -75,9 +75,7 @@ Controllers.list = function ($scope, $state) {
 			delete f.level;
 		}
 
-		if ( f.school ) {
-			stateObj.school = f.school;
-		}
+		stateObj.school = f.school || "";
 
 		$state.go(destination.join("."), stateObj);
 	};
