@@ -29,6 +29,16 @@
 		<option value="">All</option>
 	</select>
 </label>
+<label>
+	School:
+	<select
+		ng-model="spellFilters.school"
+		ng-options="school for school in ['Abjuration', 'Conjuration', 'Divination', 'Enchantment', 'Evocation', 'Illusion', 'Necromancy', 'Transmuation']"
+		ng-change="updateState()"
+	>
+		<option value="">All</option>
+	</select>
+</label>
 <table class="list" ng-class="(spellFilters.selectedClass) ? 'list__class-filtered' : ''">
 	<thead>
 		<tr>

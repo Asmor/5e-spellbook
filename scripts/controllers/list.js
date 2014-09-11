@@ -10,14 +10,19 @@ Controllers.list = function ($scope, $state) {
 	window.state = $state;
 	$scope.spellFilters = {};
 
-	var lookupClass, lookupSubclass, levelMatch;
+	var level = $state.params.level,
+		school = $state.params.school,
+		className = $state.params.className,
+		subclassName = $state.params.subclassName,
+		only = $state.params.only,
+		lookupClass, lookupSubclass;
 
-	if ( $state.params.className ) {
-		lookupClass = findClass($state.params.className);
+	if ( className ) {
+		lookupClass = findClass(className);
 		if (lookupClass) {
 			$scope.spellFilters.selectedClass = lookupClass;
-			if ( $state.params.subclassName ) {
-				lookupSubclass = findSubclass( $scope.spellFilters.selectedClass, $state.params.subclassName );
+			if ( subclassName ) {
+				lookupSubclass = findSubclass( $scope.spellFilters.selectedClass, subclassName );
 				if (lookupSubclass) {
 					$scope.spellFilters.subclass = lookupSubclass;
 				}
@@ -25,13 +30,15 @@ Controllers.list = function ($scope, $state) {
 		}
 	}
 
-	if ( $state.params.level && typeof $state.params.level === "string" ) {
-		levelMatch = $state.params.level.match(/^\d+$/);
-
-		if (levelMatch) {
-			$scope.spellFilters.level = parseInt(levelMatch[0]);
-		}
+	if (typeof level !== "undefined") {
+		$scope.spellFilters.level = level;
 	}
+
+	if (typeof school !== "undefined") {
+		$scope.spellFilters.school = school;
+	}
+
+	$scope.spellFilters.subclassOnly = !!only;
 
 	$scope.spells = spells;
 	$scope.classes = classes;
@@ -63,6 +70,10 @@ Controllers.list = function ($scope, $state) {
 		} else {
 			stateObj.level = "";
 			delete f.level;
+		}
+
+		if ( f.school ) {
+			stateObj.school = f.school;
 		}
 
 		$state.go(destination.join("."), stateObj);

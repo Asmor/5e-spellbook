@@ -9,19 +9,43 @@ spelllistApp.config(function ($stateProvider, $urlRouterProvider) {
 
 	// Main spell list
 	$stateProvider.state("list", {
-		url: "/list?level",
+		url: "/list?level&school",
 		templateUrl: "pages/list.html",
-		controller: Controllers.list,
+		controller: ["$scope", "$state", Controllers.list],
+		resolve: {
+			level: ['$stateParams', function ( $stateParams ) {
+				var lvl = $stateParams.level,
+					lvlMatch;
+				if ( typeof lvl === "string" ) {
+					lvlMatch = lvl.match(/^\d+$/);
+					if (lvlMatch) {
+						return parseInt(lvlMatch[0]);
+					}
+				}
+				
+				return undefined;
+			}],
+			school: ['$stateParams', function ( $stateParams ) {
+				if (
+					(typeof $stateParams.school === "string") &&
+					$stateParams.school.match(/^(Abjuration|Conjuration|Divination|Enchantment|Evocation|Illusion|Necromancy|Transmuation)$/)
+				) {
+					return $stateParams.school;
+				}
+
+				return undefined;
+			}],
+		},
 	});
 	$stateProvider.state("list.class", {
 		url: "/:className",
 		templateUrl: "pages/list.html",
-		controller: Controllers.list,
+		controller: ["$scope", "$state", Controllers.list],
 	});
 	$stateProvider.state("list.class.subclass", {
 		url: "/:subclassName?only",
 		templateUrl: "pages/list.html",
-		controller: Controllers.list,
+		controller: ["$scope", "$state", Controllers.list],
 	});
 });
 
@@ -49,7 +73,13 @@ spelllistApp.filter("spellsFilter", function () {
 		}
 
 		for ( i = 0; i < input.length; i++ ) {
-			if ( (typeof spellFilters.level === "number") && input[i].level !== spellFilters.level ) {
+			// Filter based on level
+			if ( (typeof spellFilters.level === "number") && (input[i].level !== spellFilters.level) ) {
+				continue;
+			}
+
+			// Filter based on school
+			if ( spellFilters.school && (input[i].school !== spellFilters.school) ) {
 				continue;
 			}
 
