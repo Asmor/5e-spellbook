@@ -13,7 +13,7 @@
 				<div class="list--spell-name">{{ spell.name }}</div>
 				<div class="list--spell-tags" ng-if="spell.tags.length">{{ spell.tags.join(", ") }}</div>
 			</td>
-			<td class="list--column list--column__school">Level {{ spell.level }} {{ spell.school }}</td>
+			<td class="list--column list--column__school">{{ 'Level ' + spell.level + ' ' + spell.school | cantrip }}</td>
 			<td class="list--column list--column__classes">
 				<div ng-repeat="class in spell.classes">
 					{{ class | normalizedClass }}

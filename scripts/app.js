@@ -55,6 +55,16 @@ spelllistApp.filter("normalizedClass", function () {
 	};
 });
 
+spelllistApp.filter("cantrip", function () {
+	return function (input) {
+		if ( input.match(/Level 0/) === -1 ) {
+			return input;
+		}
+
+		return input.replace(/Level 0 (Abjuration|Conjuration|Divination|Enchantment|Evocation|Illusion|Necromancy|Transmuation)/i, "$1 Cantrip");
+	};
+});
+
 spelllistApp.filter("spellsFilter", function () {
 	return function (input, spellFilters) {
 		var out = [],
