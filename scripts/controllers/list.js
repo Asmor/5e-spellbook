@@ -31,7 +31,10 @@ Controllers.list = function ($scope, $state) {
 	}
 
 	if (typeof level !== "undefined") {
-		$scope.spellFilters.level = level;
+		$scope.spellFilters.level = parseInt(level);
+		if (isNaN($scope.spellFilters.level)) {
+			$scope.spellFilters.level = "";
+		}
 	}
 
 	if (typeof school !== "undefined") {
