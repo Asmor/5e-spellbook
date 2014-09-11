@@ -1,0 +1,41 @@
+<select
+	ng-model="spellFilters.selectedClass"
+	ng-options="class as class.name for class in classes"
+	ng-change="updateState(true)"
+>
+	<option value="">All</option>
+</select>
+<span ng-if="spellFilters.selectedClass.subtypeName">
+	{{ spellFilters.selectedClass.subtypeName }}: 
+	<select
+		ng-model="spellFilters.subclass"
+		ng-options="subclass as subclass.name for subclass in spellFilters.selectedClass.subtypes"
+		ng-change="updateState()"
+	>
+		<option value="">None</option>
+	</select>
+	<label ng-if="spellFilters.subclass">
+		Only show {{ spellFilters.selectedClass.subtypeName | lowercase }} spells:
+		<input type="checkbox" ng-model="spellFilters.subclassOnly" ng-change="updateState()">
+	</label>
+</span>
+<label>
+	Level:
+	<select
+		ng-model="spellFilters.level"
+		ng-options="level for level in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+		ng-change="updateState()"
+	>
+		<option value="">All</option>
+	</select>
+</label>
+<label>
+	School:
+	<select
+		ng-model="spellFilters.school"
+		ng-options="school for school in ['Abjuration', 'Conjuration', 'Divination', 'Enchantment', 'Evocation', 'Illusion', 'Necromancy', 'Transmuation']"
+		ng-change="updateState()"
+	>
+		<option value="">All</option>
+	</select>
+</label>
