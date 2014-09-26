@@ -104,9 +104,9 @@ spelllistApp.filter("spellsFilter", function () {
 
 		return out.sort(function (a, b) {
 			if ( a.level !== b.level ) {
-				return a.level > b.level;
+				return (a.level > b.level) ? 1 : -1;
 			} else {
-				return a.name > b.name;
+				return (a.name > b.name) ? 1 : -1;
 			}
 		});
 	};
