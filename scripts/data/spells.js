@@ -1,7 +1,10 @@
 /* exported spells */
+/* exported spellsByName */
 "use strict";
 
-var spells = [
+var spells, spellsByName = {}, i;
+
+spells = [
 	{
 		name: "Acid Splash",
 		level: 0,
@@ -9,10 +12,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 211 },
 			{ name: "Basic Rules v2", page: 83 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -23,10 +22,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 211 },
 			{ name: "Basic Rules v2", page: 83 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin",
-		],
 	},
 	{
 		name: "Alarm",
@@ -36,10 +31,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 211 },
 		],
-		classes: [
-			"Ranger",
-			"Wizard",
-		],
 	},
 	{
 		name: "Alter Self",
@@ -48,10 +39,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 211 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Animal Friendship",
@@ -59,12 +46,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 212 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Nature",
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -75,11 +56,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 212 },
 		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Ranger",
-		],
 	},
 	{
 		name: "Animal Shapes",
@@ -87,9 +63,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 212 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -99,10 +72,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 212 },
 		],
-		classes: [
-			"Cleric",
-			"Wizard",
-		],
 	},
 	{
 		name: "Animate Objects",
@@ -111,11 +80,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 213 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Antilife Shell",
@@ -123,9 +87,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 213 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -136,10 +97,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 213 },
 			{ name: "Basic Rules v2", page: 83 },
 		],
-		classes: [
-			"Cleric",
-			"Wizard",
-		],
 	},
 	{
 		name: "Antipathy/Sympathy",
@@ -147,10 +104,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 214 },
-		],
-		classes: [
-			"Druid",
-			"Wizard",
 		],
 	},
 	{
@@ -161,10 +114,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 214 },
 			{ name: "Basic Rules v2", page: 83 },
 		],
-		classes: [
-			"Cleric:Knowledge",
-			"Wizard",
-		],
 	},
 	{
 		name: "Arcane Gate",
@@ -172,11 +121,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 214 },
-		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -187,9 +131,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 215 },
 			{ name: "Basic Rules v2", page: 83 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Armor of Agathys",
@@ -197,9 +138,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 215 },
-		],
-		classes: [
-			"Warlock",
 		],
 	},
 	{
@@ -209,9 +147,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 215 },
 		],
-		classes: [
-			"Warlock",
-		],
 	},
 	{
 		name: "Astral Projection",
@@ -220,11 +155,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 215 },
 			{ name: "Basic Rules v2", page: 84 },
-		],
-		classes: [
-			"Cleric",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -236,10 +166,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 215 },
 			{ name: "Basic Rules v2", page: 84 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Knowledge",
-		],
 	},
 	{
 		name: "Aura of Life",
@@ -247,9 +173,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -259,9 +182,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Aura of Vitality",
@@ -269,9 +189,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -281,10 +198,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
 		],
-		classes: [
-			"Bard",
-			"Druid",
-		],
 	},
 	{
 		name: "Bane",
@@ -292,11 +205,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Paladin:Vengeance",
 		],
 	},
 	{
@@ -306,9 +214,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 216 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Banishment",
@@ -317,14 +222,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 217 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Barkskin",
@@ -332,12 +229,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 217 },
-		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Druid:Forest",
-			"Ranger",
 		],
 	},
 	{
@@ -348,11 +239,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 217 },
 			{ name: "Basic Rules v2", page: 84 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Paladin:Devotion",
-		],
 	},
 	{
 		name: "Beast Sense",
@@ -362,10 +248,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 217 },
 		],
-		classes: [
-			"Druid",
-			"Ranger",
-		],
 	},
 	{
 		name: "Bestow Curse",
@@ -374,11 +256,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 218 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Wizard",
-		],
 	},
 	{
 		name: "Bigby's Hand",
@@ -386,9 +263,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 218 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -399,9 +273,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 218 },
 			{ name: "Basic Rules v2", page: 84 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Blade Ward",
@@ -409,12 +280,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 218 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -425,11 +290,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 219 },
 			{ name: "Basic Rules v2", page: 85 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Paladin",
-		],
 	},
 	{
 		name: "Blight",
@@ -437,13 +297,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
-		],
-		classes: [
-			"Druid",
-			"Druid:Desert",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -453,9 +306,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Blindness/Deafness",
@@ -464,13 +314,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
-		],
 	},
 	{
 		name: "Blink",
@@ -478,12 +321,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
-		],
-		classes: [
-			"Cleric:Trickery",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Wizard",
 		],
 	},
 	{
@@ -494,11 +331,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 219 },
 			{ name: "Basic Rules v2", page: 85 },
 		],
-		classes: [
-			"Druid:Desert",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Branding Smite",
@@ -506,9 +338,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -519,12 +348,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 220 },
 			{ name: "Basic Rules v2", page: 85 },
 		],
-		classes: [
-			"Cleric:Light",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
-		],
 	},
 	{
 		name: "Call Lightning",
@@ -533,11 +356,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 220 },
 		],
-		classes: [
-			"Cleric:Tempest",
-			"Druid",
-			"Druid:Forest",
-		],
 	},
 	{
 		name: "Calm Emotions",
@@ -545,11 +363,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Warlock:Archfey",
 		],
 	},
 	{
@@ -560,10 +373,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 221 },
 			{ name: "Basic Rules v2", page: 85 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Charm Person",
@@ -573,14 +382,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 221 },
 			{ name: "Basic Rules v2", page: 85 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Druid",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Chill Touch",
@@ -588,11 +389,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
-		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -602,10 +398,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Circle of Death",
@@ -613,11 +405,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
-		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -627,9 +414,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Clairvoyance",
@@ -637,13 +421,6 @@ var spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Warlock:Great Old One",
-			"Wizard",
 		],
 	},
 	{
@@ -653,9 +430,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Cloud of Daggers",
@@ -663,12 +437,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -678,11 +446,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
 		],
-		classes: [
-			"Druid:Underdark",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Color Spray",
@@ -690,10 +453,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -703,12 +462,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 223 },
 			{ name: "Basic Rules v2", page: 85 },
-		],
-		classes: [
-			"Cleric",
-			"Cleric:Knowledge",
-			"Paladin",
-			"Warlock:Fiend",
 		],
 	},
 	{
@@ -720,10 +473,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 223 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin:Devotion",
-		],
 	},
 	{
 		name: "Commune with Nature",
@@ -733,13 +482,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 224 },
 		],
-		classes: [
-			"Druid",
-			"Druid:Arctic",
-			"Druid:Forest",
-			"Paladin:Ancients",
-			"Ranger",
-		],
 	},
 	{
 		name: "Compelled Duel",
@@ -747,9 +489,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 224 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -761,12 +500,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 224 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Compulsion",
@@ -774,9 +507,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 224 },
-		],
-		classes: [
-			"Bard",
 		],
 	},
 	{
@@ -787,11 +517,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 224 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Druid:Arctic",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Confusion",
@@ -799,13 +524,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 224 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Knowledge",
-			"Druid",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -815,10 +533,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 225 },
 		],
-		classes: [
-			"Druid",
-			"Ranger",
-		],
 	},
 	{
 		name: "Conjure Barrage",
@@ -826,9 +540,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 225 },
-		],
-		classes: [
-			"Ranger",
 		],
 	},
 	{
@@ -838,9 +549,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 225 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Conjure Elemental",
@@ -848,11 +556,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 225 },
-		],
-		classes: [
-			"Druid",
-			"Druid:Coast",
-			"Wizard",
 		],
 	},
 	{
@@ -862,10 +565,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 226 },
 		],
-		classes: [
-			"Druid",
-			"Warlock",
-		],
 	},
 	{
 		name: "Conjure Minor Elementals",
@@ -873,10 +572,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 226 },
-		],
-		classes: [
-			"Druid",
-			"Wizard",
 		],
 	},
 	{
@@ -886,9 +581,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 226 },
 		],
-		classes: [
-			"Ranger",
-		],
 	},
 	{
 		name: "Conjure Woodland Beings",
@@ -896,10 +588,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 226 },
-		],
-		classes: [
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -910,10 +598,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 226 },
 		],
-		classes: [
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Contagion",
@@ -921,10 +605,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 227 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
 		],
 	},
 	{
@@ -934,9 +614,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 227 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Continual Flame",
@@ -944,10 +621,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 227 },
-		],
-		classes: [
-			"Cleric",
-			"Wizard",
 		],
 	},
 	{
@@ -957,13 +630,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 227 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Tempest",
-			"Druid",
-			"Druid:Coast",
-			"Wizard",
-		],
 	},
 	{
 		name: "Control Weather",
@@ -972,11 +638,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 228 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Wizard",
-		],
 	},
 	{
 		name: "Cordon of Arrows",
@@ -984,9 +645,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 228 },
-		],
-		classes: [
-			"Ranger",
 		],
 	},
 	{
@@ -997,11 +655,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 228 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Create Food and Water",
@@ -1009,11 +662,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 229 },
-		],
-		classes: [
-			"Cleric",
-			"Druid:Desert",
-			"Paladin",
 		],
 	},
 	{
@@ -1023,11 +671,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 229 },
 		],
-		classes: [
-			"Cleric",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Create or Destroy Water",
@@ -1035,10 +678,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 229 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
 		],
 	},
 	{
@@ -1048,10 +687,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 229 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Crown of Madness",
@@ -1060,12 +695,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 229 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Crusader's Mantle",
@@ -1073,10 +702,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 230 },
-		],
-		classes: [
-			"Cleric:War",
-			"Paladin",
 		],
 	},
 	{
@@ -1087,14 +712,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 230 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Life",
-			"Druid",
-			"Paladin",
-			"Ranger",
-		],
 	},
 	{
 		name: "Dancing Lights",
@@ -1103,11 +720,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 230 },
 			{ name: "Basic Rules v2", page: 86 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -1118,12 +730,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 230 },
 			{ name: "Basic Rules v2", page: 86 },
 		],
-		classes: [
-			"Druid:Swamp",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Darkvision",
@@ -1132,12 +738,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 230 },
 		],
-		classes: [
-			"Druid",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Daylight",
@@ -1145,15 +745,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 230 },
-		],
-		classes: [
-			"Cleric",
-			"Cleric:Light",
-			"Druid",
-			"Druid:Grassland",
-			"Paladin",
-			"Ranger",
-			"Sorcerer",
 		],
 	},
 	{
@@ -1164,11 +755,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 230 },
 			{ name: "Basic Rules v2", page: 87 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Paladin",
-		],
 	},
 	{
 		name: "Delayed Blast Fireball",
@@ -1178,10 +764,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 230 },
 			{ name: "Basic Rules v2", page: 87 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Demiplane",
@@ -1189,10 +771,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
-		],
-		classes: [
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -1202,10 +780,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
 		],
-		classes: [
-			"Cleric:Tempest",
-			"Paladin",
-		],
 	},
 	{
 		name: "Detect Evil and Good",
@@ -1213,10 +787,6 @@ var spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
-		],
-		classes: [
-			"Cleric",
-			"Paladin",
 		],
 	},
 	{
@@ -1228,15 +798,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 231 },
 			{ name: "Basic Rules v2", page: 87 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Paladin",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Detect Poison and Disease",
@@ -1246,12 +807,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Paladin",
-			"Ranger",
-		],
 	},
 	{
 		name: "Detect Thoughts",
@@ -1259,12 +814,6 @@ var spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock:Great Old One",
-			"Wizard",
 		],
 	},
 	{
@@ -1275,14 +824,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 233 },
 			{ name: "Basic Rules v2", page: 87 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Disguise Self",
@@ -1291,12 +832,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 233 },
 			{ name: "Basic Rules v2", page: 87 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -1307,10 +842,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 233 },
 			{ name: "Basic Rules v2", page: 88 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Dispel Evil and Good",
@@ -1318,10 +849,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 233 },
-		],
-		classes: [
-			"Cleric",
-			"Paladin",
 		],
 	},
 	{
@@ -1332,17 +859,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 234 },
 			{ name: "Basic Rules v2", page: 88 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Trickery",
-			"Druid",
-			"Paladin",
-			"Paladin:Devotion",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Dissonant Whispers",
@@ -1350,10 +866,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 234 },
-		],
-		classes: [
-			"Bard",
-			"Warlock:Great Old One",
 		],
 	},
 	{
@@ -1365,11 +877,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 234 },
 			{ name: "Basic Rules v2", page: 88 },
 		],
-		classes: [
-			"Cleric",
-			"Druid:Forest",
-			"Druid:Grassland",
-		],
 	},
 	{
 		name: "Divine Favor",
@@ -1377,10 +884,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 234 },
-		],
-		classes: [
-			"Cleric:War",
-			"Paladin",
 		],
 	},
 	{
@@ -1390,9 +893,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 234 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Dominate Beast",
@@ -1400,13 +900,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 234 },
-		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Warlock:Great Old One",
 		],
 	},
 	{
@@ -1417,12 +910,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 235 },
 			{ name: "Basic Rules v2", page: 88 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Dominate Person",
@@ -1431,14 +918,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 235 },
 			{ name: "Basic Rules v2", page: 88 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Warlock:Great Old One",
-			"Wizard",
 		],
 	},
 	{
@@ -1449,9 +928,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 235 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Dream",
@@ -1461,12 +937,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 236 },
 			{ name: "Basic Rules v2", page: 89 },
 		],
-		classes: [
-			"Bard",
-			"Druid:Grassland",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Druidcraft",
@@ -1474,9 +944,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 236 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -1487,11 +954,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 236 },
 			{ name: "Basic Rules v2", page: 89 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Sorcerer",
-		],
 	},
 	{
 		name: "Eldritch Blast",
@@ -1499,9 +961,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 237 },
-		],
-		classes: [
-			"Warlock",
 		],
 	},
 	{
@@ -1511,9 +970,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 237 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Enhance Ability",
@@ -1521,12 +977,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 237 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Sorcerer",
 		],
 	},
 	{
@@ -1536,10 +986,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 237 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Ensnaring Strike",
@@ -1547,10 +993,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 237 },
-		],
-		classes: [
-			"Paladin:Ancients",
-			"Ranger",
 		],
 	},
 	{
@@ -1560,9 +1002,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
 		],
-		classes: [
-			"Druid",
-		],
 	},
 	{
 		name: "Enthrall",
@@ -1570,10 +1009,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
-		],
-		classes: [
-			"Bard",
-			"Warlock",
 		],
 	},
 	{
@@ -1584,13 +1019,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 238 },
 			{ name: "Basic Rules v2", page: 89 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Evard's Black Tentacles",
@@ -1598,10 +1026,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
-		],
-		classes: [
-			"Warlock:Great Old One",
-			"Wizard",
 		],
 	},
 	{
@@ -1611,11 +1035,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
 		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Eyebite",
@@ -1624,12 +1043,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Fabricate",
@@ -1637,9 +1050,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -1650,12 +1060,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 239 },
 			{ name: "Basic Rules v2", page: 90 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Light",
-			"Druid",
-			"Warlock:Archfey",
-		],
 	},
 	{
 		name: "False Life",
@@ -1663,10 +1067,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -1676,12 +1076,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Feather Fall",
@@ -1690,11 +1084,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Feeblemind",
@@ -1702,12 +1091,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -1718,12 +1101,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 240 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Wizard",
-		],
 	},
 	{
 		name: "Find Familiar",
@@ -1733,9 +1110,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 240 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Find Steed",
@@ -1744,9 +1118,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 240 },
 		],
-		classes: [
-			"Paladin",
-		],
 	},
 	{
 		name: "Find Traps",
@@ -1754,11 +1125,6 @@ var spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 241 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -1769,11 +1135,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 240 },
 			{ name: "Basic Rules v2", page: 90 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Finger of Death",
@@ -1782,11 +1143,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 241 },
 			{ name: "Basic Rules v2", page: 90 },
-		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -1797,10 +1153,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 242 },
 			{ name: "Basic Rules v2", page: 90 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Fire Shield",
@@ -1808,10 +1160,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 242 },
-		],
-		classes: [
-			"Warlock:Fiend",
-			"Wizard",
 		],
 	},
 	{
@@ -1822,11 +1170,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 242 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Sorcerer",
-		],
 	},
 	{
 		name: "Fireball",
@@ -1836,12 +1179,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 241 },
 			{ name: "Basic Rules v2", page: 90 },
 		],
-		classes: [
-			"Cleric:Light",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
-		],
 	},
 	{
 		name: "Flame Blade",
@@ -1849,9 +1186,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 242 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -1862,13 +1196,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 242 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Light",
-			"Cleric:War",
-			"Paladin:Devotion",
-			"Warlock:Fiend",
-		],
 	},
 	{
 		name: "Flaming Sphere",
@@ -1878,11 +1205,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 242 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Cleric:Light",
-			"Druid",
-			"Wizard",
-		],
 	},
 	{
 		name: "Flesh to Stone",
@@ -1890,10 +1212,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 243 },
-		],
-		classes: [
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -1904,11 +1222,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 243 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Fog Cloud",
@@ -1916,13 +1229,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 243 },
-		],
-		classes: [
-			"Cleric:Tempest",
-			"Druid",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -1933,9 +1239,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 243 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Forcecage",
@@ -1943,11 +1246,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 243 },
-		],
-		classes: [
-			"Bard",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -1958,12 +1256,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 244 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Freedom of Movement",
@@ -1973,19 +1265,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 244 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:War",
-			"Druid",
-			"Druid:Arctic",
-			"Druid:Coast",
-			"Druid:Forest",
-			"Druid:Grassland",
-			"Druid:Swamp",
-			"Paladin:Devotion",
-			"Ranger",
-		],
 	},
 	{
 		name: "Friends",
@@ -1994,12 +1273,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 244 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Gaseous Form",
@@ -2007,12 +1280,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 244 },
-		],
-		classes: [
-			"Druid:Underdark",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2023,11 +1290,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 244 },
 			{ name: "Basic Rules v2", page: 91 },
 		],
-		classes: [
-			"Cleric",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Geas",
@@ -2035,13 +1297,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 244 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Paladin",
-			"Wizard",
 		],
 	},
 	{
@@ -2052,10 +1307,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 245 },
 		],
-		classes: [
-			"Cleric",
-			"Wizard",
-		],
 	},
 	{
 		name: "Giant Insect",
@@ -2064,9 +1315,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 245 },
 		],
-		classes: [
-			"Druid",
-		],
 	},
 	{
 		name: "Glibness",
@@ -2074,10 +1322,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 245 },
-		],
-		classes: [
-			"Bard",
-			"Warlock",
 		],
 	},
 	{
@@ -2088,10 +1332,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 245 },
 			{ name: "Basic Rules v2", page: 92 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Glyph of Warding",
@@ -2099,11 +1339,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 245 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Wizard",
 		],
 	},
 	{
@@ -2113,10 +1348,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 246 },
 		],
-		classes: [
-			"Druid",
-			"Ranger",
-		],
 	},
 	{
 		name: "Grasping Vines",
@@ -2125,11 +1356,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 246 },
 		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Ranger",
-		],
 	},
 	{
 		name: "Grease",
@@ -2137,9 +1363,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 246 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -2150,13 +1373,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 246 },
 			{ name: "Basic Rules v2", page: 92 },
 		],
-		classes: [
-			"Bard",
-			"Druid:Underdark",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Wizard",
-		],
 	},
 	{
 		name: "Greater Restoration",
@@ -2165,11 +1381,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 246 },
 			{ name: "Basic Rules v2", page: 92 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
 		],
 	},
 	{
@@ -2180,12 +1391,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 246 },
 			{ name: "Basic Rules v2", page: 92 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Cleric:Light",
-			"Paladin:Devotion",
-		],
 	},
 	{
 		name: "Guards and Wards",
@@ -2193,10 +1398,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 248 },
-		],
-		classes: [
-			"Bard",
-			"Wizard",
 		],
 	},
 	{
@@ -2207,10 +1408,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 248 },
 			{ name: "Basic Rules v2", page: 92 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Guiding Bolt",
@@ -2220,9 +1417,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 248 },
 			{ name: "Basic Rules v2", page: 92 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Gust of Wind",
@@ -2230,12 +1424,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 248 },
-		],
-		classes: [
-			"Cleric:Tempest",
-			"Druid",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -2245,9 +1433,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 249 },
 		],
-		classes: [
-			"Ranger",
-		],
 	},
 	{
 		name: "Hallow",
@@ -2256,10 +1441,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 249 },
 		],
-		classes: [
-			"Cleric",
-			"Warlock:Fiend",
-		],
 	},
 	{
 		name: "Hallucinatory Terrain",
@@ -2267,13 +1448,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 249 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Druid:Desert",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2284,9 +1458,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 249 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Haste",
@@ -2295,12 +1466,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 250 },
 			{ name: "Basic Rules v2", page: 93 },
-		],
-		classes: [
-			"Druid:Grassland",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -2311,10 +1476,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 250 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Healing Word",
@@ -2324,11 +1485,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 250 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Heat Metal",
@@ -2337,10 +1493,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 250 },
 		],
-		classes: [
-			"Bard",
-			"Druid",
-		],
 	},
 	{
 		name: "Hellish Rebuke",
@@ -2348,9 +1500,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 250 },
-		],
-		classes: [
-			"Warlock",
 		],
 	},
 	{
@@ -2361,10 +1510,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 250 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Heroism",
@@ -2372,10 +1517,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 250 },
-		],
-		classes: [
-			"Bard",
-			"Paladin",
 		],
 	},
 	{
@@ -2385,9 +1526,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 251 },
 		],
-		classes: [
-			"Warlock",
-		],
 	},
 	{
 		name: "Hold Monster",
@@ -2395,14 +1533,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 251 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:War",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2413,16 +1543,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 251 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Druid:Arctic",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Holy Aura",
@@ -2432,9 +1552,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 251 },
 			{ name: "Basic Rules v2", page: 93 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Hunger of Hadar",
@@ -2442,9 +1559,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 251 },
-		],
-		classes: [
-			"Warlock",
 		],
 	},
 	{
@@ -2454,10 +1568,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 251 },
 		],
-		classes: [
-			"Paladin:Vengeance",
-			"Ranger",
-		],
 	},
 	{
 		name: "Hypnotic Pattern",
@@ -2465,12 +1575,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 252 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2480,14 +1584,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 252 },
 			{ name: "Basic Rules v2", page: 94 },
-		],
-		classes: [
-			"Cleric:Tempest",
-			"Druid",
-			"Druid:Arctic",
-			"Paladin:Ancients",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -2499,11 +1595,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 252 },
 			{ name: "Basic Rules v2", page: 94 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Knowledge",
-			"Wizard",
-		],
 	},
 	{
 		name: "Illusory Script",
@@ -2512,11 +1603,6 @@ var spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 252 },
-		],
-		classes: [
-			"Bard",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2527,10 +1613,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 252 },
 			{ name: "Basic Rules v2", page: 94 },
 		],
-		classes: [
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Incendiary Cloud",
@@ -2538,10 +1620,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 253 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -2552,9 +1630,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 253 },
 			{ name: "Basic Rules v2", page: 94 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Insect Plague",
@@ -2562,17 +1637,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 254 },
-		],
-		classes: [
-			"Cleric",
-			"Cleric:Nature",
-			"Cleric:Tempest",
-			"Druid",
-			"Druid:Desert",
-			"Druid:Grassland",
-			"Druid:Swamp",
-			"Druid:Underdark",
-			"Sorcerer",
 		],
 	},
 	{
@@ -2583,13 +1647,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 254 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Bard",
-			"Druid:Grassland",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Jump",
@@ -2597,12 +1654,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 254 },
-		],
-		classes: [
-			"Druid",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -2613,11 +1664,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 254 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Legend Lore",
@@ -2626,12 +1672,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 254 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Knowledge",
-			"Wizard",
-		],
 	},
 	{
 		name: "Leomund's Secret Chest",
@@ -2639,9 +1679,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 254 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -2652,10 +1689,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 255 },
 		],
-		classes: [
-			"Bard",
-			"Wizard",
-		],
 	},
 	{
 		name: "Lesser Restoration",
@@ -2664,15 +1697,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 255 },
 			{ name: "Basic Rules v2", page: 95 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Life",
-			"Druid",
-			"Paladin",
-			"Paladin:Devotion",
-			"Ranger",
 		],
 	},
 	{
@@ -2683,10 +1707,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 255 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Light",
@@ -2696,12 +1716,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 255 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Lightning Arrow",
@@ -2709,9 +1723,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 255 },
-		],
-		classes: [
-			"Ranger",
 		],
 	},
 	{
@@ -2722,11 +1733,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 255 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Druid:Mountain",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Locate Animals or Plants",
@@ -2735,11 +1741,6 @@ var spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -2750,15 +1751,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 256 },
 			{ name: "Basic Rules v2", page: 95 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Druid:Swamp",
-			"Paladin",
-			"Ranger",
-			"Wizard",
-		],
 	},
 	{
 		name: "Locate Object",
@@ -2767,14 +1759,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Paladin",
-			"Ranger",
-			"Wizard",
-		],
 	},
 	{
 		name: "Longstrider",
@@ -2782,12 +1766,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Ranger",
-			"Wizard",
 		],
 	},
 	{
@@ -2798,10 +1776,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 256 },
 			{ name: "Basic Rules v2", page: 96 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Mage Hand",
@@ -2809,12 +1783,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2824,12 +1792,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Magic Jar",
@@ -2837,9 +1799,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 257 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -2850,10 +1809,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 257 },
 			{ name: "Basic Rules v2", page: 96 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Magic Mouth",
@@ -2862,10 +1817,6 @@ var spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 257 },
-		],
-		classes: [
-			"Bard",
-			"Wizard",
 		],
 	},
 	{
@@ -2876,11 +1827,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 257 },
 			{ name: "Basic Rules v2", page: 96 },
 		],
-		classes: [
-			"Cleric:War",
-			"Paladin",
-			"Wizard",
-		],
 	},
 	{
 		name: "Major Image",
@@ -2889,12 +1835,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 96 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2905,12 +1845,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 96 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Life",
-			"Druid",
-		],
 	},
 	{
 		name: "Mass Heal",
@@ -2919,9 +1853,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 97 },
-		],
-		classes: [
-			"Cleric",
 		],
 	},
 	{
@@ -2932,9 +1863,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 97 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Mass Suggestion",
@@ -2943,12 +1871,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 97 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -2959,9 +1881,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 258 },
 			{ name: "Basic Rules v2", page: 97 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Meld into Stone",
@@ -2971,11 +1890,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 259 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Druid:Mountain",
-		],
 	},
 	{
 		name: "Melf's Acid Arrow",
@@ -2983,10 +1897,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 259 },
-		],
-		classes: [
-			"Druid:Swamp",
-			"Wizard",
 		],
 	},
 	{
@@ -2996,13 +1906,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 259 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Message",
@@ -3010,11 +1913,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 259 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3025,10 +1923,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 259 },
 			{ name: "Basic Rules v2", page: 97 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Mind Blank",
@@ -3036,10 +1930,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 259 },
-		],
-		classes: [
-			"Bard",
-			"Wizard",
 		],
 	},
 	{
@@ -3050,12 +1940,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 260 },
 			{ name: "Basic Rules v2", page: 97 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Mirage Arcane",
@@ -3063,11 +1947,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 260 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Wizard",
 		],
 	},
 	{
@@ -3077,13 +1956,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 260 },
 		],
-		classes: [
-			"Cleric:Trickery",
-			"Druid:Coast",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Mislead",
@@ -3091,10 +1963,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 260 },
-		],
-		classes: [
-			"Bard",
-			"Wizard",
 		],
 	},
 	{
@@ -3105,14 +1973,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 260 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Druid:Coast",
-			"Paladin:Ancients",
-			"Paladin:Vengeance",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Modify Memory",
@@ -3120,11 +1980,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 261 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Wizard",
 		],
 	},
 	{
@@ -3134,10 +1989,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 261 },
 		],
-		classes: [
-			"Druid",
-			"Paladin:Ancients",
-		],
 	},
 	{
 		name: "Mordenkainen's Faithful Hound",
@@ -3145,9 +1996,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 261 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3157,10 +2005,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 261 },
 		],
-		classes: [
-			"Bard",
-			"Wizard",
-		],
 	},
 	{
 		name: "Mordenkainen's Private Sanctum",
@@ -3168,9 +2012,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 262 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3181,10 +2022,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 262 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Bard",
-			"Wizard",
-		],
 	},
 	{
 		name: "Move Earth",
@@ -3192,11 +2029,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 263 },
-		],
-		classes: [
-			"Druid",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3206,12 +2038,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 263 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Knowledge",
-			"Ranger",
-			"Wizard",
-		],
 	},
 	{
 		name: "Nystul's Magic Aura",
@@ -3219,9 +2045,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 263 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3231,9 +2054,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 263 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Otiluke's Resilient Sphere",
@@ -3241,9 +2061,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 264 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3254,10 +2071,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 264 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Bard",
-			"Wizard",
-		],
 	},
 	{
 		name: "Pass without Trace",
@@ -3265,12 +2078,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 264 },
-		],
-		classes: [
-			"Cleric:Trickery",
-			"Druid",
-			"Druid:Grassland",
-			"Ranger",
 		],
 	},
 	{
@@ -3281,10 +2088,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 264 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Druid:Mountain",
-			"Wizard",
-		],
 	},
 	{
 		name: "Phantasmal Force",
@@ -3293,13 +2096,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 264 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Warlock:Great Old One",
-			"Wizard",
-		],
 	},
 	{
 		name: "Phantasmal Killer",
@@ -3307,9 +2103,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 265 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3320,9 +2113,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 265 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Planar Ally",
@@ -3330,9 +2120,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 265 },
-		],
-		classes: [
-			"Cleric",
 		],
 	},
 	{
@@ -3342,12 +2129,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 265 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-			"Wizard",
-		],
 	},
 	{
 		name: "Plane Shift",
@@ -3356,13 +2137,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 266 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Plant Growth",
@@ -3370,14 +2144,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 266 },
-		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Druid:Forest",
-			"Paladin:Ancients",
-			"Ranger",
-			"Warlock:Archfey",
 		],
 	},
 	{
@@ -3388,12 +2154,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 266 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Druid",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Polymorph",
@@ -3402,13 +2162,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 266 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Trickery",
-			"Druid",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Power Word Heal",
@@ -3416,9 +2169,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 266 },
-		],
-		classes: [
-			"Bard",
 		],
 	},
 	{
@@ -3429,12 +2179,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 266 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Power Word Stun",
@@ -3443,12 +2187,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 267 },
 			{ name: "Basic Rules v2", page: 98 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -3459,9 +2197,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 267 },
 			{ name: "Basic Rules v2", page: 98 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Prestidigitation",
@@ -3471,12 +2206,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 267 },
 			{ name: "Basic Rules v2", page: 99 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Prismatic Spray",
@@ -3484,10 +2213,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 267 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3497,9 +2222,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 267 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Produce Flame",
@@ -3507,9 +2229,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 269 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -3519,10 +2238,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 269 },
 		],
-		classes: [
-			"Bard",
-			"Wizard",
-		],
 	},
 	{
 		name: "Project Image",
@@ -3530,10 +2245,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
-		],
-		classes: [
-			"Bard",
-			"Wizard",
 		],
 	},
 	{
@@ -3544,16 +2255,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 270 },
 			{ name: "Basic Rules v2", page: 99 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Druid:Desert",
-			"Paladin:Ancients",
-			"Paladin:Vengeance",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Protection from Evil and Good",
@@ -3562,13 +2263,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin",
-			"Paladin:Devotion",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Protection from Poison",
@@ -3576,12 +2270,6 @@ var spells = [
 		school: "Abjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Paladin",
-			"Ranger",
 		],
 	},
 	{
@@ -3592,11 +2280,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Paladin",
-		],
 	},
 	{
 		name: "Raise Dead",
@@ -3605,12 +2288,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
 			{ name: "Basic Rules v2", page: 99 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Life",
-			"Paladin",
 		],
 	},
 	{
@@ -3621,9 +2298,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 270 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Ray of Enfeeblement",
@@ -3631,10 +2305,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 271 },
-		],
-		classes: [
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -3645,10 +2315,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 271 },
 			{ name: "Basic Rules v2", page: 99 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Ray of Sickness",
@@ -3656,10 +2322,6 @@ var spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 271 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3670,11 +2332,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 271 },
 			{ name: "Basic Rules v2", page: 99 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "Reincarnate",
@@ -3682,9 +2339,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 271 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -3695,12 +2349,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 271 },
 			{ name: "Basic Rules v2", page: 99 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Resistance",
@@ -3709,10 +2357,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 272 },
 			{ name: "Basic Rules v2", page: 99 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
 		],
 	},
 	{
@@ -3723,10 +2367,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 272 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-		],
 	},
 	{
 		name: "Reverse Gravity",
@@ -3734,11 +2374,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 272 },
-		],
-		classes: [
-			"Druid",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3749,11 +2384,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 272 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Paladin",
-		],
 	},
 	{
 		name: "Rope Trick",
@@ -3761,9 +2391,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 272 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3774,9 +2401,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 272 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Sanctuary",
@@ -3786,10 +2410,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 272 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Cleric",
-			"Paladin:Devotion",
-		],
 	},
 	{
 		name: "Scorching Ray",
@@ -3797,12 +2417,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 273 },
-		],
-		classes: [
-			"Cleric:Light",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
 		],
 	},
 	{
@@ -3812,18 +2426,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 273 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Knowledge",
-			"Cleric:Light",
-			"Druid",
-			"Druid:Coast",
-			"Druid:Swamp",
-			"Paladin:Vengeance",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Searing Flame",
@@ -3831,9 +2433,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -3843,11 +2442,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Seeming",
@@ -3855,12 +2449,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Wizard",
 		],
 	},
 	{
@@ -3870,11 +2458,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
 		],
-		classes: [
-			"Cleric",
-			"Warlock:Great Old One",
-			"Wizard",
-		],
 	},
 	{
 		name: "Sequester",
@@ -3883,9 +2466,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Shapechange",
@@ -3893,10 +2473,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
-		],
-		classes: [
-			"Druid",
-			"Wizard",
 		],
 	},
 	{
@@ -3907,13 +2483,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 275 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Tempest",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Shield",
@@ -3922,9 +2491,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 275 },
 			{ name: "Basic Rules v2", page: 100 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -3935,12 +2501,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 275 },
 			{ name: "Basic Rules v2", page: 100 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:War",
-			"Paladin",
-			"Sorcerer",
-		],
 	},
 	{
 		name: "Shillelagh",
@@ -3948,9 +2508,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 275 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -3960,10 +2517,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 275 },
 			{ name: "Basic Rules v2", page: 101 },
-		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -3975,12 +2528,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 275 },
 			{ name: "Basic Rules v2", page: 101 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Druid:Desert",
-			"Ranger",
-		],
 	},
 	{
 		name: "Silent Image",
@@ -3990,11 +2537,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 276 },
 			{ name: "Basic Rules v2", page: 101 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Simulacrum",
@@ -4002,9 +2544,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 276 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -4015,12 +2554,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 276 },
 			{ name: "Basic Rules v2", page: 101 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock:Archfey",
-			"Wizard",
-		],
 	},
 	{
 		name: "Sleet Storm",
@@ -4029,13 +2562,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 276 },
 		],
-		classes: [
-			"Cleric:Tempest",
-			"Druid",
-			"Druid:Arctic",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Slow",
@@ -4043,11 +2569,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 277 },
-		],
-		classes: [
-			"Druid:Arctic",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -4058,9 +2579,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 277 },
 			{ name: "Basic Rules v2", page: 101 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Speak with Animals",
@@ -4069,13 +2587,6 @@ var spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 277 },
-		],
-		classes: [
-			"Bard",
-			"Cleric:Nature",
-			"Druid",
-			"Paladin:Ancients",
-			"Ranger",
 		],
 	},
 	{
@@ -4086,11 +2597,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 277 },
 			{ name: "Basic Rules v2", page: 101 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Cleric:Knowledge",
-		],
 	},
 	{
 		name: "Speak with Plants",
@@ -4098,11 +2604,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 277 },
-		],
-		classes: [
-			"Bard",
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -4113,14 +2614,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 277 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Druid:Forest",
-			"Druid:Mountain",
-			"Druid:Underdark",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Spike Growth",
@@ -4128,13 +2621,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 277 },
-		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Druid:Arctic",
-			"Druid:Mountain",
-			"Ranger",
 		],
 	},
 	{
@@ -4145,10 +2631,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 278 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:War",
-		],
 	},
 	{
 		name: "Spiritual Weapon",
@@ -4158,11 +2640,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 278 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Cleric",
-			"Cleric:Life",
-			"Cleric:War",
-		],
 	},
 	{
 		name: "Staggering Smite",
@@ -4170,9 +2647,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 278 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -4182,14 +2656,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 278 },
 		],
-		classes: [
-			"Bard",
-			"Druid:Swamp",
-			"Druid:Underdark",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
-		],
 	},
 	{
 		name: "Stone Shape",
@@ -4197,13 +2663,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 278 },
-		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Druid:Mountain",
-			"Druid:Underdark",
-			"Wizard",
 		],
 	},
 	{
@@ -4214,15 +2673,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 278 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Cleric:War",
-			"Druid",
-			"Druid:Mountain",
-			"Paladin:Ancients",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Storm of Vengeance",
@@ -4230,9 +2680,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 279 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -4243,13 +2690,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 279 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Knowledge",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Sunbeam",
@@ -4257,11 +2697,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 279 },
-		],
-		classes: [
-			"Druid",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -4272,11 +2707,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 279 },
 			{ name: "Basic Rules v2", page: 102 },
 		],
-		classes: [
-			"Druid",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Swift Quiver",
@@ -4284,9 +2714,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 279 },
-		],
-		classes: [
-			"Ranger",
 		],
 	},
 	{
@@ -4296,11 +2723,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 280 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Wizard",
-		],
 	},
 	{
 		name: "Tasha's Hideous Laughter",
@@ -4308,11 +2730,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 280 },
-		],
-		classes: [
-			"Bard",
-			"Warlock:Great Old One",
-			"Wizard",
 		],
 	},
 	{
@@ -4322,11 +2739,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 280 },
 		],
-		classes: [
-			"Sorcerer",
-			"Warlock:Great Old One",
-			"Wizard",
-		],
 	},
 	{
 		name: "Telepathy",
@@ -4334,9 +2746,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 281 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -4347,11 +2756,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 281 },
 			{ name: "Basic Rules v2", page: 103 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Teleportation Circle",
@@ -4359,11 +2763,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 282 },
-		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -4374,9 +2773,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 282 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Thaumaturgy",
@@ -4386,9 +2782,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 282 },
 			{ name: "Basic Rules v2", page: 103 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Thorn Whip",
@@ -4397,9 +2790,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 282 },
 		],
-		classes: [
-			"Druid",
-		],
 	},
 	{
 		name: "Thunderous Smite",
@@ -4407,9 +2797,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 282 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -4420,13 +2807,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 282 },
 			{ name: "Basic Rules v2", page: 103 },
 		],
-		classes: [
-			"Bard",
-			"Cleric:Tempest",
-			"Druid",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Time Stop",
@@ -4436,10 +2816,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 283 },
 			{ name: "Basic Rules v2", page: 104 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Tongues",
@@ -4447,13 +2823,6 @@ var spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 283 },
-		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -4463,9 +2832,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 283 },
 		],
-		classes: [
-			"Druid",
-		],
 	},
 	{
 		name: "Tree Stride",
@@ -4474,13 +2840,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 283 },
 		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Druid:Forest",
-			"Paladin:Ancients",
-			"Ranger",
-		],
 	},
 	{
 		name: "True Polymorph",
@@ -4488,11 +2847,6 @@ var spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 283 },
-		],
-		classes: [
-			"Bard",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -4503,10 +2857,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 284 },
 			{ name: "Basic Rules v2", page: 104 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-		],
 	},
 	{
 		name: "True Seeing",
@@ -4516,13 +2866,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 284 },
 			{ name: "Basic Rules v2", page: 104 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "True Strike",
@@ -4531,12 +2874,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 284 },
 		],
-		classes: [
-			"Bard",
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Tsunami",
@@ -4544,9 +2881,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 284 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -4557,11 +2891,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 284 },
 		],
-		classes: [
-			"Bard",
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Vampiric Touch",
@@ -4570,10 +2899,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 285 },
 		],
-		classes: [
-			"Warlock",
-			"Wizard",
-		],
 	},
 	{
 		name: "Vicious Mockery",
@@ -4581,9 +2906,6 @@ var spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 285 },
-		],
-		classes: [
-			"Bard",
 		],
 	},
 	{
@@ -4594,13 +2916,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 285 },
 			{ name: "Basic Rules v2", page: 104 },
 		],
-		classes: [
-			"Cleric:Light",
-			"Druid",
-			"Sorcerer",
-			"Warlock:Fiend",
-			"Wizard",
-		],
 	},
 	{
 		name: "Wall of Force",
@@ -4609,9 +2924,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 285 },
 		],
-		classes: [
-			"Wizard",
-		],
 	},
 	{
 		name: "Wall of Ice",
@@ -4619,9 +2931,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 285 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -4632,13 +2941,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 287 },
 			{ name: "Basic Rules v2", page: 104 },
 		],
-		classes: [
-			"Druid",
-			"Druid:Desert",
-			"Druid:Mountain",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Wall of Thorns",
@@ -4646,9 +2948,6 @@ var spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 287 },
-		],
-		classes: [
-			"Druid",
 		],
 	},
 	{
@@ -4659,9 +2958,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 287 },
 			{ name: "Basic Rules v2", page: 105 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Water Breathing",
@@ -4670,13 +2966,6 @@ var spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 287 },
-		],
-		classes: [
-			"Druid",
-			"Druid:Coast",
-			"Ranger",
-			"Sorcerer",
-			"Wizard",
 		],
 	},
 	{
@@ -4687,14 +2976,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 287 },
 		],
-		classes: [
-			"Cleric",
-			"Druid",
-			"Druid:Coast",
-			"Druid:Swamp",
-			"Ranger",
-			"Sorcerer",
-		],
 	},
 	{
 		name: "Web",
@@ -4704,11 +2985,6 @@ var spells = [
 			{ name: "Player's Handbook", page: 287 },
 			{ name: "Basic Rules v2", page: 105 },
 		],
-		classes: [
-			"Druid:Underdark",
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Weird",
@@ -4716,9 +2992,6 @@ var spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 288 },
-		],
-		classes: [
-			"Wizard",
 		],
 	},
 	{
@@ -4728,9 +3001,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 288 },
 		],
-		classes: [
-			"Druid",
-		],
 	},
 	{
 		name: "Wind Wall",
@@ -4738,11 +3008,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 288 },
-		],
-		classes: [
-			"Cleric:Nature",
-			"Druid",
-			"Ranger",
 		],
 	},
 	{
@@ -4752,10 +3017,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 288 },
 		],
-		classes: [
-			"Sorcerer",
-			"Wizard",
-		],
 	},
 	{
 		name: "Witch Bolt",
@@ -4763,11 +3024,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 289 },
-		],
-		classes: [
-			"Sorcerer",
-			"Warlock",
-			"Wizard",
 		],
 	},
 	{
@@ -4777,9 +3033,6 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 289 },
 		],
-		classes: [
-			"Cleric",
-		],
 	},
 	{
 		name: "Wrathful Smite",
@@ -4787,9 +3040,6 @@ var spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 289 },
-		],
-		classes: [
-			"Paladin",
 		],
 	},
 	{
@@ -4799,11 +3049,16 @@ var spells = [
 		sources: [
 			{ name: "Player's Handbook", page: 289 },
 		],
-		classes: [
-			"Bard",
-			"Cleric",
-			"Paladin",
-			"Paladin:Devotion",
-		],
 	},
 ];
+
+for ( i = 0; i < spells.length; i++ ) {
+	spellsByName[spells[i].name] = spells[i];
+	spells[i].classes = [];
+}
+
+function register(name, spellList) {
+	for ( var i = 0; i < spellList.length; i++ ) {
+		spellsByName[spellList[i]].classes.push(name);
+	}
+}
