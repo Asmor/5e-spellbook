@@ -1,4 +1,8 @@
+/* global register */
+"use strict";
+
 register("Ranger", [
+	// PHB
 	"Alarm",
 	"Animal Friendship",
 	"Animal Messenger",

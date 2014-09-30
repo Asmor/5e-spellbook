@@ -1,3 +1,4 @@
+/* exported register */
 /* exported spells */
 /* exported spellsByName */
 "use strict";

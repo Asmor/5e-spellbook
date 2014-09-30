@@ -1,3 +1,6 @@
+/* global register */
+"use strict";
+
 register("Cleric", [
 	// PHB
 	"Aid",
