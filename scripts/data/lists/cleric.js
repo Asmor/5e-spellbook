@@ -194,3 +194,15 @@ register("Cleric:War", [
 	"Spiritual Weapon",
 	"Stoneskin",
 ]);
+register("Cleric:Death", [
+	"False Life",
+	"Ray of Sickness",
+	"Blindness/Deafness",
+	"Ray of Enfeeblement",
+	"Animate Dead",
+	"Vampiric Touch",
+	"Blight",
+	"Death Ward",
+	"Antilife Shell",
+	"Cloudkill",
+]);

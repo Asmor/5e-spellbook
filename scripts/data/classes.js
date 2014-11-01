@@ -18,6 +18,7 @@ var classes = [
 			{ name: "Tempest", source: "Player's Handbook" },
 			{ name: "Trickery", source: "Player's Handbook" },
 			{ name: "War", source: "Player's Handbook" },
+			{ name: "Death", source: "Dungeon Master's Guide" },
 		],
 	},
 	{
@@ -41,6 +42,7 @@ var classes = [
 			{ name: "Ancients", source: "Player's Handbook" },
 			{ name: "Devotion", source: "Player's Handbook" },
 			{ name: "Vengeance", source: "Player's Handbook" },
+			{ name: "Oathbreaker", source: "Dungeon Master's Guide" },
 		],
 	},
 	{

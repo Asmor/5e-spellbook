@@ -85,3 +85,15 @@ register("Paladin:Vengeance", [
 	"Protection from Energy",
 	"Scrying",
 ]);
+register("Paladin:Oathbreaker", [
+	"Hellish Rebuke",
+	"Inflict Wounds",
+	"Crown of Madness",
+	"Darkness",
+	"Animate Dead",
+	"Bestow Curse",
+	"Blight",
+	"Confusion",
+	"Contagion",
+	"Dominate Person",
+]);
