@@ -105,7 +105,7 @@ register("Sorcerer", [
 	"See Invisibility",
 	"Seeming",
 	"Shatter",
-	"Shield of Faith",
+	"Shield",
 	"Shocking Grasp",
 	"Silent Image",
 	"Sleep",
