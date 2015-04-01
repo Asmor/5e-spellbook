@@ -121,4 +121,11 @@ register("Bard", [
 	"Unseen Servant",
 	"Vicious Mockery",
 	"Zone of Truth",
+
+	// Elemental Evil Player's Companion
+	"Earth Tremor",
+	"Pyrotechnics",
+	"Skywrite",
+	"Thunderclap",
+	"Warding wind",
 ]);

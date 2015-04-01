@@ -3051,6 +3051,353 @@ spells = [
 			{ name: "Player's Handbook", page: 289 },
 		],
 	},
+
+	// Elemental Evil Player's Companion
+	{
+		name: "Abi-Dalzim's Horrid Wilting",
+		level: 8,
+		school: "Necromancy",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Absorb Elements",
+		level: 1,
+		school: "Abjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Aganazzar's Scorcher",
+		level: 2,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Beast Bond",
+		level: 1,
+		school: "Divination",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Bones of the Earth",
+		level: 6,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Catapult",
+		level: 1,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 15 },
+		],
+	},
+	{
+		name: "Control Flames",
+		level: 0,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 16 },
+		],
+	},
+	{
+		name: "Control Winds",
+		level: 5,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 16 },
+		],
+	},
+	{
+		name: "Create Bonfire",
+		level: 0,
+		school: "Conjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 16 },
+		],
+	},
+	{
+		name: "Dust Devil",
+		level: 2,
+		school: "Conjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 17 },
+		],
+	},
+	{
+		name: "Earth Tremor",
+		level: 1,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 17 },
+		],
+	},
+	{
+		name: "Earthbind",
+		level: 2,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 17 },
+		],
+	},
+	{
+		name: "Elemental Bane",
+		level: 4,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 17 },
+		],
+	},
+	{
+		name: "Erupting Earth",
+		level: 3,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 17 },
+		],
+	},
+	{
+		name: "Flame Arrows",
+		level: 3,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 18 },
+		],
+	},
+	{
+		name: "Frostbite",
+		level: 0,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 18 },
+		],
+	},
+	{
+		name: "Gust",
+		level: 0,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Ice Knife",
+		level: 1,
+		school: "Conjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Immolation",
+		level: 5,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Investiture of Flame",
+		level: 6,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Investiture of Ice",
+		level: 6,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Investiture of Stone",
+		level: 6,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 19 },
+		],
+	},
+	{
+		name: "Investiture of Wind",
+		level: 6,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 20 },
+		],
+	},
+	{
+		name: "Maelstrom",
+		level: 5,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 20 },
+		],
+	},
+	{
+		name: "Magic Stone",
+		level: 0,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 20 },
+		],
+	},
+	{
+		name: "Maximilian's Earthen Grasp",
+		level: 2,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 20 },
+		],
+	},
+	{
+		name: "Melf's Minute Meteors",
+		level: 3,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 20 },
+		],
+	},
+	{
+		name: "Mold Earth",
+		level: 0,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 21 },
+		],
+	},
+	{
+		name: "Primordial Ward",
+		level: 6,
+		school: "Abjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 21 },
+		],
+	},
+	{
+		name: "Pyrotechnics",
+		level: 2,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 21 },
+		],
+	},
+	{
+		name: "Shape Water",
+		level: 0,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 21 },
+		],
+	},
+	{
+		name: "Skywrite",
+		level: 2,
+		school: "Transmutation",
+		tags: ["Ritual"],
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Snilloc's Snowball Swarm",
+		level: 2,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Storm Sphere",
+		level: 4,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Thunderclap",
+		level: 0,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Tidal Wave",
+		level: 3,
+		school: "Conjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Transmute Rock",
+		level: 5,
+		school: "Transmutation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 22 },
+		],
+	},
+	{
+		name: "Vitriolic Sphere",
+		level: 4,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 23 },
+		],
+	},
+	{
+		name: "Wall of Sand",
+		level: 3,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 23 },
+		],
+	},
+	{
+		name: "Wall of Water",
+		level: 3,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 23 },
+		],
+	},
+	{
+		name: "Warding Wind",
+		level: 2,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 23 },
+		],
+	},
+	{
+		name: "Watery Sphere",
+		level: 4,
+		school: "Conjuration",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 23 },
+		],
+	},
+	{
+		name: "Whirlwind",
+		level: 7,
+		school: "Evocation",
+		sources: [
+			{ name: "Elemental Evil Player's Companion", page: 24 },
+		],
+	},
 ];
 
 for ( i = 0; i < spells.length; i++ ) {

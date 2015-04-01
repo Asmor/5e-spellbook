@@ -77,6 +77,18 @@ register("Warlock", [
 	"Unseen Servant",
 	"Vampiric Touch",
 	"Witch Bolt",
+
+	// Elemental Evil Player's Companion
+	"Create Bonfire",
+	"Earthbind",
+	"Elemental Bane",
+	"Frostbite",
+	"Investiture of Flame",
+	"Investiture of Ice",
+	"Investiture of Stone",
+	"Investiture of Wind",
+	"Magic Stone",
+	"Thunderclap",
 ]);
 register("Warlock:Archfey", [
 	"Blink",

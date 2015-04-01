@@ -49,4 +49,10 @@ register("Ranger", [
 	"Water Breathing",
 	"Water Walk",
 	"Wind Wall",
+
+	// Elemental Evil Player's Companion
+	"Absorb Elements",
+	"Beast Bond",
+	"Flame Arrows",
+
 ]);
