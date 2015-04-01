@@ -47,6 +47,7 @@ spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 212 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -230,6 +231,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 217 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -248,6 +250,7 @@ spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 217 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -314,6 +317,7 @@ spells = [
 		school: "Necromancy",
 		sources: [
 			{ name: "Player's Handbook", page: 219 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -364,6 +368,7 @@ spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -398,6 +403,7 @@ spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 221 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 23 },
 		],
 	},
 	{
@@ -454,6 +460,7 @@ spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 222 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 24 },
 		],
 	},
 	{
@@ -525,6 +532,7 @@ spells = [
 		school: "Enchantment",
 		sources: [
 			{ name: "Player's Handbook", page: 224 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 24 },
 		],
 	},
 	{
@@ -746,6 +754,7 @@ spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 230 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 24 },
 		],
 	},
 	{
@@ -788,6 +797,7 @@ spells = [
 		school: "Divination",
 		sources: [
 			{ name: "Player's Handbook", page: 231 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 24 },
 		],
 	},
 	{
@@ -945,6 +955,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 236 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1002,6 +1013,7 @@ spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1027,6 +1039,7 @@ spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 238 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1084,6 +1097,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 239 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1230,6 +1244,7 @@ spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 243 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1281,6 +1296,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 244 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 25 },
 		],
 	},
 	{
@@ -1425,6 +1441,7 @@ spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 248 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 26 },
 		],
 	},
 	{
@@ -1638,6 +1655,7 @@ spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 254 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 26 },
 		],
 	},
 	{
@@ -1767,6 +1785,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 256 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 26 },
 		],
 	},
 	{
@@ -1956,6 +1975,7 @@ spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 260 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 26 },
 		],
 	},
 	{
@@ -1964,6 +1984,7 @@ spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 260 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 26 },
 		],
 	},
 	{
@@ -2096,6 +2117,7 @@ spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 264 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 27 },
 		],
 	},
 	{
@@ -2145,6 +2167,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 266 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 27 },
 		],
 	},
 	{
@@ -2418,6 +2441,7 @@ spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 273 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 27 },
 		],
 	},
 	{
@@ -2450,6 +2474,7 @@ spells = [
 		school: "Illusion",
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 27 },
 		],
 	},
 	{
@@ -2458,6 +2483,7 @@ spells = [
 		school: "Evocation",
 		sources: [
 			{ name: "Player's Handbook", page: 274 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 27 },
 		],
 	},
 	{
@@ -2562,6 +2588,7 @@ spells = [
 		school: "Conjuration",
 		sources: [
 			{ name: "Player's Handbook", page: 276 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 28 },
 		],
 	},
 	{
@@ -2622,6 +2649,7 @@ spells = [
 		school: "Transmuation",
 		sources: [
 			{ name: "Player's Handbook", page: 277 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 28 },
 		],
 	},
 	{
@@ -2976,6 +3004,7 @@ spells = [
 		tags: ["Ritual"],
 		sources: [
 			{ name: "Player's Handbook", page: 287 },
+			{ name: "Hoard of the Dragon Queen supplement v0.3", page: 28 },
 		],
 	},
 	{
