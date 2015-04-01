@@ -1,0 +1,12 @@
+{
+	"name": "CLASSNAME",
+	"spells": [
+	],
+	"subClasses": [
+		{
+			"name": "CLASSNAME",
+			"spells": [
+			]
+		}
+	]
+}

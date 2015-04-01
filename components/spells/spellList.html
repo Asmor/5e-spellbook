@@ -1,0 +1,42 @@
+<table>
+	<thead>
+		<tr>
+			<td>
+				<span class="spell-list--sort-target" ng-click="setSortType('name')">Name</span>
+			</td>
+			<td>
+				<span class="spell-list--sort-target" ng-click="setSortType('level')">Level</span>
+				&amp;
+				<span class="spell-list--sort-target" ng-click="setSortType('school')">School</span>
+			</td>
+			<td>Classes</td>
+			<td>Sources</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr
+			ng-repeat="spell in spells.all | spellSort : sortType : sortReverse"
+		>
+			<td>
+				{{ spell.name }}
+			</td>
+			<td>
+				{{ spell.school | conjugateSpellLevel : spell.level }}
+			</td>
+			<td>
+				<ul>
+					<li ng-repeat="class in classService.classesBySpell[spell.name]">
+						{{ class }}
+					</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li ng-repeat="source in spell.sources">
+						{{ source.name }} p.{{ source.page }}
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
