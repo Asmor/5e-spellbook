@@ -234,8 +234,6 @@ angular.module("spells", [])
 	}
 }])
 .filter("spellFilter", ["classService", "spellService", function (classService, spellService) {
-window.spells = spellService;
-window.classes = classService;
 	return function (spells) {
 		var out = [], i;
 
@@ -250,14 +248,19 @@ window.classes = classService;
 	};
 
 	function checkFilters(spell) {
-		var checkClasses = spellService.filters.className.split(":"),
-			i;
+		var f = spellService.filters;
+		var checkClasses = f.className.split(":");
+		var i;
+
+		if ( spell.level < f.level.min ) { return false; }
+		if ( spell.level > f.level.max ) { return false; }
+		if ( !f.schools[spell.school] ) { return false; }
 
 		if ( checkClasses[1] ) {
 			checkClasses[1] = checkClasses[0] + " (" + checkClasses[1] + ")";
 		}
 
-		if ( spellService.filters.className ) {
+		if ( f.className ) {
 			for ( i = 0; i < checkClasses.length; i++ ) {
 				if ( classService.classesBySpell[spell.name].indexOf(checkClasses[i]) > -1 ) {
 					return true;
