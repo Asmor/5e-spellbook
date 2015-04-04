@@ -21,7 +21,7 @@ td {
 
 .filter-block {
   overflow: hidden;
-  height: calc(100% - ( 3 - 1 ) * 50px );
+  height: calc(100% - ( 2 - 1 ) * 50px );
   transition: height 0.5s; }
   .filter-block__hidden {
     height: 50px; }
