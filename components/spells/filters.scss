@@ -1,0 +1,12 @@
+$filter-header-height: 50px;
+$number-filters: 3;
+
+@import 'filter-block';
+
+.filters {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: $class-filter-width;
+}

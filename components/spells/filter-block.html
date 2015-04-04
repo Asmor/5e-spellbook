@@ -1,0 +1,16 @@
+<div
+	class="filter-block"
+	ng-class="{ 'filter-block__hidden': filterProp != name }"
+>
+	<div
+		class="filter-block--header"
+		ng-click="filterProp = (filterProp == name) ? '' : name"
+	>
+		{{ title }}
+	</div>
+	<div
+		class="filter-block--content"
+	>
+		<ng-transclude></ng-transclude>
+	</div>
+</div>

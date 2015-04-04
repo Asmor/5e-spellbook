@@ -1,0 +1,41 @@
+$primary-double-light: #fee;
+$primary-light: #d88;
+$primary-color: #a44;
+$primary-dark: #711;
+$primary-double-dark: #500;
+
+$contrast-double-light: #bcb;
+$contrast-light: #6a6;
+$contrast-color: #383;
+$contrast-dark: #060;
+$contrast-double-dark: #040;
+
+$class-filter-width: 300px;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+body {
+	background-color: $primary-double-light;
+	color: #000;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	vertical-align: top;
+}
+
+@import 'spells/spells';

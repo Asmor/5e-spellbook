@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+
+body {
+  background-color: #ffeeee;
+  color: #000;
+  font-family: sans-serif;
+  text-align: center; }
+
+ol, ul {
+  list-style-type: none; }
+
+table {
+  border-collapse: collapse; }
+
+td {
+  vertical-align: top; }
+
+.filter-block {
+  overflow: hidden;
+  height: calc(100% - ( 3 - 1 ) * 50px );
+  transition: height 0.5s; }
+  .filter-block__hidden {
+    height: 50px; }
+  .filter-block--content {
+    overflow: auto;
+    width: 100%;
+    height: calc(100% - 50px );
+    box-sizing: border-box; }
+  .filter-block--header {
+    height: 50px;
+    width: 100%;
+    background-color: #66aa66;
+    box-sizing: border-box;
+    border: 1px solid #006600;
+    line-height: 50px;
+    padding-left: 20px; }
+
+.filters {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 300px; }
+
+.spell-list {
+  bottom: 0;
+  display: inline-block;
+  left: 300px;
+  overflow: auto;
+  padding: 10px;
+  position: fixed;
+  right: 300px;
+  top: 0; }
+  .spell-list--head > tr {
+    background-color: #006600;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px; }
+  .spell-list > table {
+    border-bottom: 1px solid black; }
+    .spell-list > table > tbody > tr > td,
+    .spell-list > table > thead > tr > td {
+      border-top: 1px solid black;
+      padding: 5px; }
+      .spell-list > table > tbody > tr > td:first-child,
+      .spell-list > table > thead > tr > td:first-child {
+        border-left: 1px solid black; }
+      .spell-list > table > tbody > tr > td:last-child,
+      .spell-list > table > thead > tr > td:last-child {
+        border-right: 1px solid black; }
+    .spell-list > table > tbody > tr:nth-child(2n) > td {
+      background-color: #dd8888; }
+  .spell-list--sort-target {
+    cursor: pointer; }
+    .spell-list--sort-target.spell-list--sort-target__active {
+      font-style: italic;
+      text-decoration: underline; }

@@ -1,0 +1,77 @@
+<div class="filters">
+	<filter-block
+		title="'Class: ' + (spells.filters.className || 'All')"
+		name='class'
+		filter-prop='showFilter'
+	>
+		<ul>
+			<li>
+				<label>
+					<input type="radio" ng-model="spells.filters.className" value=""> All
+				</label>
+			</li>
+			<li class="filter-block--class-list" ng-repeat="class in classService.classes">
+				<label>
+					<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}">
+					{{ class.name }}
+				</label>
+
+				<ul class="filter-block--sub-class-list">
+					<li ng-repeat="subClass in class.subClasses">
+						<label>
+							<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">
+							{{ subClass.name }}
+						</label>
+					</li>
+				</ul>
+
+			</li>
+		</ul>
+	</filter-block>
+	<filter-block
+		title="getMetaFiltersTitle()"
+		name='meta'
+		filter-prop='showFilter'
+	>
+		Level: 
+		<select
+			ng-model="spells.filters.level.min"
+			ng-options="level for level in [0,1,2,3,4,5,6,7,8,9]"
+		></select>
+		-
+		<select
+			ng-model="spells.filters.level.max"
+			ng-options="level for level in [0,1,2,3,4,5,6,7,8,9]"
+		></select>
+		<ul>
+			<li>
+				<label>
+					<input
+						type="checkbox"
+						ng-init="allSchools = true"
+						ng-model="allSchools"
+						ng-change="setAllSchools(allSchools)"
+					>
+					All
+				</label>
+			</li>
+			<li ng-repeat="(school, val) in spells.filters.schools">
+				<label>
+					<input type="checkbox" ng-model="spells.filters.schools[school]">
+					{{school}}
+				</label>
+				<span
+					class="filters--exclusive-school"
+					ng-click="setSchoolExclusive(school)"
+				>(only)</span>
+			</li>
+		</ul>
+	</filter-block>
+	<filter-block
+		title="'Sources'"
+		name='source'
+		filter-prop='showFilter'
+	>
+		COMING SOON
+	</filter-block>
+</div>

@@ -1,42 +1,62 @@
-<table>
-	<thead>
-		<tr>
-			<td>
-				<span class="spell-list--sort-target" ng-click="setSortType('name')">Name</span>
-			</td>
-			<td>
-				<span class="spell-list--sort-target" ng-click="setSortType('level')">Level</span>
-				&amp;
-				<span class="spell-list--sort-target" ng-click="setSortType('school')">School</span>
-			</td>
-			<td>Classes</td>
-			<td>Sources</td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr
-			ng-repeat="spell in spells.all | spellSort : sortType : sortReverse"
-		>
-			<td>
-				{{ spell.name }}
-			</td>
-			<td>
-				{{ spell.school | conjugateSpellLevel : spell.level }}
-			</td>
-			<td>
-				<ul>
-					<li ng-repeat="class in classService.classesBySpell[spell.name]">
-						{{ class }}
-					</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li ng-repeat="source in spell.sources">
-						{{ source.name }} p.{{ source.page }}
-					</li>
-				</ul>
-			</td>
-		</tr>
-	</tbody>
-</table>
+<div class="spell-list">
+	<table class="spell-list--table">
+		<thead class="spell-list--head">
+			<tr>
+				<td>
+					<span
+						class="spell-list--sort-target"
+						ng-click="setSortType('name')"
+						ng-class="{ 'spell-list--sort-target__active': sortType == 'name' }"
+					>
+						Name
+					</span>
+				</td>
+				<td>
+					<span
+						class="spell-list--sort-target"
+						ng-click="setSortType('level')"
+						ng-class="{ 'spell-list--sort-target__active': sortType == 'level' }"
+					>
+						Level
+					</span>
+					&amp;
+					<span
+						class="spell-list--sort-target"
+						ng-click="setSortType('school')"
+						ng-class="{ 'spell-list--sort-target__active': sortType == 'school' }"
+					>
+						School
+					</span>
+				</td>
+				<td ng-show="!spells.filters.className">Classes</td>
+				<td>Sources</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr
+				ng-repeat="spell in spells.all | spellFilter | spellSort : sortType : sortReverse"
+			>
+				<td>
+					{{ spell.name }}
+				</td>
+				<td>
+					{{ spell.school | conjugateSpellLevel : spell.level }}
+				</td>
+				<td ng-show="!spells.filters.className">
+					<ul>
+						<li ng-repeat="class in classService.classesBySpell[spell.name]">
+							{{ class }}
+						</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li ng-repeat="source in spell.sources">
+							{{ source.name }} p.{{ source.page }}
+						</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
