@@ -271,11 +271,12 @@ angular.module("spells", [])
 
 		if ( checkClasses[1] ) {
 			checkClasses[1] = checkClasses[0] + " (" + checkClasses[1] + ")";
-		}
 
-		if ( f.domainOnly ) {
-			// Remove base class from list of class names to check
-			checkClasses.shift();
+			if ( f.domainOnly ) {
+				// Remove base class from list of class names to check
+				checkClasses.shift();
+			}
+
 		}
 
 		if ( f.className ) {
