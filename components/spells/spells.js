@@ -79,7 +79,7 @@ angular.module("spells", [])
 .directive("spellList", ["classService", "spellService", function (classService, spellService) {
 	return {
 		scope: {},
-		templateUrl: "components/spells/spellList.html",
+		templateUrl: "components/spells/spell-list.html",
 		link: function (scope) {
 			scope.spells = spellService;
 			scope.sortType = "level";
