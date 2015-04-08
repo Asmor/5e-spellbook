@@ -62,7 +62,7 @@ angular.module("spells", [])
 				"Conjuration": true,
 				"Divination": true,
 				"Enchantment": true,
-				"Evovation": true,
+				"Evocation": true,
 				"Illusion": true,
 				"Necromancy": true,
 				"Transmutation": true,

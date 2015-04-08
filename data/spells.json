@@ -29,7 +29,7 @@
 	{
 		"name": "Alter Self",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 211 }
 		]
@@ -55,7 +55,7 @@
 	{
 		"name": "Animal Shapes",
 		"level": 8,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 212 }
 		]
@@ -71,7 +71,7 @@
 	{
 		"name": "Animate Objects",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 213 }
 		]
@@ -189,7 +189,7 @@
 	{
 		"name": "Awaken",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 216 }
 		]
@@ -221,7 +221,7 @@
 	{
 		"name": "Barkskin",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 217 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 }
@@ -316,7 +316,7 @@
 	{
 		"name": "Blink",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 219 }
 		]
@@ -628,7 +628,7 @@
 	{
 		"name": "Control Water",
 		"level": 4,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 227 }
 		]
@@ -636,7 +636,7 @@
 	{
 		"name": "Control Weather",
 		"level": 8,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 228 }
 		]
@@ -644,7 +644,7 @@
 	{
 		"name": "Cordon of Arrows",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 228 }
 		]
@@ -677,7 +677,7 @@
 	{
 		"name": "Create or Destroy Water",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 229 }
 		]
@@ -736,7 +736,7 @@
 	{
 		"name": "Darkvision",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 230 }
 		]
@@ -841,7 +841,7 @@
 	{
 		"name": "Disintegrate",
 		"level": 6,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 233 },
 			{ "name": "Basic Rules v2", "page": 88 }
@@ -945,7 +945,7 @@
 	{
 		"name": "Druidcraft",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 236 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
@@ -971,7 +971,7 @@
 	{
 		"name": "Elemental Weapon",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 237 }
 		]
@@ -979,7 +979,7 @@
 	{
 		"name": "Enhance Ability",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 237 }
 		]
@@ -987,7 +987,7 @@
 	{
 		"name": "Enlarge/Reduce",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 237 }
 		]
@@ -1020,7 +1020,7 @@
 	{
 		"name": "Etherealness",
 		"level": 7,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 238 },
 			{ "name": "Basic Rules v2", "page": 89 }
@@ -1038,7 +1038,7 @@
 	{
 		"name": "Expeditious Retreat",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 238 }
 		]
@@ -1054,7 +1054,7 @@
 	{
 		"name": "Fabricate",
 		"level": 4,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 239 }
 		]
@@ -1087,7 +1087,7 @@
 	{
 		"name": "Feather Fall",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 239 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
@@ -1217,7 +1217,7 @@
 	{
 		"name": "Flesh to Stone",
 		"level": 6,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 243 }
 		]
@@ -1225,7 +1225,7 @@
 	{
 		"name": "Fly",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 243 },
 			{ "name": "Basic Rules v2", "page": 91 }
@@ -1286,7 +1286,7 @@
 	{
 		"name": "Gaseous Form",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 244 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
@@ -1321,7 +1321,7 @@
 	{
 		"name": "Giant Insect",
 		"level": 4,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 245 }
 		]
@@ -1329,7 +1329,7 @@
 	{
 		"name": "Glibness",
 		"level": 8,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 245 }
 		]
@@ -1354,7 +1354,7 @@
 	{
 		"name": "Goodberry",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 246 }
 		]
@@ -1473,7 +1473,7 @@
 	{
 		"name": "Haste",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 250 },
 			{ "name": "Basic Rules v2", "page": 93 }
@@ -1500,7 +1500,7 @@
 	{
 		"name": "Heat Metal",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 250 }
 		]
@@ -1663,7 +1663,7 @@
 	{
 		"name": "Jump",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 254 }
 		]
@@ -1671,7 +1671,7 @@
 	{
 		"name": "Knock",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 254 },
 			{ "name": "Basic Rules v2", "page": 95 }
@@ -1714,7 +1714,7 @@
 	{
 		"name": "Levitate",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 255 },
 			{ "name": "Basic Rules v2", "page": 95 }
@@ -1775,7 +1775,7 @@
 	{
 		"name": "Longstrider",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 256 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 26 }
@@ -1835,7 +1835,7 @@
 	{
 		"name": "Magic Weapon",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 257 },
 			{ "name": "Basic Rules v2", "page": 96 }
@@ -1898,7 +1898,7 @@
 	{
 		"name": "Meld into Stone",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
 			{ "name": "Player's Handbook", "page": 259 }
@@ -1915,7 +1915,7 @@
 	{
 		"name": "Mending",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 259 }
 		]
@@ -1923,7 +1923,7 @@
 	{
 		"name": "Message",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 259 }
 		]
@@ -2041,7 +2041,7 @@
 	{
 		"name": "Move Earth",
 		"level": 6,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 263 }
 		]
@@ -2098,7 +2098,7 @@
 	{
 		"name": "Passwall",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 264 },
 			{ "name": "Basic Rules v2", "page": 98 }
@@ -2157,7 +2157,7 @@
 	{
 		"name": "Plant Growth",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 266 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
@@ -2175,7 +2175,7 @@
 	{
 		"name": "Polymorph",
 		"level": 4,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 266 }
 		]
@@ -2218,7 +2218,7 @@
 	{
 		"name": "Prestidigitation",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 267 },
 			{ "name": "Basic Rules v2", "page": 99 }
@@ -2292,7 +2292,7 @@
 	{
 		"name": "Purify Food and Drink",
 		"level": 1,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
 			{ "name": "Player's Handbook", "page": 270 }
@@ -2344,7 +2344,7 @@
 	{
 		"name": "Regenerate",
 		"level": 7,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 271 },
 			{ "name": "Basic Rules v2", "page": 99 }
@@ -2353,7 +2353,7 @@
 	{
 		"name": "Reincarnate",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 271 }
 		]
@@ -2388,7 +2388,7 @@
 	{
 		"name": "Reverse Gravity",
 		"level": 7,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 272 }
 		]
@@ -2405,7 +2405,7 @@
 	{
 		"name": "Rope Trick",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 272 }
 		]
@@ -2482,7 +2482,7 @@
 	{
 		"name": "Sequester",
 		"level": 7,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 274 }
 		]
@@ -2490,7 +2490,7 @@
 	{
 		"name": "Shapechange",
 		"level": 9,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 274 }
 		]
@@ -2525,7 +2525,7 @@
 	{
 		"name": "Shillelagh",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 275 }
 		]
@@ -2587,7 +2587,7 @@
 	{
 		"name": "Slow",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 277 }
 		]
@@ -2622,7 +2622,7 @@
 	{
 		"name": "Speak with Plants",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 277 }
 		]
@@ -2630,7 +2630,7 @@
 	{
 		"name": "Spider Climb",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 277 },
 			{ "name": "Basic Rules v2", "page": 102 }
@@ -2639,7 +2639,7 @@
 	{
 		"name": "Spike Growth",
 		"level": 2,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 277 },
 			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 28 }
@@ -2682,7 +2682,7 @@
 	{
 		"name": "Stone Shape",
 		"level": 4,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 278 }
 		]
@@ -2733,7 +2733,7 @@
 	{
 		"name": "Swift Quiver",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 279 }
 		]
@@ -2757,7 +2757,7 @@
 	{
 		"name": "Telekinesis",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 280 }
 		]
@@ -2799,7 +2799,7 @@
 	{
 		"name": "Thaumaturgy",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 282 },
 			{ "name": "Basic Rules v2", "page": 103 }
@@ -2808,7 +2808,7 @@
 	{
 		"name": "Thorn Whip",
 		"level": 0,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 282 }
 		]
@@ -2833,7 +2833,7 @@
 	{
 		"name": "Time Stop",
 		"level": 9,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 283 },
 			{ "name": "Basic Rules v2", "page": 104 }
@@ -2858,7 +2858,7 @@
 	{
 		"name": "Tree Stride",
 		"level": 5,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 283 }
 		]
@@ -2866,7 +2866,7 @@
 	{
 		"name": "True Polymorph",
 		"level": 9,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 283 }
 		]
@@ -2984,7 +2984,7 @@
 	{
 		"name": "Water Breathing",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
 			{ "name": "Player's Handbook", "page": 287 }
@@ -2993,7 +2993,7 @@
 	{
 		"name": "Water Walk",
 		"level": 3,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
 			{ "name": "Player's Handbook", "page": 287 },
@@ -3020,7 +3020,7 @@
 	{
 		"name": "Wind Walk",
 		"level": 6,
-		"school": "Transmuation",
+		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 288 }
 		]
