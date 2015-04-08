@@ -48,19 +48,20 @@ td {
   width: 300px; }
   .filters .filters--class-list > li {
     margin-bottom: 10px; }
-  .filters .filters--sub-class-list {
+  .filters .filters--sub-class-container {
     margin-left: 10px;
     display: block;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
     max-height: 100px;
     transition: max-height 0.5s;
     overflow: hidden; }
-    .filters .filters--sub-class-list > li {
+    .filters .filters--sub-class-container > li {
       display: block; }
-    .filters .filters--sub-class-list__hidden {
+    .filters .filters--sub-class-container__hidden {
       max-height: 0; }
+  .filters .filters--sub-class-list {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2; }
 
 .spell-list {
   bottom: 0;

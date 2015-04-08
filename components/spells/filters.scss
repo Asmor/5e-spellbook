@@ -14,10 +14,9 @@ $number-filters: 2;
 		margin-bottom: 10px;
 	}
 
-	.filters--sub-class-list {
+	.filters--sub-class-container {
 		margin-left: 10px;
 		display: block;
-		@include columns(2);
 		max-height: 100px;
 		transition: max-height 0.5s;
 		overflow: hidden;
@@ -30,5 +29,9 @@ $number-filters: 2;
 		&__hidden {
 			max-height: 0;
 		}
+	}
+
+	.filters--sub-class-list {
+		@include columns(2);
 	}
 }

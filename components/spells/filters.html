@@ -12,22 +12,33 @@
 			</li>
 			<li class="filter-block--class-list" ng-repeat="class in classService.classes">
 				<label>
-					<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}">
+					<input
+						type="radio"
+						ng-model="spells.filters.className"
+						ng-change="spells.filters.domainOnly = false"
+						value="{{ class.name }}"
+					>
 					{{ class.name }}
 				</label>
 
-				<ul
-					class="filters--sub-class-list"
-					ng-class="{ 'filters--sub-class-list__hidden': spells.filters.className.indexOf(class.name) == -1 }"
+				<div
+					class="filters--sub-class-container"
+					ng-if="class.subClasses.length"
+					ng-class="{ 'filters--sub-class-container__hidden': spells.filters.className.indexOf(class.name) == -1 }"
 				>
-					<li ng-repeat="subClass in class.subClasses">
-						<label>
-							<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">
-							{{ subClass.name }}
-						</label>
-					</li>
-				</ul>
+					<ul class="filters--sub-class-list">
+						<li ng-repeat="subClass in class.subClasses">
+							<label>
+								<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">
+								{{ subClass.name }}
+							</label>
+						</li>
+					</ul>
 
+					<label>
+						<input type="checkbox" ng-model="spells.filters.domainOnly"> Only show subclass spells
+					</label>
+				</div>
 			</li>
 		</ul>
 	</filter-block>

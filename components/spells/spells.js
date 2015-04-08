@@ -273,6 +273,11 @@ angular.module("spells", [])
 			checkClasses[1] = checkClasses[0] + " (" + checkClasses[1] + ")";
 		}
 
+		if ( f.domainOnly ) {
+			// Remove base class from list of class names to check
+			checkClasses.shift();
+		}
+
 		if ( f.className ) {
 			for ( i = 0; i < checkClasses.length; i++ ) {
 				if ( classService.classesBySpell[spell.name].indexOf(checkClasses[i]) > -1 ) {
