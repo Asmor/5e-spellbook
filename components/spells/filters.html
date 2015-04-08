@@ -16,7 +16,10 @@
 					{{ class.name }}
 				</label>
 
-				<ul class="filters--sub-class-list">
+				<ul
+					class="filters--sub-class-list"
+					ng-show="spells.filters.className.indexOf(class.name) != -1"
+				>
 					<li ng-repeat="subClass in class.subClasses">
 						<label>
 							<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">
