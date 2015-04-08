@@ -38,6 +38,9 @@
 			>
 				<td>
 					{{ spell.name }}
+					<span class="spell-list--tags" ng-if="spell.tags.length">
+						<span ng-repeat="tag in spell.tags">{{ tag }}</span>
+					</span>
 				</td>
 				<td>
 					{{ spell.school | conjugateSpellLevel : spell.level }}
