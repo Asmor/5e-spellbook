@@ -18,10 +18,17 @@ $number-filters: 2;
 		margin-left: 10px;
 		display: block;
 		@include columns(2);
+		max-height: 100px;
+		transition: max-height 0.5s;
+		overflow: hidden;
 
 		> li {
 			display: block;
 			// margin: 0 10px;
+		}
+
+		&__hidden {
+			max-height: 0;
 		}
 	}
 }

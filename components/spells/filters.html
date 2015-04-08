@@ -18,7 +18,7 @@
 
 				<ul
 					class="filters--sub-class-list"
-					ng-show="spells.filters.className.indexOf(class.name) != -1"
+					ng-class="{ 'filters--sub-class-list__hidden': spells.filters.className.indexOf(class.name) == -1 }"
 				>
 					<li ng-repeat="subClass in class.subClasses">
 						<label>

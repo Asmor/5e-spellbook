@@ -53,9 +53,14 @@ td {
     display: block;
     -webkit-columns: 2;
     -moz-columns: 2;
-    columns: 2; }
+    columns: 2;
+    max-height: 100px;
+    transition: max-height 0.5s;
+    overflow: hidden; }
     .filters .filters--sub-class-list > li {
       display: block; }
+    .filters .filters--sub-class-list__hidden {
+      max-height: 0; }
 
 .spell-list {
   bottom: 0;
