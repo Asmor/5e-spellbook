@@ -1,10 +1,10 @@
 <div class="filters">
 	<filter-block
-		title="'Class: ' + (spells.filters.className || 'All')"
+		title="getClassFiltersTitle()"
 		name='class'
 		filter-prop='showFilter'
 	>
-		<ul>
+		<ul class="filters--class-list">
 			<li>
 				<label>
 					<input type="radio" ng-model="spells.filters.className" value=""> All
@@ -16,7 +16,7 @@
 					{{ class.name }}
 				</label>
 
-				<ul class="filter-block--sub-class-list">
+				<ul class="filters--sub-class-list">
 					<li ng-repeat="subClass in class.subClasses">
 						<label>
 							<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">

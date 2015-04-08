@@ -10,8 +10,6 @@ $contrast-color: #383;
 $contrast-dark: #060;
 $contrast-double-dark: #040;
 
-$class-filter-width: 300px;
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -38,4 +36,5 @@ td {
 	vertical-align: top;
 }
 
+@import 'mixins';
 @import 'spells/spells';

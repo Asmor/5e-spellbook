@@ -29,7 +29,8 @@ td {
     overflow: auto;
     width: 100%;
     height: calc(100% - 50px );
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    padding: 10px; }
   .filter-block--header {
     height: 50px;
     width: 100%;
@@ -45,6 +46,16 @@ td {
   position: fixed;
   top: 0;
   width: 300px; }
+  .filters .filters--class-list > li {
+    margin-bottom: 10px; }
+  .filters .filters--sub-class-list {
+    margin-left: 10px;
+    display: block;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2; }
+    .filters .filters--sub-class-list > li {
+      display: block; }
 
 .spell-list {
   bottom: 0;
@@ -53,7 +64,7 @@ td {
   overflow: auto;
   padding: 10px;
   position: fixed;
-  right: 300px;
+  right: 0;
   top: 0; }
   .spell-list--head > tr {
     background-color: #006600;

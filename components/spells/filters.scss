@@ -8,5 +8,20 @@ $number-filters: 2;
 	left: 0;
 	position: fixed;
 	top: 0;
-	width: $class-filter-width;
+	width: $filter-width;
+
+	.filters--class-list > li {
+		margin-bottom: 10px;
+	}
+
+	.filters--sub-class-list {
+		margin-left: 10px;
+		display: block;
+		@include columns(2);
+
+		> li {
+			display: block;
+			// margin: 0 10px;
+		}
+	}
 }

@@ -3,11 +3,11 @@ $border-style: 1px solid #000;
 .spell-list {
 	bottom: 0;
 	display: inline-block;
-	left: $class-filter-width;
+	left: $filter-width;
 	overflow: auto;
 	padding: 10px;
 	position: fixed;
-	right: $class-filter-width;
+	right: 0;
 	top: 0;
 
 	&--head > tr {

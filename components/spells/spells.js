@@ -106,6 +106,7 @@ angular.module("spells", [])
 			scope.spells = spellService;
 			scope.showFilter = "class";
 
+			scope.getClassFiltersTitle = getClassFiltersTitle;
 			scope.getMetaFiltersTitle = getMetaFiltersTitle;
 			scope.setSchoolExclusive = setSchoolExclusive;
 			scope.setAllSchools = setAllSchools;
@@ -121,6 +122,18 @@ angular.module("spells", [])
 	function setSchoolExclusive(school) {
 		setAllSchools(false);
 		spellService.filters.schools[school] = true;
+	}
+
+	function getClassFiltersTitle() {
+		var parts = spellService.filters.className.split(":");
+
+		parts[0] = parts[0] || "All";
+
+		if ( parts[1] ) {
+			parts[0] += " (" + parts[1] + ")";
+		}
+
+		return parts[0] + " spells";
 	}
 
 	function getMetaFiltersTitle() {
