@@ -23,7 +23,8 @@
 		"school": "Abjuration",
 		"tags": ["Ritual"],
 		"sources": [
-			{ "name": "Player's Handbook", "page": 211 }
+			{ "name": "Player's Handbook", "page": 211 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 39 }
 		]
 	},
 	{
@@ -31,7 +32,8 @@
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 211 }
+			{ "name": "Player's Handbook", "page": 211 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 39 }
 		]
 	},
 	{
@@ -40,7 +42,8 @@
 		"school": "Enchantment",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 212 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 39 }
 		]
 	},
 	{
@@ -49,7 +52,8 @@
 		"school": "Enchantment",
 		"tags": ["Ritual"],
 		"sources": [
-			{ "name": "Player's Handbook", "page": 212 }
+			{ "name": "Player's Handbook", "page": 212 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 39 }
 		]
 	},
 	{
@@ -65,7 +69,8 @@
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 212 }
+			{ "name": "Player's Handbook", "page": 212 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 39 }
 		]
 	},
 	{
@@ -132,7 +137,8 @@
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 215 }
+			{ "name": "Player's Handbook", "page": 215 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 40 }
 		]
 	},
 	{
@@ -199,7 +205,8 @@
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 216 }
+			{ "name": "Player's Handbook", "page": 216 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 40 }
 		]
 	},
 	{
@@ -224,7 +231,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 217 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 40 }
 		]
 	},
 	{
@@ -276,7 +284,8 @@
 		"level": 0,
 		"school": "Abjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 218 }
+			{ "name": "Player's Handbook", "page": 218 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 40 }
 		]
 	},
 	{
@@ -293,7 +302,8 @@
 		"level": 4,
 		"school": "Necromancy",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 219 }
+			{ "name": "Player's Handbook", "page": 219 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 40 }
 		]
 	},
 	{
@@ -310,7 +320,8 @@
 		"school": "Necromancy",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 219 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -387,7 +398,8 @@
 		"level": 0,
 		"school": "Necromancy",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 221 }
+			{ "name": "Player's Handbook", "page": 221 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -396,7 +408,8 @@
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 221 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 23 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -444,7 +457,8 @@
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 222 }
+			{ "name": "Player's Handbook", "page": 222 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -453,7 +467,8 @@
 		"school": "Illusion",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 222 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -525,7 +540,8 @@
 		"school": "Enchantment",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 224 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 41 }
 		]
 	},
 	{
@@ -533,7 +549,8 @@
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 225 }
+			{ "name": "Player's Handbook", "page": 225 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 42 }
 		]
 	},
 	{
@@ -557,7 +574,8 @@
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 225 }
+			{ "name": "Player's Handbook", "page": 225 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 42 }
 		]
 	},
 	{
@@ -622,7 +640,8 @@
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 227 }
+			{ "name": "Player's Handbook", "page": 227 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 42 }
 		]
 	},
 	{
@@ -630,7 +649,8 @@
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 227 }
+			{ "name": "Player's Handbook", "page": 227 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 42 }
 		]
 	},
 	{
@@ -638,7 +658,8 @@
 		"level": 8,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 228 }
+			{ "name": "Player's Handbook", "page": 228 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 43 }
 		]
 	},
 	{
@@ -663,7 +684,8 @@
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 229 }
+			{ "name": "Player's Handbook", "page": 229 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 43 }
 		]
 	},
 	{
@@ -687,7 +709,8 @@
 		"level": 5,
 		"school": "Illusion",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 229 }
+			{ "name": "Player's Handbook", "page": 229 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 43 }
 		]
 	},
 	{
@@ -747,7 +770,8 @@
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 230 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 44 }
 		]
 	},
 	{
@@ -790,7 +814,8 @@
 		"school": "Divination",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 231 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 24 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 44 }
 		]
 	},
 	{
@@ -817,7 +842,8 @@
 		"level": 2,
 		"school": "Divination",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 231 }
+			{ "name": "Player's Handbook", "page": 231 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 44 }
 		]
 	},
 	{
@@ -869,7 +895,8 @@
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 234 }
+			{ "name": "Player's Handbook", "page": 234 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 44 }
 		]
 	},
 	{
@@ -903,7 +930,8 @@
 		"level": 4,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 234 }
+			{ "name": "Player's Handbook", "page": 234 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 44 }
 		]
 	},
 	{
@@ -948,7 +976,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 236 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 45 }
 		]
 	},
 	{
@@ -965,7 +994,8 @@
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 237 }
+			{ "name": "Player's Handbook", "page": 237 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 45 }
 		]
 	},
 	{
@@ -989,7 +1019,8 @@
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 237 }
+			{ "name": "Player's Handbook", "page": 237 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 45 }
 		]
 	},
 	{
@@ -1006,7 +1037,8 @@
 		"school": "Conjuration",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 238 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 45 }
 		]
 	},
 	{
@@ -1032,7 +1064,8 @@
 		"school": "Conjuration",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 238 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1040,7 +1073,8 @@
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 238 }
+			{ "name": "Player's Handbook", "page": 238 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1081,7 +1115,8 @@
 		"level": 3,
 		"school": "Illusion",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 239 }
+			{ "name": "Player's Handbook", "page": 239 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1090,7 +1125,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 239 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1167,7 +1203,8 @@
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 242 }
+			{ "name": "Player's Handbook", "page": 242 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1193,7 +1230,8 @@
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 242 }
+			{ "name": "Player's Handbook", "page": 242 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 46 }
 		]
 	},
 	{
@@ -1237,7 +1275,8 @@
 		"school": "Conjuration",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 243 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 47 }
 		]
 	},
 	{
@@ -1280,7 +1319,8 @@
 		"level": 0,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 244 }
+			{ "name": "Player's Handbook", "page": 244 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 47 }
 		]
 	},
 	{
@@ -1289,7 +1329,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 244 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 25 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 47 }
 		]
 	},
 	{
@@ -1348,7 +1389,8 @@
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 245 }
+			{ "name": "Player's Handbook", "page": 245 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 47 }
 		]
 	},
 	{
@@ -1434,7 +1476,8 @@
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 248 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 26 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 26 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 48 }
 		]
 	},
 	{
@@ -1450,7 +1493,8 @@
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 249 }
+			{ "name": "Player's Handbook", "page": 249 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 48 }
 		]
 	},
 	{
@@ -1502,7 +1546,8 @@
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 250 }
+			{ "name": "Player's Handbook", "page": 250 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 48 }
 		]
 	},
 	{
@@ -1510,7 +1555,8 @@
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 250 }
+			{ "name": "Player's Handbook", "page": 250 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 48 }
 		]
 	},
 	{
@@ -1535,7 +1581,8 @@
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 251 }
+			{ "name": "Player's Handbook", "page": 251 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 49 }
 		]
 	},
 	{
@@ -1543,7 +1590,8 @@
 		"level": 5,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 251 }
+			{ "name": "Player's Handbook", "page": 251 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 49 }
 		]
 	},
 	{
@@ -1585,7 +1633,8 @@
 		"level": 3,
 		"school": "Illusion",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 252 }
+			{ "name": "Player's Handbook", "page": 252 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 49 }
 		]
 	},
 	{
@@ -1665,7 +1714,8 @@
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 254 }
+			{ "name": "Player's Handbook", "page": 254 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 49 }
 		]
 	},
 	{
@@ -1901,7 +1951,8 @@
 		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
-			{ "name": "Player's Handbook", "page": 259 }
+			{ "name": "Player's Handbook", "page": 259 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 49 }
 		]
 	},
 	{
@@ -1909,7 +1960,8 @@
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 259 }
+			{ "name": "Player's Handbook", "page": 259 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 50 }
 		]
 	},
 	{
@@ -1917,7 +1969,8 @@
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 259 }
+			{ "name": "Player's Handbook", "page": 259 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 50 }
 		]
 	},
 	{
@@ -1925,7 +1978,8 @@
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 259 }
+			{ "name": "Player's Handbook", "page": 259 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 50 }
 		]
 	},
 	{
@@ -1968,7 +2022,8 @@
 		"school": "Illusion",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 260 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 26 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 26 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 50 }
 		]
 	},
 	{
@@ -2043,7 +2098,8 @@
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 263 }
+			{ "name": "Player's Handbook", "page": 263 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 50 }
 		]
 	},
 	{
@@ -2051,7 +2107,8 @@
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 263 }
+			{ "name": "Player's Handbook", "page": 263 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 51 }
 		]
 	},
 	{
@@ -2110,7 +2167,8 @@
 		"school": "Illusion",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 264 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 51 }
 		]
 	},
 	{
@@ -2118,7 +2176,8 @@
 		"level": 4,
 		"school": "Illusion",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 265 }
+			{ "name": "Player's Handbook", "page": 265 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 51 }
 		]
 	},
 	{
@@ -2151,7 +2210,8 @@
 		"level": 7,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 266 }
+			{ "name": "Player's Handbook", "page": 266 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 51 }
 		]
 	},
 	{
@@ -2160,7 +2220,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 266 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 51 }
 		]
 	},
 	{
@@ -2177,7 +2238,8 @@
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 266 }
+			{ "name": "Player's Handbook", "page": 266 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 52 }
 		]
 	},
 	{
@@ -2245,7 +2307,8 @@
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 269 }
+			{ "name": "Player's Handbook", "page": 269 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 52 }
 		]
 	},
 	{
@@ -2434,7 +2497,8 @@
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 273 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 52 }
 		]
 	},
 	{
@@ -2442,7 +2506,8 @@
 		"level": 5,
 		"school": "Divination",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 273 }
+			{ "name": "Player's Handbook", "page": 273 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 52 }
 		]
 	},
 	{
@@ -2467,7 +2532,8 @@
 		"school": "Illusion",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 274 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2476,7 +2542,8 @@
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 274 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 27 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2527,7 +2594,8 @@
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 275 }
+			{ "name": "Player's Handbook", "page": 275 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2581,7 +2649,8 @@
 		"school": "Conjuration",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 276 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 28 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 28 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2589,7 +2658,8 @@
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 277 }
+			{ "name": "Player's Handbook", "page": 277 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2607,7 +2677,8 @@
 		"school": "Divination",
 		"tags": ["Ritual"],
 		"sources": [
-			{ "name": "Player's Handbook", "page": 277 }
+			{ "name": "Player's Handbook", "page": 277 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 53 }
 		]
 	},
 	{
@@ -2642,7 +2713,8 @@
 		"school": "Transmutation",
 		"sources": [
 			{ "name": "Player's Handbook", "page": 277 },
-			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 28 }
+			{ "name": "Hoard of the Dragon Queen supplement v0.3", "page": 28 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 54 }
 		]
 	},
 	{
@@ -2676,7 +2748,8 @@
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 278 }
+			{ "name": "Player's Handbook", "page": 278 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 54 }
 		]
 	},
 	{
@@ -2684,7 +2757,8 @@
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 278 }
+			{ "name": "Player's Handbook", "page": 278 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 54 }
 		]
 	},
 	{
@@ -2759,7 +2833,8 @@
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 280 }
+			{ "name": "Player's Handbook", "page": 280 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 54 }
 		]
 	},
 	{
@@ -2810,7 +2885,8 @@
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 282 }
+			{ "name": "Player's Handbook", "page": 282 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 54 }
 		]
 	},
 	{
@@ -2844,7 +2920,8 @@
 		"level": 3,
 		"school": "Divination",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 283 }
+			{ "name": "Player's Handbook", "page": 283 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
@@ -2919,7 +2996,8 @@
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 285 }
+			{ "name": "Player's Handbook", "page": 285 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
@@ -2927,7 +3005,8 @@
 		"level": 0,
 		"school": "Enchantment",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 285 }
+			{ "name": "Player's Handbook", "page": 285 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
@@ -2987,7 +3066,8 @@
 		"school": "Transmutation",
 		"tags": ["Ritual"],
 		"sources": [
-			{ "name": "Player's Handbook", "page": 287 }
+			{ "name": "Player's Handbook", "page": 287 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
@@ -3022,7 +3102,8 @@
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 288 }
+			{ "name": "Player's Handbook", "page": 288 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
@@ -3046,7 +3127,8 @@
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
-			{ "name": "Player's Handbook", "page": 289 }
+			{ "name": "Player's Handbook", "page": 289 },
+			{ "name": "Princes of the Apocalypse Online Supplement v1.0", "page": 55 }
 		]
 	},
 	{
