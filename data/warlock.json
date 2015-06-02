@@ -88,7 +88,7 @@
 	],
 	"subClasses": [
 		{
-			"name": "Archfey",
+			"name": "The Archfey",
 			"spells": [
 				"Blink",
 				"Calm Emotions",
@@ -103,7 +103,7 @@
 			]
 		},
 		{
-			"name": "Fiend",
+			"name": "The Fiend",
 			"spells": [
 				"Blindness/Deafness",
 				"Burning Hands",
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "Great Old One",
+			"name": "The Great Old One",
 			"spells": [
 				"Clairvoyance",
 				"Detect Thoughts",
@@ -131,6 +131,25 @@
 				"Tasha's Hideous Laughter",
 				"Telekinesis"
 			]
+		},
+		{
+			"name": "The Machine",
+			"spells": [
+				"Detect Magic",
+				"Thunderwave",
+				"Darkvision",
+				"Heat Metal",
+				"Lightning Bolt",
+				"Nondetection",
+				"Fabricate",
+				"Locate Creature",
+				"Animate Object",
+				"Contagion"
+			],
+			"source": {
+				"name": "Middle Finger of Vecna",
+				"url": "http://middlefingerofvecna.blogspot.com/2015/06/the-machine.html"
+			}
 		},
 		{
 			"name": "The Skin",
