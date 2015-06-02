@@ -161,5 +161,26 @@
 		"Web",
 		"Wish",
 		"Witch Bolt"
+	],
+	"subClasses": [
+		{
+			"name": "Storm",
+			"spells": [
+				"Fog Cloud",
+				"Thunderwave",
+				"Gust of Wind",
+				"Levitate",
+				"Call Lightning",
+				"Sleet Storm",
+				"Conjure Minor Elementals",
+				"Ice Storm",
+				"Conjure Elemental"
+			],
+			"source": {
+				"collection": "Unearthed Arcana",
+				"name": "Waterborne",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Waterborne_v3.pdf"
+			}
+		}
 	]
 }
