@@ -281,8 +281,8 @@
 				"Erupting Earth",
 				"Meld into Stone",
 				"Stone Shape",
-				"Stone Skin",
-				"Pass Wall",
+				"Stoneskin",
+				"Passwall",
 				"Transmute Rock"
 			],
 			"source": {
@@ -331,7 +331,7 @@
 			"name": "Circle of Elements (All Elements)",
 			"spells": [
 				"Absorb Elements",
-				"Sky Write",
+				"Skywrite",
 				"Elemental Weapon",
 				"Gaseous Form",
 				"Conjure Minor Elementals",
@@ -353,7 +353,7 @@
 				"Beacon of Hope",
 				"Revivify",
 				"Death Ward",
-				"Mass Healing Word",
+				"Mass Healing Ward",
 				"Mass Cure Wounds",
 				"Raise Dead"
 			],
