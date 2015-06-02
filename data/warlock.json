@@ -131,6 +131,25 @@
 				"Tasha's Hideous Laughter",
 				"Telekinesis"
 			]
+		},
+		{
+			"name": "The Skin",
+			"spells": [
+				"False Life",
+				"Inflict Wounds",
+				"Barkskin",
+				"Enlarge/Reduce",
+				"Meld into Stone",
+				"Protection from Energy",
+				"Conjure Minor Elementals",
+				"Stoneskin",
+				"Conjure Elemental",
+				"Hallow"
+			],
+			"source": {
+				"name": "Middle Finger of Vecna",
+				"url": "http://middlefingerofvecna.blogspot.com/2015/05/fiend-skin.html"
+			}
 		}
 	]
 }
