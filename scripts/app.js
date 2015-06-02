@@ -1,4 +1,4 @@
 "use strict";
 
-angular.module("5eSpellApp", ["spells"])
+angular.module("5eSpellApp", ["spells", "util"])
 ;

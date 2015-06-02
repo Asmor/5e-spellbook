@@ -106,7 +106,12 @@
 		"Warding Bond",
 		"Water Walk",
 		"Word of Recall",
-		"Zone of Truth"
+		"Zone of Truth",
+		"Halo of Rejuvenation",
+		"Warrior’s Blessing",
+		"Spheres of Recovery",
+		"Strands of Life",
+		"Guardian of the Living"
 	],
 	"subClasses": [
 		{
@@ -228,6 +233,25 @@
 				"Antilife Shell",
 				"Cloudkill"
 			]
+		},
+		{
+			"name": "Luck",
+			"spells": [
+				"Bless",
+				"Divine Favor",
+				"Aid",
+				"Enhance Ability",
+				"Bestow Curse",
+				"Protection from Energy",
+				"Death Ward",
+				"Guardians of Faith",
+				"Antilife Shell",
+				"Legend Lore"
+			],
+			"source": {
+				"name": "Middle Finger of Vecna",
+				"url": "http://middlefingerofvecna.blogspot.com/2015/05/luck-domain.html"
+			}
 		}
 	]
 }

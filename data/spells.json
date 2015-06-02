@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Acid Splash",
+		"name": "Acid Splash", "guid": "a802dc40-b2a8-4415-8c4d-8f8a34d389ad",
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
@@ -9,7 +9,7 @@
 		]
 	},
 	{
-		"name": "Aid",
+		"name": "Aid", "guid": "e57d2a2d-0030-4875-8cfb-995f57b7a0b1",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -18,7 +18,7 @@
 		]
 	},
 	{
-		"name": "Alarm",
+		"name": "Alarm", "guid": "855f8899-ce3b-498a-b18a-6bb50a22db69",
 		"level": 1,
 		"school": "Abjuration",
 		"tags": ["Ritual"],
@@ -28,7 +28,7 @@
 		]
 	},
 	{
-		"name": "Alter Self",
+		"name": "Alter Self", "guid": "dc790b7c-6438-4d20-85f1-8db8c444f0b4",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -37,7 +37,7 @@
 		]
 	},
 	{
-		"name": "Animal Friendship",
+		"name": "Animal Friendship", "guid": "20c0526e-e40b-4b8f-9691-75e66492dce4",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -47,7 +47,7 @@
 		]
 	},
 	{
-		"name": "Animal Messenger",
+		"name": "Animal Messenger", "guid": "bc25d090-66ac-44b9-81bb-cd46563f99df",
 		"level": 2,
 		"school": "Enchantment",
 		"tags": ["Ritual"],
@@ -57,7 +57,7 @@
 		]
 	},
 	{
-		"name": "Animal Shapes",
+		"name": "Animal Shapes", "guid": "766eb49f-807e-49df-8b6d-6082ea53aeee",
 		"level": 8,
 		"school": "Transmutation",
 		"sources": [
@@ -65,7 +65,7 @@
 		]
 	},
 	{
-		"name": "Animate Dead",
+		"name": "Animate Dead", "guid": "fd78f7a8-5460-4985-b136-d0c2c7e2b53f",
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
@@ -74,7 +74,7 @@
 		]
 	},
 	{
-		"name": "Animate Objects",
+		"name": "Animate Objects", "guid": "0b76f6b5-bdd0-477a-94c9-b55238eb56e1",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -82,7 +82,7 @@
 		]
 	},
 	{
-		"name": "Antilife Shell",
+		"name": "Antilife Shell", "guid": "ceafc3d4-ff49-43f8-9a88-c176cac237c3",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -90,7 +90,7 @@
 		]
 	},
 	{
-		"name": "Antimagic Field",
+		"name": "Antimagic Field", "guid": "6bd2782a-1100-476e-a1e2-85fd920c5e13",
 		"level": 8,
 		"school": "Abjuration",
 		"sources": [
@@ -99,7 +99,7 @@
 		]
 	},
 	{
-		"name": "Antipathy/Sympathy",
+		"name": "Antipathy/Sympathy", "guid": "372dea07-0883-4818-9ada-6444b6aa13cb",
 		"level": 8,
 		"school": "Enchantment",
 		"sources": [
@@ -107,7 +107,7 @@
 		]
 	},
 	{
-		"name": "Arcane Eye",
+		"name": "Arcane Eye", "guid": "8bc7a549-7df9-4f92-878b-c49547d6a4fc",
 		"level": 4,
 		"school": "Divination",
 		"sources": [
@@ -116,7 +116,7 @@
 		]
 	},
 	{
-		"name": "Arcane Gate",
+		"name": "Arcane Gate", "guid": "349970f1-077f-43cb-8175-54ef93bd7400",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -124,7 +124,7 @@
 		]
 	},
 	{
-		"name": "Arcane Lock",
+		"name": "Arcane Lock", "guid": "bd7c5061-c657-4bf3-b05a-4ac59fc7849d",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -133,7 +133,7 @@
 		]
 	},
 	{
-		"name": "Armor of Agathys",
+		"name": "Armor of Agathys", "guid": "d2a39715-421b-4632-a9cc-15790c52b947",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -142,7 +142,7 @@
 		]
 	},
 	{
-		"name": "Arms of Hadar",
+		"name": "Arms of Hadar", "guid": "5a2d17e2-7c94-4a72-8b35-1bc05f9ecc1e",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -150,7 +150,7 @@
 		]
 	},
 	{
-		"name": "Astral Projection",
+		"name": "Astral Projection", "guid": "51a36d43-5a8b-49f7-be78-d74ab99eec6a",
 		"level": 9,
 		"school": "Necromancy",
 		"sources": [
@@ -159,7 +159,7 @@
 		]
 	},
 	{
-		"name": "Augury",
+		"name": "Augury", "guid": "58fbc237-cf77-4576-889b-9970249414ea",
 		"level": 2,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -169,7 +169,7 @@
 		]
 	},
 	{
-		"name": "Aura of Life",
+		"name": "Aura of Life", "guid": "3ed93cb7-099a-42ac-8e14-fdb13ab23e57",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -177,7 +177,7 @@
 		]
 	},
 	{
-		"name": "Aura of Purity",
+		"name": "Aura of Purity", "guid": "c3d921f0-179a-4960-85cb-38f99ae25813",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -185,7 +185,7 @@
 		]
 	},
 	{
-		"name": "Aura of Vitality",
+		"name": "Aura of Vitality", "guid": "302ad3ec-2ecb-4e6d-be14-41c53f973069",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -193,7 +193,7 @@
 		]
 	},
 	{
-		"name": "Awaken",
+		"name": "Awaken", "guid": "a90a467d-4a5a-4b73-9e4a-0422d0591247",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -201,7 +201,7 @@
 		]
 	},
 	{
-		"name": "Bane",
+		"name": "Bane", "guid": "6b6685ed-163a-4239-a0c7-d22f782eef23",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -210,7 +210,7 @@
 		]
 	},
 	{
-		"name": "Banishing Smite",
+		"name": "Banishing Smite", "guid": "a44f8cdc-b290-4265-afc8-cde2a8786c05",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -218,7 +218,7 @@
 		]
 	},
 	{
-		"name": "Banishment",
+		"name": "Banishment", "guid": "a4ff50e2-e6c5-46c9-a61a-869eada8ec2c",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -226,7 +226,7 @@
 		]
 	},
 	{
-		"name": "Barkskin",
+		"name": "Barkskin", "guid": "1cbbad72-f6bd-4926-a905-bf925004ad9b",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -236,7 +236,7 @@
 		]
 	},
 	{
-		"name": "Beacon of Hope",
+		"name": "Beacon of Hope", "guid": "26385512-61be-4d97-a4e6-2e35032395bf",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -245,7 +245,7 @@
 		]
 	},
 	{
-		"name": "Beast Sense",
+		"name": "Beast Sense", "guid": "e7c50a4b-f743-4d20-935b-49b2bf370ee6",
 		"level": 2,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -255,7 +255,7 @@
 		]
 	},
 	{
-		"name": "Bestow Curse",
+		"name": "Bestow Curse", "guid": "f13e99ab-227b-4af8-9344-811bff4c54e8",
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
@@ -263,7 +263,7 @@
 		]
 	},
 	{
-		"name": "Bigby's Hand",
+		"name": "Bigby's Hand", "guid": "02d3bdc2-c1e2-4d03-b379-0cc9b065bf74",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -271,7 +271,7 @@
 		]
 	},
 	{
-		"name": "Blade Barrier",
+		"name": "Blade Barrier", "guid": "c045c654-bf26-4e69-9c85-9406a5930932",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -280,7 +280,7 @@
 		]
 	},
 	{
-		"name": "Blade Ward",
+		"name": "Blade Ward", "guid": "d6b5ee9c-e80b-4018-9d1f-68ef9a8b6a20",
 		"level": 0,
 		"school": "Abjuration",
 		"sources": [
@@ -289,7 +289,7 @@
 		]
 	},
 	{
-		"name": "Bless",
+		"name": "Bless", "guid": "bc086a0e-a10c-42ca-95dc-8c9de340e31f",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -298,7 +298,7 @@
 		]
 	},
 	{
-		"name": "Blight",
+		"name": "Blight", "guid": "b22e253b-8aa8-40b8-8860-6685dd07714e",
 		"level": 4,
 		"school": "Necromancy",
 		"sources": [
@@ -307,7 +307,7 @@
 		]
 	},
 	{
-		"name": "Blinding Smite",
+		"name": "Blinding Smite", "guid": "05df92b3-940b-4f33-8327-436f404ba1d7",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -315,7 +315,7 @@
 		]
 	},
 	{
-		"name": "Blindness/Deafness",
+		"name": "Blindness/Deafness", "guid": "ab9d8277-b461-439a-8009-891e04e6d4c1",
 		"level": 2,
 		"school": "Necromancy",
 		"sources": [
@@ -325,7 +325,7 @@
 		]
 	},
 	{
-		"name": "Blink",
+		"name": "Blink", "guid": "9aae1fdd-f366-4be4-8c48-4b38ebaeb713",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -333,7 +333,7 @@
 		]
 	},
 	{
-		"name": "Blur",
+		"name": "Blur", "guid": "6581653c-5916-4e3f-940d-b2f552772c4c",
 		"level": 2,
 		"school": "Illusion",
 		"sources": [
@@ -342,7 +342,7 @@
 		]
 	},
 	{
-		"name": "Branding Smite",
+		"name": "Branding Smite", "guid": "de6d0994-2ab8-4be4-b719-e5df2a76821b",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -350,7 +350,7 @@
 		]
 	},
 	{
-		"name": "Burning Hands",
+		"name": "Burning Hands", "guid": "a7f52c3f-6328-4ee9-a6fd-5935e43fbf90",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -359,7 +359,7 @@
 		]
 	},
 	{
-		"name": "Call Lightning",
+		"name": "Call Lightning", "guid": "ed83abd2-a03e-472b-a679-ed6cc5402a81",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -367,7 +367,7 @@
 		]
 	},
 	{
-		"name": "Calm Emotions",
+		"name": "Calm Emotions", "guid": "3da69b34-a5e8-4b07-bc50-7e664b254da3",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -376,7 +376,7 @@
 		]
 	},
 	{
-		"name": "Chain Lightning",
+		"name": "Chain Lightning", "guid": "a7372ba8-cf28-4044-8d33-dbe547cef854",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -385,7 +385,7 @@
 		]
 	},
 	{
-		"name": "Charm Person",
+		"name": "Charm Person", "guid": "dc71a7bb-c346-48b5-b77f-eef6d6b6cc40",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -394,7 +394,7 @@
 		]
 	},
 	{
-		"name": "Chill Touch",
+		"name": "Chill Touch", "guid": "47f8d69d-64d9-4a26-8067-b2d74c5ee672",
 		"level": 0,
 		"school": "Necromancy",
 		"sources": [
@@ -403,7 +403,7 @@
 		]
 	},
 	{
-		"name": "Chromatic Orb",
+		"name": "Chromatic Orb", "guid": "cfe65fb4-5d78-4fc8-8086-c66942b50995",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -413,7 +413,7 @@
 		]
 	},
 	{
-		"name": "Circle of Death",
+		"name": "Circle of Death", "guid": "5070b4ff-8e12-42b0-9c41-c8883257e52e",
 		"level": 6,
 		"school": "Necromancy",
 		"sources": [
@@ -421,7 +421,7 @@
 		]
 	},
 	{
-		"name": "Circle of Power",
+		"name": "Circle of Power", "guid": "cd5a14a2-ea52-4eac-9c07-622cc65e1b3b",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -429,7 +429,7 @@
 		]
 	},
 	{
-		"name": "Clairvoyance",
+		"name": "Clairvoyance", "guid": "3c445fd3-f90d-4859-9ddb-8ac7605dc1d8",
 		"level": 3,
 		"school": "Divination",
 		"sources": [
@@ -437,7 +437,7 @@
 		]
 	},
 	{
-		"name": "Clone",
+		"name": "Clone", "guid": "027dd2fc-0fe8-4e84-a083-c09c6c9177cf",
 		"level": 8,
 		"school": "Necromancy",
 		"sources": [
@@ -445,7 +445,7 @@
 		]
 	},
 	{
-		"name": "Cloud of Daggers",
+		"name": "Cloud of Daggers", "guid": "80858289-da92-4ddc-96c1-460e1ee4947a",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -453,7 +453,7 @@
 		]
 	},
 	{
-		"name": "Cloudkill",
+		"name": "Cloudkill", "guid": "ec3d5b2b-4a08-4c61-b48f-23f44b6cab7c",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -462,7 +462,7 @@
 		]
 	},
 	{
-		"name": "Color Spray",
+		"name": "Color Spray", "guid": "6013d841-ee3b-4ae2-a0d6-d1e070a5f638",
 		"level": 1,
 		"school": "Illusion",
 		"sources": [
@@ -472,7 +472,7 @@
 		]
 	},
 	{
-		"name": "Command",
+		"name": "Command", "guid": "7f06a9cc-8db6-4902-b663-2b4e94e53caa",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -481,7 +481,7 @@
 		]
 	},
 	{
-		"name": "Commune",
+		"name": "Commune", "guid": "f8af53a3-5698-4b03-8bc9-4312f4e341d7",
 		"level": 5,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -491,7 +491,7 @@
 		]
 	},
 	{
-		"name": "Commune with Nature",
+		"name": "Commune with Nature", "guid": "a1445703-7d05-4b7b-af38-19601ecd948e",
 		"level": 5,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -500,7 +500,7 @@
 		]
 	},
 	{
-		"name": "Compelled Duel",
+		"name": "Compelled Duel", "guid": "50aa6e42-22f2-4d7d-ab4f-08f8d544588c",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -508,7 +508,7 @@
 		]
 	},
 	{
-		"name": "Comprehend Languages",
+		"name": "Comprehend Languages", "guid": "59c38d67-34e9-4323-9e7c-840a4ec97e3a",
 		"level": 1,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -518,7 +518,7 @@
 		]
 	},
 	{
-		"name": "Compulsion",
+		"name": "Compulsion", "guid": "c98b496f-25c9-4a6e-9e38-c0fb9131def4",
 		"level": 4,
 		"school": "Enchantment",
 		"sources": [
@@ -526,7 +526,7 @@
 		]
 	},
 	{
-		"name": "Cone of Cold",
+		"name": "Cone of Cold", "guid": "4c31da24-2382-489f-9d54-175819c7e867",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -535,7 +535,7 @@
 		]
 	},
 	{
-		"name": "Confusion",
+		"name": "Confusion", "guid": "ba328025-7b0c-4834-a258-8485162e80fa",
 		"level": 4,
 		"school": "Enchantment",
 		"sources": [
@@ -545,7 +545,7 @@
 		]
 	},
 	{
-		"name": "Conjure Animals",
+		"name": "Conjure Animals", "guid": "4f872e87-429f-4dc6-988b-c43c67c7f7ae",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -554,7 +554,7 @@
 		]
 	},
 	{
-		"name": "Conjure Barrage",
+		"name": "Conjure Barrage", "guid": "e7b46ad2-2ba0-4b2a-aaab-144a54a56421",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -562,7 +562,7 @@
 		]
 	},
 	{
-		"name": "Conjure Celestial",
+		"name": "Conjure Celestial", "guid": "d596cfda-a2ba-415e-96e4-a7ef7738956e",
 		"level": 7,
 		"school": "Conjuration",
 		"sources": [
@@ -570,7 +570,7 @@
 		]
 	},
 	{
-		"name": "Conjure Elemental",
+		"name": "Conjure Elemental", "guid": "75acb7a6-f8f1-4475-8001-758c32590402",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -579,7 +579,7 @@
 		]
 	},
 	{
-		"name": "Conjure Fey",
+		"name": "Conjure Fey", "guid": "f4b6e72a-f26b-42bb-b98e-e3386a201e26",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -587,7 +587,7 @@
 		]
 	},
 	{
-		"name": "Conjure Minor Elementals",
+		"name": "Conjure Minor Elementals", "guid": "c9fb1b34-70e1-4f76-a97b-27c165417c26",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -595,7 +595,7 @@
 		]
 	},
 	{
-		"name": "Conjure Volley",
+		"name": "Conjure Volley", "guid": "e8a7f6d9-bcf1-4d82-9881-75d4d1d64749",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -603,7 +603,7 @@
 		]
 	},
 	{
-		"name": "Conjure Woodland Beings",
+		"name": "Conjure Woodland Beings", "guid": "54ef69ad-aa6f-4808-b88a-7b27b2c65af3",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -611,7 +611,7 @@
 		]
 	},
 	{
-		"name": "Contact Other Plane",
+		"name": "Contact Other Plane", "guid": "d28bd3ac-d677-4978-895e-5041b592fdca",
 		"level": 5,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -620,7 +620,7 @@
 		]
 	},
 	{
-		"name": "Contagion",
+		"name": "Contagion", "guid": "e10d63c3-edc5-4651-ac60-f1fa1afcaa67",
 		"level": 5,
 		"school": "Necromancy",
 		"sources": [
@@ -628,7 +628,7 @@
 		]
 	},
 	{
-		"name": "Contingency",
+		"name": "Contingency", "guid": "18bbdef2-75cc-4b13-a867-ba07bcaa162a",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -636,7 +636,7 @@
 		]
 	},
 	{
-		"name": "Continual Flame",
+		"name": "Continual Flame", "guid": "8e0ba7eb-6358-4db9-871e-1fc3a2ba6a14",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -645,7 +645,7 @@
 		]
 	},
 	{
-		"name": "Control Water",
+		"name": "Control Water", "guid": "2b1726c7-5aeb-41d1-955c-326dc3541043",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -654,7 +654,7 @@
 		]
 	},
 	{
-		"name": "Control Weather",
+		"name": "Control Weather", "guid": "9344d61e-19e6-4992-92e5-181ce697800b",
 		"level": 8,
 		"school": "Transmutation",
 		"sources": [
@@ -663,7 +663,7 @@
 		]
 	},
 	{
-		"name": "Cordon of Arrows",
+		"name": "Cordon of Arrows", "guid": "dcbc72f6-4421-4c85-9adf-c12c7ba9c0d1",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -671,7 +671,7 @@
 		]
 	},
 	{
-		"name": "Counterspell",
+		"name": "Counterspell", "guid": "3c460fbe-c6db-4cf6-8e37-19a03e9f6efc",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -680,7 +680,7 @@
 		]
 	},
 	{
-		"name": "Create Food and Water",
+		"name": "Create Food and Water", "guid": "fc952b12-fe79-4216-9e99-4db3550bda8e",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -689,7 +689,7 @@
 		]
 	},
 	{
-		"name": "Create Undead",
+		"name": "Create Undead", "guid": "a26f0b5d-eb13-4ce3-88e3-4d6eda1d573a",
 		"level": 6,
 		"school": "Necromancy",
 		"sources": [
@@ -697,7 +697,7 @@
 		]
 	},
 	{
-		"name": "Create or Destroy Water",
+		"name": "Create or Destroy Water", "guid": "26aa0b0f-cc29-468a-8ea4-893e54f3695e",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -705,7 +705,7 @@
 		]
 	},
 	{
-		"name": "Creation",
+		"name": "Creation", "guid": "bd52830b-889f-4940-a64e-17050d7da591",
 		"level": 5,
 		"school": "Illusion",
 		"sources": [
@@ -714,7 +714,7 @@
 		]
 	},
 	{
-		"name": "Crown of Madness",
+		"name": "Crown of Madness", "guid": "40448cfa-f07e-4d28-82d9-606710b22ade",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -722,7 +722,7 @@
 		]
 	},
 	{
-		"name": "Crusader's Mantle",
+		"name": "Crusader's Mantle", "guid": "9c72293d-b745-4b40-8d0e-d9d165aefd40",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -730,7 +730,7 @@
 		]
 	},
 	{
-		"name": "Cure Wounds",
+		"name": "Cure Wounds", "guid": "af28448c-47e3-47c8-a000-bcf94a44b768",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -739,7 +739,7 @@
 		]
 	},
 	{
-		"name": "Dancing Lights",
+		"name": "Dancing Lights", "guid": "05f09c57-0c68-4d14-b5c6-202bf164699e",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -748,7 +748,7 @@
 		]
 	},
 	{
-		"name": "Darkness",
+		"name": "Darkness", "guid": "aed4df32-2f77-4a49-a2be-22e5f96e2489",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -757,7 +757,7 @@
 		]
 	},
 	{
-		"name": "Darkvision",
+		"name": "Darkvision", "guid": "a915fef6-cd00-4107-94c4-9d0c8038dcac",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -765,7 +765,7 @@
 		]
 	},
 	{
-		"name": "Daylight",
+		"name": "Daylight", "guid": "6919e931-2cb0-47f9-80d9-ffd8efe40ca1",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -775,7 +775,7 @@
 		]
 	},
 	{
-		"name": "Death Ward",
+		"name": "Death Ward", "guid": "3e0712bb-4b12-48dd-bcda-dbf44e417c94",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -784,7 +784,7 @@
 		]
 	},
 	{
-		"name": "Delayed Blast Fireball",
+		"name": "Delayed Blast Fireball", "guid": "2009d9e3-2bf4-4d12-9f47-d6503d2f8170",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -793,7 +793,7 @@
 		]
 	},
 	{
-		"name": "Demiplane",
+		"name": "Demiplane", "guid": "d19648b4-2c35-4bb3-878b-1b7b6fc1d739",
 		"level": 8,
 		"school": "Conjuration",
 		"sources": [
@@ -801,7 +801,7 @@
 		]
 	},
 	{
-		"name": "Destructive Smite",
+		"name": "Destructive Smite", "guid": "5ef86407-0d0a-472d-8ed0-fe298ccf4b90",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -809,7 +809,7 @@
 		]
 	},
 	{
-		"name": "Detect Evil and Good",
+		"name": "Detect Evil and Good", "guid": "3569f388-5351-4bfa-b265-b83fb6b794d1",
 		"level": 1,
 		"school": "Divination",
 		"sources": [
@@ -819,7 +819,7 @@
 		]
 	},
 	{
-		"name": "Detect Magic",
+		"name": "Detect Magic", "guid": "f131b073-ed51-4734-bba9-1ba1615e74a1",
 		"level": 1,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -829,7 +829,7 @@
 		]
 	},
 	{
-		"name": "Detect Poison and Disease",
+		"name": "Detect Poison and Disease", "guid": "8839785f-9699-4805-8af5-f029550f7033",
 		"level": 1,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -838,7 +838,7 @@
 		]
 	},
 	{
-		"name": "Detect Thoughts",
+		"name": "Detect Thoughts", "guid": "f189dc3d-2824-4f02-b5d8-a32f84583dbe",
 		"level": 2,
 		"school": "Divination",
 		"sources": [
@@ -847,7 +847,7 @@
 		]
 	},
 	{
-		"name": "Dimension Door",
+		"name": "Dimension Door", "guid": "a829971b-4664-4351-8edf-4720872ed099",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -856,7 +856,7 @@
 		]
 	},
 	{
-		"name": "Disguise Self",
+		"name": "Disguise Self", "guid": "41e421bf-550e-4357-b666-f2283a4a07e9",
 		"level": 1,
 		"school": "Illusion",
 		"sources": [
@@ -865,7 +865,7 @@
 		]
 	},
 	{
-		"name": "Disintegrate",
+		"name": "Disintegrate", "guid": "9799d0a1-ab3d-4176-99ee-e93aa031ab59",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -874,7 +874,7 @@
 		]
 	},
 	{
-		"name": "Dispel Evil and Good",
+		"name": "Dispel Evil and Good", "guid": "a616c191-b4ce-42a0-aa85-e9dfd918330e",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -882,7 +882,7 @@
 		]
 	},
 	{
-		"name": "Dispel Magic",
+		"name": "Dispel Magic", "guid": "b17b1ceb-ceab-4ce0-9a7b-12385f43ade5",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -891,7 +891,7 @@
 		]
 	},
 	{
-		"name": "Dissonant Whispers",
+		"name": "Dissonant Whispers", "guid": "944a56e0-3638-47ab-95d1-4372618f1ac7",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -900,7 +900,7 @@
 		]
 	},
 	{
-		"name": "Divination",
+		"name": "Divination", "guid": "a72bc12f-96c2-408a-821a-66a1c1d35ca2",
 		"level": 4,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -910,7 +910,7 @@
 		]
 	},
 	{
-		"name": "Divine Favor",
+		"name": "Divine Favor", "guid": "67286906-f467-48f2-88d9-8bbbd4267a4c",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -918,7 +918,7 @@
 		]
 	},
 	{
-		"name": "Divine Word",
+		"name": "Divine Word", "guid": "439436cd-1fa8-4517-afbc-9e932996621a",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -926,7 +926,7 @@
 		]
 	},
 	{
-		"name": "Dominate Beast",
+		"name": "Dominate Beast", "guid": "e0d37133-9147-4148-aea8-9a230816e124",
 		"level": 4,
 		"school": "Enchantment",
 		"sources": [
@@ -935,7 +935,7 @@
 		]
 	},
 	{
-		"name": "Dominate Monster",
+		"name": "Dominate Monster", "guid": "e3ce763b-c770-453c-9f8a-39ff2fc6026e",
 		"level": 8,
 		"school": "Enchantment",
 		"sources": [
@@ -944,7 +944,7 @@
 		]
 	},
 	{
-		"name": "Dominate Person",
+		"name": "Dominate Person", "guid": "88e3b2f3-7146-4c8c-948e-0c128c9b7f9d",
 		"level": 5,
 		"school": "Enchantment",
 		"sources": [
@@ -953,7 +953,7 @@
 		]
 	},
 	{
-		"name": "Drawmij's Instant Summons",
+		"name": "Drawmij's Instant Summons", "guid": "fd8940f5-e011-45de-a872-af2f48f6f296",
 		"level": 6,
 		"school": "Conjuration",
 		"tags": ["Ritual"],
@@ -962,7 +962,7 @@
 		]
 	},
 	{
-		"name": "Dream",
+		"name": "Dream", "guid": "c422ae0a-8eec-49a5-9f7b-151194b27b28",
 		"level": 5,
 		"school": "Illusion",
 		"sources": [
@@ -971,7 +971,7 @@
 		]
 	},
 	{
-		"name": "Druidcraft",
+		"name": "Druidcraft", "guid": "a566c662-0203-4207-bd18-757b1c65e50d",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -981,7 +981,7 @@
 		]
 	},
 	{
-		"name": "Earthquake",
+		"name": "Earthquake", "guid": "da9a52af-5009-42a9-8953-0dff9642c22d",
 		"level": 8,
 		"school": "Evocation",
 		"sources": [
@@ -990,7 +990,7 @@
 		]
 	},
 	{
-		"name": "Eldritch Blast",
+		"name": "Eldritch Blast", "guid": "56dd2258-a279-4f11-883c-b8d336e9d4de",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -999,7 +999,7 @@
 		]
 	},
 	{
-		"name": "Elemental Weapon",
+		"name": "Elemental Weapon", "guid": "2494395a-5368-4a95-ace6-037e925a2faf",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -1007,7 +1007,7 @@
 		]
 	},
 	{
-		"name": "Enhance Ability",
+		"name": "Enhance Ability", "guid": "316ddf01-a532-447c-8649-dce11f7c2777",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1015,7 +1015,7 @@
 		]
 	},
 	{
-		"name": "Enlarge/Reduce",
+		"name": "Enlarge/Reduce", "guid": "7c1e1281-c269-4b77-b3a2-524fbfa3c670",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1024,7 +1024,7 @@
 		]
 	},
 	{
-		"name": "Ensnaring Strike",
+		"name": "Ensnaring Strike", "guid": "6ce2e5c1-2dd6-4056-9f4a-5f798fe2bfff",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -1032,7 +1032,7 @@
 		]
 	},
 	{
-		"name": "Entangle",
+		"name": "Entangle", "guid": "2a9dd277-7c21-4af8-8894-65f59e2214a4",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -1042,7 +1042,7 @@
 		]
 	},
 	{
-		"name": "Enthrall",
+		"name": "Enthrall", "guid": "1f3f9bf6-7a30-4087-8f4d-deedcfafdddf",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -1050,7 +1050,7 @@
 		]
 	},
 	{
-		"name": "Etherealness",
+		"name": "Etherealness", "guid": "10357ece-f743-4d3f-9a19-d178835f6b67",
 		"level": 7,
 		"school": "Transmutation",
 		"sources": [
@@ -1059,7 +1059,7 @@
 		]
 	},
 	{
-		"name": "Evard's Black Tentacles",
+		"name": "Evard's Black Tentacles", "guid": "b81aa6bb-4669-4073-9577-cccef9b840d3",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -1069,7 +1069,7 @@
 		]
 	},
 	{
-		"name": "Expeditious Retreat",
+		"name": "Expeditious Retreat", "guid": "ad2bb116-8734-4079-9603-3bc3b859f79e",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -1078,7 +1078,7 @@
 		]
 	},
 	{
-		"name": "Eyebite",
+		"name": "Eyebite", "guid": "15f91587-7af0-449e-9a50-b384199d21de",
 		"level": 6,
 		"school": "Necromancy",
 		"sources": [
@@ -1086,7 +1086,7 @@
 		]
 	},
 	{
-		"name": "Fabricate",
+		"name": "Fabricate", "guid": "30d77bbd-c5b3-41b8-9596-9900fd5f92a8",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -1094,7 +1094,7 @@
 		]
 	},
 	{
-		"name": "Faerie Fire",
+		"name": "Faerie Fire", "guid": "33369a28-f023-455e-93fa-9a562f370104",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -1103,7 +1103,7 @@
 		]
 	},
 	{
-		"name": "False Life",
+		"name": "False Life", "guid": "300ba038-550b-4c26-b0b9-1257d959f375",
 		"level": 1,
 		"school": "Necromancy",
 		"sources": [
@@ -1111,7 +1111,7 @@
 		]
 	},
 	{
-		"name": "Fear",
+		"name": "Fear", "guid": "5f8c4476-1318-4ca2-a59c-ccf2a575f55b",
 		"level": 3,
 		"school": "Illusion",
 		"sources": [
@@ -1120,7 +1120,7 @@
 		]
 	},
 	{
-		"name": "Feather Fall",
+		"name": "Feather Fall", "guid": "ed9c0927-c3d5-4cee-95e5-dd69e7941ad3",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -1130,7 +1130,7 @@
 		]
 	},
 	{
-		"name": "Feeblemind",
+		"name": "Feeblemind", "guid": "76afa2ad-1075-4a8c-98c9-1f701a428ad2",
 		"level": 8,
 		"school": "Enchantment",
 		"sources": [
@@ -1138,7 +1138,7 @@
 		]
 	},
 	{
-		"name": "Feign Death",
+		"name": "Feign Death", "guid": "aa10e2c5-0357-46c5-bd5b-b2563ce12a49",
 		"level": 3,
 		"school": "Necromancy",
 		"tags": ["Ritual"],
@@ -1147,7 +1147,7 @@
 		]
 	},
 	{
-		"name": "Find Familiar",
+		"name": "Find Familiar", "guid": "d0f692f0-3844-4eec-8ede-7943422ed6c8",
 		"level": 1,
 		"school": "Conjuration",
 		"tags": ["Ritual"],
@@ -1156,7 +1156,7 @@
 		]
 	},
 	{
-		"name": "Find Steed",
+		"name": "Find Steed", "guid": "42f64117-13ff-4605-a040-5f6999fc8c9c",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -1164,7 +1164,7 @@
 		]
 	},
 	{
-		"name": "Find Traps",
+		"name": "Find Traps", "guid": "49b2c55c-e124-44af-a1e5-6c5abea3cb20",
 		"level": 2,
 		"school": "Divination",
 		"sources": [
@@ -1172,7 +1172,7 @@
 		]
 	},
 	{
-		"name": "Find the Path",
+		"name": "Find the Path", "guid": "54a8e067-6b2e-4419-88f6-70d456444057",
 		"level": 6,
 		"school": "Divination",
 		"sources": [
@@ -1181,7 +1181,7 @@
 		]
 	},
 	{
-		"name": "Finger of Death",
+		"name": "Finger of Death", "guid": "c76806bf-c8cb-4d26-bb54-277cb315740d",
 		"level": 7,
 		"school": "Necromancy",
 		"sources": [
@@ -1190,7 +1190,7 @@
 		]
 	},
 	{
-		"name": "Fire Bolt",
+		"name": "Fire Bolt", "guid": "5f6ef854-918a-441c-b6d9-4170600de8d9",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -1199,7 +1199,7 @@
 		]
 	},
 	{
-		"name": "Fire Shield",
+		"name": "Fire Shield", "guid": "69cf300d-0d98-4e8d-98c8-ee0120e20328",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -1208,7 +1208,7 @@
 		]
 	},
 	{
-		"name": "Fire Storm",
+		"name": "Fire Storm", "guid": "b185af7f-6f26-4bf3-95d0-eeda4e05a6aa",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -1217,7 +1217,7 @@
 		]
 	},
 	{
-		"name": "Fireball",
+		"name": "Fireball", "guid": "eb074aab-7c9a-44db-a6e7-e250bf4026e9",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -1226,7 +1226,7 @@
 		]
 	},
 	{
-		"name": "Flame Blade",
+		"name": "Flame Blade", "guid": "095f9332-530a-4edc-8c74-1e202b1f8e29",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -1235,7 +1235,7 @@
 		]
 	},
 	{
-		"name": "Flame Strike",
+		"name": "Flame Strike", "guid": "f21deec0-cac3-4a50-9573-29a661d9ec29",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -1244,7 +1244,7 @@
 		]
 	},
 	{
-		"name": "Flaming Sphere",
+		"name": "Flaming Sphere", "guid": "1cab9de0-d046-4288-a243-d9e2af0a5c80",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -1253,7 +1253,7 @@
 		]
 	},
 	{
-		"name": "Flesh to Stone",
+		"name": "Flesh to Stone", "guid": "2a572bb7-d289-4853-a24a-46309c93cb50",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -1261,7 +1261,7 @@
 		]
 	},
 	{
-		"name": "Fly",
+		"name": "Fly", "guid": "6d9f58d5-515d-4383-b60d-23308e0c94ff",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -1270,7 +1270,7 @@
 		]
 	},
 	{
-		"name": "Fog Cloud",
+		"name": "Fog Cloud", "guid": "c92cc212-3d55-4a53-be02-5eacddace63c",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -1280,7 +1280,7 @@
 		]
 	},
 	{
-		"name": "Forbiddance",
+		"name": "Forbiddance", "guid": "b7256bd2-4bba-41aa-97ee-8a4c01d72715",
 		"level": 6,
 		"school": "Abjuration",
 		"tags": ["Ritual"],
@@ -1289,7 +1289,7 @@
 		]
 	},
 	{
-		"name": "Forcecage",
+		"name": "Forcecage", "guid": "839768f6-ba01-4925-bf1d-11a1181c1f08",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -1297,7 +1297,7 @@
 		]
 	},
 	{
-		"name": "Foresight",
+		"name": "Foresight", "guid": "428b7be1-bde8-473a-96aa-7aa8078d3464",
 		"level": 9,
 		"school": "Divination",
 		"sources": [
@@ -1306,7 +1306,7 @@
 		]
 	},
 	{
-		"name": "Freedom of Movement",
+		"name": "Freedom of Movement", "guid": "ef57d4a4-d9d0-4f60-b96c-a6a706e98c12",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -1315,7 +1315,7 @@
 		]
 	},
 	{
-		"name": "Friends",
+		"name": "Friends", "guid": "dc84a775-177e-4dc6-bf9b-a3fa15d707e3",
 		"level": 0,
 		"school": "Enchantment",
 		"sources": [
@@ -1324,7 +1324,7 @@
 		]
 	},
 	{
-		"name": "Gaseous Form",
+		"name": "Gaseous Form", "guid": "2ea7ffab-7e61-4fea-b1b6-a3cfc766c05b",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -1334,7 +1334,7 @@
 		]
 	},
 	{
-		"name": "Gate",
+		"name": "Gate", "guid": "157b81a6-0aec-40ee-8ca0-155f5cc4453b",
 		"level": 9,
 		"school": "Conjuration",
 		"sources": [
@@ -1343,7 +1343,7 @@
 		]
 	},
 	{
-		"name": "Geas",
+		"name": "Geas", "guid": "e42e2963-8e03-4131-aad8-522b06866166",
 		"level": 5,
 		"school": "Enchantment",
 		"sources": [
@@ -1351,7 +1351,7 @@
 		]
 	},
 	{
-		"name": "Gentle Repose",
+		"name": "Gentle Repose", "guid": "592437ac-e53a-4675-a091-09fe7ea0600b",
 		"level": 2,
 		"school": "Necromancy",
 		"tags": ["Ritual"],
@@ -1360,7 +1360,7 @@
 		]
 	},
 	{
-		"name": "Giant Insect",
+		"name": "Giant Insect", "guid": "1ea4be5d-6f9c-4314-be97-44869324dc9a",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -1368,7 +1368,7 @@
 		]
 	},
 	{
-		"name": "Glibness",
+		"name": "Glibness", "guid": "5b17d694-2fee-42af-b777-166a457564a1",
 		"level": 8,
 		"school": "Transmutation",
 		"sources": [
@@ -1376,7 +1376,7 @@
 		]
 	},
 	{
-		"name": "Globe of Invulnerability",
+		"name": "Globe of Invulnerability", "guid": "ecaff41a-f57d-441a-9670-5a24e8ac9c04",
 		"level": 6,
 		"school": "Abjuration",
 		"sources": [
@@ -1385,7 +1385,7 @@
 		]
 	},
 	{
-		"name": "Glyph of Warding",
+		"name": "Glyph of Warding", "guid": "f07197b0-3f04-42d4-8bb1-97f1dcc0127c",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -1394,7 +1394,7 @@
 		]
 	},
 	{
-		"name": "Goodberry",
+		"name": "Goodberry", "guid": "dc9e8eb0-fc28-4b89-a63a-5546327d6617",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -1402,7 +1402,7 @@
 		]
 	},
 	{
-		"name": "Grasping Vines",
+		"name": "Grasping Vines", "guid": "2ff877a1-6b7e-4737-bb32-460bc9a47fb8",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -1410,7 +1410,7 @@
 		]
 	},
 	{
-		"name": "Grease",
+		"name": "Grease", "guid": "94689aa6-af27-46c2-8267-8b6a30a7f599",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -1418,7 +1418,7 @@
 		]
 	},
 	{
-		"name": "Greater Invisibility",
+		"name": "Greater Invisibility", "guid": "47132fe6-b512-41d6-88ad-3e805734962d",
 		"level": 4,
 		"school": "Illusion",
 		"sources": [
@@ -1427,7 +1427,7 @@
 		]
 	},
 	{
-		"name": "Greater Restoration",
+		"name": "Greater Restoration", "guid": "d1896248-a75b-4794-a79b-5ffd4d0d8a14",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -1436,7 +1436,7 @@
 		]
 	},
 	{
-		"name": "Guardians of Faith",
+		"name": "Guardians of Faith", "guid": "624fd80b-427b-4edd-ab0f-c0dc88cefd12",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -1445,7 +1445,7 @@
 		]
 	},
 	{
-		"name": "Guards and Wards",
+		"name": "Guards and Wards", "guid": "95832fcf-cedc-4f8c-9c10-8e8662736a37",
 		"level": 6,
 		"school": "Abjuration",
 		"sources": [
@@ -1453,7 +1453,7 @@
 		]
 	},
 	{
-		"name": "Guidance",
+		"name": "Guidance", "guid": "3502fbd9-acdf-471e-b7b7-30f284f7ce0b",
 		"level": 0,
 		"school": "Divination",
 		"sources": [
@@ -1462,7 +1462,7 @@
 		]
 	},
 	{
-		"name": "Guiding Bolt",
+		"name": "Guiding Bolt", "guid": "517ba120-697b-48ab-a370-377ea74f47b5",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -1471,7 +1471,7 @@
 		]
 	},
 	{
-		"name": "Gust of Wind",
+		"name": "Gust of Wind", "guid": "1baf642d-5aa4-48f1-aa8b-50209234e120",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -1481,7 +1481,7 @@
 		]
 	},
 	{
-		"name": "Hail of Thorns",
+		"name": "Hail of Thorns", "guid": "122cc2cf-b6a3-4bdb-a7eb-2ae3cf42e931",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -1489,7 +1489,7 @@
 		]
 	},
 	{
-		"name": "Hallow",
+		"name": "Hallow", "guid": "8ec1eb34-b279-4dc6-bd57-57088616ba66",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -1498,7 +1498,7 @@
 		]
 	},
 	{
-		"name": "Hallucinatory Terrain",
+		"name": "Hallucinatory Terrain", "guid": "6a9e275d-be9f-47a8-8cb0-ddc71c4905e0",
 		"level": 4,
 		"school": "Illusion",
 		"sources": [
@@ -1506,7 +1506,7 @@
 		]
 	},
 	{
-		"name": "Harm",
+		"name": "Harm", "guid": "4e4df81a-9c67-4a8c-b6c4-dc731eef0a4a",
 		"level": 6,
 		"school": "Necromancy",
 		"sources": [
@@ -1515,7 +1515,7 @@
 		]
 	},
 	{
-		"name": "Haste",
+		"name": "Haste", "guid": "69d31f69-575a-4901-8956-b725e5172a00",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -1524,7 +1524,7 @@
 		]
 	},
 	{
-		"name": "Heal",
+		"name": "Heal", "guid": "c9d1c6c3-c58b-404b-9f2c-35be75389182",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -1533,7 +1533,7 @@
 		]
 	},
 	{
-		"name": "Healing Word",
+		"name": "Healing Word", "guid": "a90ab0d2-4952-4a72-9d25-04c0282c1ae4",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -1542,7 +1542,7 @@
 		]
 	},
 	{
-		"name": "Heat Metal",
+		"name": "Heat Metal", "guid": "85c28bed-0041-45c9-bf9c-ba8bb9400dae",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1551,7 +1551,7 @@
 		]
 	},
 	{
-		"name": "Hellish Rebuke",
+		"name": "Hellish Rebuke", "guid": "be07b82f-6d4b-4724-80e6-2dd6c8184e57",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -1560,7 +1560,7 @@
 		]
 	},
 	{
-		"name": "Heroes' Feast",
+		"name": "Heroes' Feast", "guid": "9685fc03-ecc2-45b3-8ca6-c25dc43b6185",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -1569,7 +1569,7 @@
 		]
 	},
 	{
-		"name": "Heroism",
+		"name": "Heroism", "guid": "fbd1591e-3157-4961-8ab7-10a3a5850bf3",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -1577,7 +1577,7 @@
 		]
 	},
 	{
-		"name": "Hex",
+		"name": "Hex", "guid": "f0761b51-3619-4539-b41f-cd459504c8a6",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -1586,7 +1586,7 @@
 		]
 	},
 	{
-		"name": "Hold Monster",
+		"name": "Hold Monster", "guid": "e9b65c10-a7da-4387-8a80-a58a34ce1f1b",
 		"level": 5,
 		"school": "Enchantment",
 		"sources": [
@@ -1595,7 +1595,7 @@
 		]
 	},
 	{
-		"name": "Hold Person",
+		"name": "Hold Person", "guid": "9e6a25be-672d-456b-9724-78e598e44807",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -1604,7 +1604,7 @@
 		]
 	},
 	{
-		"name": "Holy Aura",
+		"name": "Holy Aura", "guid": "26f3c893-f3ab-499f-89e0-d0da578de4b2",
 		"level": 8,
 		"school": "Abjuration",
 		"sources": [
@@ -1613,7 +1613,7 @@
 		]
 	},
 	{
-		"name": "Hunger of Hadar",
+		"name": "Hunger of Hadar", "guid": "5b640042-8d43-4999-ab46-3f591902e45d",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -1621,7 +1621,7 @@
 		]
 	},
 	{
-		"name": "Hunter's Mark",
+		"name": "Hunter's Mark", "guid": "45fe1dc4-af01-47ac-93a6-68c3481e9c8c",
 		"level": 1,
 		"school": "Divination",
 		"sources": [
@@ -1629,7 +1629,7 @@
 		]
 	},
 	{
-		"name": "Hypnotic Pattern",
+		"name": "Hypnotic Pattern", "guid": "a289e435-f16a-47e8-a823-39b0b25e4f68",
 		"level": 3,
 		"school": "Illusion",
 		"sources": [
@@ -1638,7 +1638,7 @@
 		]
 	},
 	{
-		"name": "Ice Storm",
+		"name": "Ice Storm", "guid": "f04d5b1c-61e8-48e9-a5be-77047f5e52fd",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -1647,7 +1647,7 @@
 		]
 	},
 	{
-		"name": "Identify",
+		"name": "Identify", "guid": "0a132d07-9f8e-416a-b582-5d01d9c330b8",
 		"level": 1,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -1657,7 +1657,7 @@
 		]
 	},
 	{
-		"name": "Illusory Script",
+		"name": "Illusory Script", "guid": "c13461fb-9b63-4004-84cf-df90ff2badba",
 		"level": 1,
 		"school": "Illusion",
 		"tags": ["Ritual"],
@@ -1666,7 +1666,7 @@
 		]
 	},
 	{
-		"name": "Imprisonment",
+		"name": "Imprisonment", "guid": "6dc7279a-686d-4260-8394-9d14417fc7fe",
 		"level": 9,
 		"school": "Abjuration",
 		"sources": [
@@ -1675,7 +1675,7 @@
 		]
 	},
 	{
-		"name": "Incendiary Cloud",
+		"name": "Incendiary Cloud", "guid": "b91f123d-1134-44cb-b172-02152b67026d",
 		"level": 8,
 		"school": "Conjuration",
 		"sources": [
@@ -1683,7 +1683,7 @@
 		]
 	},
 	{
-		"name": "Inflict Wounds",
+		"name": "Inflict Wounds", "guid": "be8af4c8-fb6c-4160-9185-fd50240fb28d",
 		"level": 1,
 		"school": "Necromancy",
 		"sources": [
@@ -1692,7 +1692,7 @@
 		]
 	},
 	{
-		"name": "Insect Plague",
+		"name": "Insect Plague", "guid": "2b6375d3-2080-46fe-b8a8-0e596f11fbff",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -1701,7 +1701,7 @@
 		]
 	},
 	{
-		"name": "Invisibility",
+		"name": "Invisibility", "guid": "722dae15-a7b1-461e-ad42-69279f70a582",
 		"level": 2,
 		"school": "Illusion",
 		"sources": [
@@ -1710,7 +1710,7 @@
 		]
 	},
 	{
-		"name": "Jump",
+		"name": "Jump", "guid": "c7c8d1a8-0d75-4986-9fd9-16953d9dbe64",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -1719,7 +1719,7 @@
 		]
 	},
 	{
-		"name": "Knock",
+		"name": "Knock", "guid": "ac71c981-b50a-4efd-96c7-d60844d7d247",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1728,7 +1728,7 @@
 		]
 	},
 	{
-		"name": "Legend Lore",
+		"name": "Legend Lore", "guid": "3c788a60-1860-4d7c-b99d-442d4d73099c",
 		"level": 5,
 		"school": "Divination",
 		"sources": [
@@ -1736,7 +1736,7 @@
 		]
 	},
 	{
-		"name": "Leomund's Secret Chest",
+		"name": "Leomund's Secret Chest", "guid": "832404a8-8596-406d-a69c-63aa4e200ad5",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -1744,7 +1744,7 @@
 		]
 	},
 	{
-		"name": "Leomund's Tiny Hut",
+		"name": "Leomund's Tiny Hut", "guid": "f874f335-83a3-4fa2-956a-d0de5a34e9e3",
 		"level": 3,
 		"school": "Evocation",
 		"tags": ["Ritual"],
@@ -1753,7 +1753,7 @@
 		]
 	},
 	{
-		"name": "Lesser Restoration",
+		"name": "Lesser Restoration", "guid": "030d729d-e949-429a-9d5a-a8690812a0aa",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -1762,7 +1762,7 @@
 		]
 	},
 	{
-		"name": "Levitate",
+		"name": "Levitate", "guid": "2d569ffd-0b1d-462d-87e4-6529448e9412",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1771,7 +1771,7 @@
 		]
 	},
 	{
-		"name": "Light",
+		"name": "Light", "guid": "fdeee12f-219e-428a-909a-075aef323189",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -1780,7 +1780,7 @@
 		]
 	},
 	{
-		"name": "Lightning Arrow",
+		"name": "Lightning Arrow", "guid": "4e9210cd-cf0d-4bf7-8183-3ff681ca7bd4",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -1788,7 +1788,7 @@
 		]
 	},
 	{
-		"name": "Lightning Bolt",
+		"name": "Lightning Bolt", "guid": "32a4d90c-18dc-46be-abd9-3b71d9ccc695",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -1797,7 +1797,7 @@
 		]
 	},
 	{
-		"name": "Locate Animals or Plants",
+		"name": "Locate Animals or Plants", "guid": "3aa10002-9dc5-495e-961e-3a52793e32ff",
 		"level": 2,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -1806,7 +1806,7 @@
 		]
 	},
 	{
-		"name": "Locate Creature",
+		"name": "Locate Creature", "guid": "8467af6f-7ac3-4384-ade5-0c60a75b85c8",
 		"level": 4,
 		"school": "Divination",
 		"sources": [
@@ -1815,7 +1815,7 @@
 		]
 	},
 	{
-		"name": "Locate Object",
+		"name": "Locate Object", "guid": "515e0d37-13e8-4661-9e03-41b94c806015",
 		"level": 2,
 		"school": "Divination",
 		"sources": [
@@ -1823,7 +1823,7 @@
 		]
 	},
 	{
-		"name": "Longstrider",
+		"name": "Longstrider", "guid": "f49d9708-da7c-4dce-9464-a23682c3fa04",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -1832,7 +1832,7 @@
 		]
 	},
 	{
-		"name": "Mage Armor",
+		"name": "Mage Armor", "guid": "7c480d08-93e0-400d-b044-4118d0f0abd5",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -1841,7 +1841,7 @@
 		]
 	},
 	{
-		"name": "Mage Hand",
+		"name": "Mage Hand", "guid": "88dfb5f2-6c0d-4dd4-9808-3fb6d373cfcc",
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
@@ -1849,7 +1849,7 @@
 		]
 	},
 	{
-		"name": "Magic Circle",
+		"name": "Magic Circle", "guid": "7f0a2c2e-4237-486a-9ed1-598e05013947",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -1857,7 +1857,7 @@
 		]
 	},
 	{
-		"name": "Magic Jar",
+		"name": "Magic Jar", "guid": "8edbb788-7b5d-484e-af02-88e15300a038",
 		"level": 6,
 		"school": "Necromancy",
 		"sources": [
@@ -1865,7 +1865,7 @@
 		]
 	},
 	{
-		"name": "Magic Missile",
+		"name": "Magic Missile", "guid": "aa84d3fb-404c-466a-a0b9-5706ec0971a7",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -1874,7 +1874,7 @@
 		]
 	},
 	{
-		"name": "Magic Mouth",
+		"name": "Magic Mouth", "guid": "190e7f9b-1d1d-4e98-b742-bcc8737bf244",
 		"level": 2,
 		"school": "Illusion",
 		"tags": ["Ritual"],
@@ -1883,7 +1883,7 @@
 		]
 	},
 	{
-		"name": "Magic Weapon",
+		"name": "Magic Weapon", "guid": "071a185d-31ad-4051-a29c-e56fe84c59f5",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -1892,7 +1892,7 @@
 		]
 	},
 	{
-		"name": "Major Image",
+		"name": "Major Image", "guid": "bb8e5ef9-00e7-4341-a464-f222048fa3c3",
 		"level": 3,
 		"school": "Illusion",
 		"sources": [
@@ -1901,7 +1901,7 @@
 		]
 	},
 	{
-		"name": "Mass Cure Wounds",
+		"name": "Mass Cure Wounds", "guid": "d3e29308-3e7e-4e18-b3d0-5a740763506e",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -1910,7 +1910,7 @@
 		]
 	},
 	{
-		"name": "Mass Heal",
+		"name": "Mass Heal", "guid": "d65d4ba6-b0ac-48c0-af75-0c477ea89710",
 		"level": 9,
 		"school": "Conjuration",
 		"sources": [
@@ -1919,7 +1919,7 @@
 		]
 	},
 	{
-		"name": "Mass Healing Ward",
+		"name": "Mass Healing Ward", "guid": "ccded158-230f-4af5-90fb-cc3384a56aea",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -1928,7 +1928,7 @@
 		]
 	},
 	{
-		"name": "Mass Suggestion",
+		"name": "Mass Suggestion", "guid": "29f22239-c3b7-4fc4-8205-4cd57164d223",
 		"level": 6,
 		"school": "Enchantment",
 		"sources": [
@@ -1937,7 +1937,7 @@
 		]
 	},
 	{
-		"name": "Maze",
+		"name": "Maze", "guid": "01b06674-5016-4fd7-967d-d476794a2799",
 		"level": 8,
 		"school": "Conjuration",
 		"sources": [
@@ -1946,7 +1946,7 @@
 		]
 	},
 	{
-		"name": "Meld into Stone",
+		"name": "Meld into Stone", "guid": "ec369523-be46-4ee0-9007-420399c8082b",
 		"level": 3,
 		"school": "Transmutation",
 		"tags": ["Ritual"],
@@ -1956,7 +1956,7 @@
 		]
 	},
 	{
-		"name": "Melf's Acid Arrow",
+		"name": "Melf's Acid Arrow", "guid": "34f7d468-5fd6-4a0a-88e8-939a05c168dc",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -1965,7 +1965,7 @@
 		]
 	},
 	{
-		"name": "Mending",
+		"name": "Mending", "guid": "3a67b724-3e81-4449-8dc8-d3862e8e0288",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -1974,7 +1974,7 @@
 		]
 	},
 	{
-		"name": "Message",
+		"name": "Message", "guid": "71c01f31-d9b0-4389-a389-90b3ec046344",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -1983,7 +1983,7 @@
 		]
 	},
 	{
-		"name": "Meteor Swarm",
+		"name": "Meteor Swarm", "guid": "766f58c0-ed54-4123-a7e0-4dd326a15f52",
 		"level": 9,
 		"school": "Evocation",
 		"sources": [
@@ -1992,7 +1992,7 @@
 		]
 	},
 	{
-		"name": "Mind Blank",
+		"name": "Mind Blank", "guid": "5b4ccc59-3daa-4fee-93b5-44565c2a70b9",
 		"level": 8,
 		"school": "Abjuration",
 		"sources": [
@@ -2000,7 +2000,7 @@
 		]
 	},
 	{
-		"name": "Minor Illusion",
+		"name": "Minor Illusion", "guid": "c82b0434-bf56-4b40-acea-a74e47f03e24",
 		"level": 0,
 		"school": "Illusion",
 		"sources": [
@@ -2009,7 +2009,7 @@
 		]
 	},
 	{
-		"name": "Mirage Arcane",
+		"name": "Mirage Arcane", "guid": "ba5d3ad5-2f09-49da-94ab-2f34ebc5255c",
 		"level": 7,
 		"school": "Illusion",
 		"sources": [
@@ -2017,7 +2017,7 @@
 		]
 	},
 	{
-		"name": "Mirror Image",
+		"name": "Mirror Image", "guid": "6bdafa8e-5028-446d-a507-9cc57d47346b",
 		"level": 2,
 		"school": "Illusion",
 		"sources": [
@@ -2027,7 +2027,7 @@
 		]
 	},
 	{
-		"name": "Mislead",
+		"name": "Mislead", "guid": "c59fa1a6-8404-45d0-bc22-d44b06db3f69",
 		"level": 5,
 		"school": "Illusion",
 		"sources": [
@@ -2036,7 +2036,7 @@
 		]
 	},
 	{
-		"name": "Misty Step",
+		"name": "Misty Step", "guid": "40599d9f-7223-4456-8a00-14b67e4cafbc",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -2045,7 +2045,7 @@
 		]
 	},
 	{
-		"name": "Modify Memory",
+		"name": "Modify Memory", "guid": "d5597a81-5fb5-427a-aa24-5c361d612382",
 		"level": 5,
 		"school": "Enchantment",
 		"sources": [
@@ -2053,7 +2053,7 @@
 		]
 	},
 	{
-		"name": "Moonbeam",
+		"name": "Moonbeam", "guid": "f59b48d3-7e7b-485d-83c7-eb6a26aa6494",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -2061,7 +2061,7 @@
 		]
 	},
 	{
-		"name": "Mordenkainen's Faithful Hound",
+		"name": "Mordenkainen's Faithful Hound", "guid": "2ec32aed-5794-4973-ae2b-89ed1ab98938",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -2069,7 +2069,7 @@
 		]
 	},
 	{
-		"name": "Mordenkainen's Magnificent Mansion",
+		"name": "Mordenkainen's Magnificent Mansion", "guid": "e5cf35a1-5300-49a2-a3cd-3ca9fafc0e03",
 		"level": 7,
 		"school": "Conjuration",
 		"sources": [
@@ -2077,7 +2077,7 @@
 		]
 	},
 	{
-		"name": "Mordenkainen's Private Sanctum",
+		"name": "Mordenkainen's Private Sanctum", "guid": "bad05b64-d5c9-4197-ace6-3e699a69ee91",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -2085,7 +2085,7 @@
 		]
 	},
 	{
-		"name": "Mordenkainen's Sword",
+		"name": "Mordenkainen's Sword", "guid": "eaea35f7-5d61-484e-a5f5-95194ec514e7",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -2094,7 +2094,7 @@
 		]
 	},
 	{
-		"name": "Move Earth",
+		"name": "Move Earth", "guid": "fcdf04c6-24fd-4099-818d-db3b6e28ab9b",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -2103,7 +2103,7 @@
 		]
 	},
 	{
-		"name": "Nondetection",
+		"name": "Nondetection", "guid": "679e3c55-d8c6-4380-b217-a69c651b3786",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -2112,7 +2112,7 @@
 		]
 	},
 	{
-		"name": "Nystul's Magic Aura",
+		"name": "Nystul's Magic Aura", "guid": "d3690f9c-c000-4a74-8aed-04ea0647dba5",
 		"level": 2,
 		"school": "Illusion",
 		"sources": [
@@ -2120,7 +2120,7 @@
 		]
 	},
 	{
-		"name": "Otiluke's Freezing Sphere",
+		"name": "Otiluke's Freezing Sphere", "guid": "c8f81635-8fcd-429c-ae67-23cd991c808c",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -2128,7 +2128,7 @@
 		]
 	},
 	{
-		"name": "Otiluke's Resilient Sphere",
+		"name": "Otiluke's Resilient Sphere", "guid": "08b78499-6c41-45ef-a8e0-fedf3c27bbaf",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -2136,7 +2136,7 @@
 		]
 	},
 	{
-		"name": "Otto's Irresistible Dance",
+		"name": "Otto's Irresistible Dance", "guid": "38f8e56e-06c6-4e20-8cb6-bccd6bb4e0fd",
 		"level": 6,
 		"school": "Enchantment",
 		"sources": [
@@ -2145,7 +2145,7 @@
 		]
 	},
 	{
-		"name": "Pass without Trace",
+		"name": "Pass without Trace", "guid": "cc6882f7-5435-4ad7-81a4-5f557ddd4e40",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -2153,7 +2153,7 @@
 		]
 	},
 	{
-		"name": "Passwall",
+		"name": "Passwall", "guid": "e344f113-b814-447f-a0ef-733003bf3a56",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -2162,7 +2162,7 @@
 		]
 	},
 	{
-		"name": "Phantasmal Force",
+		"name": "Phantasmal Force", "guid": "78faf0ce-013a-4fb8-b932-c7f84f0515ff",
 		"level": 2,
 		"school": "Illusion",
 		"sources": [
@@ -2172,7 +2172,7 @@
 		]
 	},
 	{
-		"name": "Phantasmal Killer",
+		"name": "Phantasmal Killer", "guid": "77f98c17-c386-4664-8738-2b4aa9ac425f",
 		"level": 4,
 		"school": "Illusion",
 		"sources": [
@@ -2181,7 +2181,7 @@
 		]
 	},
 	{
-		"name": "Phantom Steed",
+		"name": "Phantom Steed", "guid": "20b200bd-d679-4e67-871c-d7eeca89d48e",
 		"level": 3,
 		"school": "Illusion",
 		"tags": ["Ritual"],
@@ -2190,7 +2190,7 @@
 		]
 	},
 	{
-		"name": "Planar Ally",
+		"name": "Planar Ally", "guid": "82a47f03-5a6a-4d19-8c07-50a04543556f",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -2198,7 +2198,7 @@
 		]
 	},
 	{
-		"name": "Planar Binding",
+		"name": "Planar Binding", "guid": "0ef90a6b-2504-404f-b73d-8fafe313910d",
 		"level": 5,
 		"school": "Abjuration",
 		"sources": [
@@ -2206,7 +2206,7 @@
 		]
 	},
 	{
-		"name": "Plane Shift",
+		"name": "Plane Shift", "guid": "ef3942ec-364e-4820-bae7-471c6f5b383c",
 		"level": 7,
 		"school": "Conjuration",
 		"sources": [
@@ -2215,7 +2215,7 @@
 		]
 	},
 	{
-		"name": "Plant Growth",
+		"name": "Plant Growth", "guid": "c63c94d9-2148-4ec3-9961-fb62fa6c3066",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -2225,7 +2225,7 @@
 		]
 	},
 	{
-		"name": "Poison Spray",
+		"name": "Poison Spray", "guid": "45f5a3f1-8680-4f44-973d-fc8f3e07c32b",
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
@@ -2234,7 +2234,7 @@
 		]
 	},
 	{
-		"name": "Polymorph",
+		"name": "Polymorph", "guid": "4c94ce74-d13d-4285-9af4-1c1e0c828d4e",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -2243,7 +2243,7 @@
 		]
 	},
 	{
-		"name": "Power Word Heal",
+		"name": "Power Word Heal", "guid": "48ad363a-ffdc-49d9-89ab-a3b530bbad4c",
 		"level": 9,
 		"school": "Evocation",
 		"sources": [
@@ -2251,7 +2251,7 @@
 		]
 	},
 	{
-		"name": "Power Word Kill",
+		"name": "Power Word Kill", "guid": "27a3a9f1-7ea0-4334-a4c1-55f509662656",
 		"level": 9,
 		"school": "Enchantment",
 		"sources": [
@@ -2260,7 +2260,7 @@
 		]
 	},
 	{
-		"name": "Power Word Stun",
+		"name": "Power Word Stun", "guid": "b2094d14-f8cd-49c4-91b3-7efc809ea398",
 		"level": 8,
 		"school": "Enchantment",
 		"sources": [
@@ -2269,7 +2269,7 @@
 		]
 	},
 	{
-		"name": "Prayer of Healing",
+		"name": "Prayer of Healing", "guid": "8f4c8111-607f-48ec-b4d5-4b0c898f02a9",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -2278,7 +2278,7 @@
 		]
 	},
 	{
-		"name": "Prestidigitation",
+		"name": "Prestidigitation", "guid": "10622381-6f6d-4288-a7c9-50655c3354b6",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -2287,7 +2287,7 @@
 		]
 	},
 	{
-		"name": "Prismatic Spray",
+		"name": "Prismatic Spray", "guid": "d7566aaf-9fe4-4279-93a1-36e238b0d61d",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
@@ -2295,7 +2295,7 @@
 		]
 	},
 	{
-		"name": "Prismatic Wall",
+		"name": "Prismatic Wall", "guid": "62bc10d9-f9eb-44ac-9564-7b18fbae5322",
 		"level": 9,
 		"school": "Abjuration",
 		"sources": [
@@ -2303,7 +2303,7 @@
 		]
 	},
 	{
-		"name": "Produce Flame",
+		"name": "Produce Flame", "guid": "e0b5f9e1-31c4-4529-bd02-b979420ad8b9",
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
@@ -2312,7 +2312,7 @@
 		]
 	},
 	{
-		"name": "Programmed Illusion",
+		"name": "Programmed Illusion", "guid": "099a42db-1bed-4c1f-95f5-f858d0ee4754",
 		"level": 6,
 		"school": "Illusion",
 		"sources": [
@@ -2320,7 +2320,7 @@
 		]
 	},
 	{
-		"name": "Project Image",
+		"name": "Project Image", "guid": "79dad6d0-bbc2-4e4d-ac0e-8ff5d111ab78",
 		"level": 7,
 		"school": "Illusion",
 		"sources": [
@@ -2328,7 +2328,7 @@
 		]
 	},
 	{
-		"name": "Protection from Energy",
+		"name": "Protection from Energy", "guid": "86114138-689b-4779-bc75-809bb99cec01",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -2337,7 +2337,7 @@
 		]
 	},
 	{
-		"name": "Protection from Evil and Good",
+		"name": "Protection from Evil and Good", "guid": "85e925e3-3c74-4770-bb43-17c8255b8d83",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -2345,7 +2345,7 @@
 		]
 	},
 	{
-		"name": "Protection from Poison",
+		"name": "Protection from Poison", "guid": "30e11b3f-1b97-42b7-9bfc-dc1882117272",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -2353,7 +2353,7 @@
 		]
 	},
 	{
-		"name": "Purify Food and Drink",
+		"name": "Purify Food and Drink", "guid": "3675b2c4-4f8a-4e04-b6e8-fd0a12357593",
 		"level": 1,
 		"school": "Transmutation",
 		"tags": ["Ritual"],
@@ -2362,7 +2362,7 @@
 		]
 	},
 	{
-		"name": "Raise Dead",
+		"name": "Raise Dead", "guid": "02839859-5fc5-4b9b-a52c-f0176223cab5",
 		"level": 5,
 		"school": "Necromancy",
 		"sources": [
@@ -2371,7 +2371,7 @@
 		]
 	},
 	{
-		"name": "Rary's Telepathic Bond",
+		"name": "Rary's Telepathic Bond", "guid": "4bb4f5e9-874d-45b3-8e0d-229edb2b314b",
 		"level": 5,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -2380,7 +2380,7 @@
 		]
 	},
 	{
-		"name": "Ray of Enfeeblement",
+		"name": "Ray of Enfeeblement", "guid": "07523a30-f6c6-40ee-9aac-8729533beb7c",
 		"level": 2,
 		"school": "Necromancy",
 		"sources": [
@@ -2388,7 +2388,7 @@
 		]
 	},
 	{
-		"name": "Ray of Frost",
+		"name": "Ray of Frost", "guid": "d859f044-aa3a-466d-98cf-4c844736bf90",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -2397,7 +2397,7 @@
 		]
 	},
 	{
-		"name": "Ray of Sickness",
+		"name": "Ray of Sickness", "guid": "942a81a2-72e9-444a-b9ab-1c3eecd07cc8",
 		"level": 1,
 		"school": "Necromancy",
 		"sources": [
@@ -2405,7 +2405,7 @@
 		]
 	},
 	{
-		"name": "Regenerate",
+		"name": "Regenerate", "guid": "070b2378-2ed1-47b4-87b8-3d0d217c0832",
 		"level": 7,
 		"school": "Transmutation",
 		"sources": [
@@ -2414,7 +2414,7 @@
 		]
 	},
 	{
-		"name": "Reincarnate",
+		"name": "Reincarnate", "guid": "769fd5d4-7eab-4855-88f4-a8a40260c7ef",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -2422,7 +2422,7 @@
 		]
 	},
 	{
-		"name": "Remove Curse",
+		"name": "Remove Curse", "guid": "6205b913-f186-4e5e-b7c0-d18b7474cb69",
 		"level": 3,
 		"school": "Abjuration",
 		"sources": [
@@ -2431,7 +2431,7 @@
 		]
 	},
 	{
-		"name": "Resistance",
+		"name": "Resistance", "guid": "dc074a89-3778-48bf-a195-0b61b298497d",
 		"level": 0,
 		"school": "Abjuration",
 		"sources": [
@@ -2440,7 +2440,7 @@
 		]
 	},
 	{
-		"name": "Resurrection",
+		"name": "Resurrection", "guid": "af1a9b6a-230a-44e7-88ae-87e5699dbbb7",
 		"level": 7,
 		"school": "Necromancy",
 		"sources": [
@@ -2449,7 +2449,7 @@
 		]
 	},
 	{
-		"name": "Reverse Gravity",
+		"name": "Reverse Gravity", "guid": "3a791ff7-76ac-4444-ad73-4b8807a95837",
 		"level": 7,
 		"school": "Transmutation",
 		"sources": [
@@ -2457,7 +2457,7 @@
 		]
 	},
 	{
-		"name": "Revivify",
+		"name": "Revivify", "guid": "e6013ef7-9c00-4b35-b2ba-bd0e7aa5cb9a",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -2466,7 +2466,7 @@
 		]
 	},
 	{
-		"name": "Rope Trick",
+		"name": "Rope Trick", "guid": "e77b667f-22fb-4746-828d-e1013f6a651e",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -2474,7 +2474,7 @@
 		]
 	},
 	{
-		"name": "Sacred Flame",
+		"name": "Sacred Flame", "guid": "6c174a8d-d45d-4974-9468-cc753fe42d59",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -2483,7 +2483,7 @@
 		]
 	},
 	{
-		"name": "Sanctuary",
+		"name": "Sanctuary", "guid": "61def476-1788-43be-9708-65b7b9753d6b",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -2492,7 +2492,7 @@
 		]
 	},
 	{
-		"name": "Scorching Ray",
+		"name": "Scorching Ray", "guid": "b8c2e226-0da7-4e41-a142-41e23054f9cd",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -2502,7 +2502,7 @@
 		]
 	},
 	{
-		"name": "Scrying",
+		"name": "Scrying", "guid": "4cb6a33b-1819-4e82-b36d-cdbb0dd0ac81",
 		"level": 5,
 		"school": "Divination",
 		"sources": [
@@ -2511,7 +2511,7 @@
 		]
 	},
 	{
-		"name": "Searing Flame",
+		"name": "Searing Flame", "guid": "834cbee3-ef0d-4326-8036-b5f9ea41a607",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -2519,7 +2519,7 @@
 		]
 	},
 	{
-		"name": "See Invisibility",
+		"name": "See Invisibility", "guid": "99808efd-595f-424d-97ee-f23666fb3bb7",
 		"level": 2,
 		"school": "Divination",
 		"sources": [
@@ -2527,7 +2527,7 @@
 		]
 	},
 	{
-		"name": "Seeming",
+		"name": "Seeming", "guid": "3f0bdd4d-1fbf-4f2c-935f-b55a065c48f8",
 		"level": 5,
 		"school": "Illusion",
 		"sources": [
@@ -2537,7 +2537,7 @@
 		]
 	},
 	{
-		"name": "Sending",
+		"name": "Sending", "guid": "95aeb4ba-a141-4b68-af5c-0762cbf18a12",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -2547,7 +2547,7 @@
 		]
 	},
 	{
-		"name": "Sequester",
+		"name": "Sequester", "guid": "2046bc14-5e85-4824-88c7-a226ee5af5ef",
 		"level": 7,
 		"school": "Transmutation",
 		"sources": [
@@ -2555,7 +2555,7 @@
 		]
 	},
 	{
-		"name": "Shapechange",
+		"name": "Shapechange", "guid": "3107a468-64b5-4dde-9e7a-b40437e4dab5",
 		"level": 9,
 		"school": "Transmutation",
 		"sources": [
@@ -2563,7 +2563,7 @@
 		]
 	},
 	{
-		"name": "Shatter",
+		"name": "Shatter", "guid": "5cd27e0f-4568-4f21-8344-a4895a3b48ae",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -2572,7 +2572,7 @@
 		]
 	},
 	{
-		"name": "Shield",
+		"name": "Shield", "guid": "4ef66f25-8748-4ce4-9d63-7c3a1cdb3c26",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -2581,7 +2581,7 @@
 		]
 	},
 	{
-		"name": "Shield of Faith",
+		"name": "Shield of Faith", "guid": "1eedd2eb-225b-41e1-9617-be18419b98e1",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -2590,7 +2590,7 @@
 		]
 	},
 	{
-		"name": "Shillelagh",
+		"name": "Shillelagh", "guid": "84e26207-a4c9-4f5e-9c2b-c3fe4a17e8bf",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -2599,7 +2599,7 @@
 		]
 	},
 	{
-		"name": "Shocking Grasp",
+		"name": "Shocking Grasp", "guid": "88dd3150-291b-4afc-bab1-803fd64e54a3",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -2608,7 +2608,7 @@
 		]
 	},
 	{
-		"name": "Silence",
+		"name": "Silence", "guid": "6e7ee931-d1fb-4b20-984c-b1b4387f76f3",
 		"level": 2,
 		"school": "Illusion",
 		"tags": ["Ritual"],
@@ -2618,7 +2618,7 @@
 		]
 	},
 	{
-		"name": "Silent Image",
+		"name": "Silent Image", "guid": "c0defd3e-3e54-42d0-9b64-06908ecad8c2",
 		"level": 1,
 		"school": "Illusion",
 		"sources": [
@@ -2627,7 +2627,7 @@
 		]
 	},
 	{
-		"name": "Simulacrum",
+		"name": "Simulacrum", "guid": "66573218-90e5-4128-8a4b-836c66e38a85",
 		"level": 7,
 		"school": "Illusion",
 		"sources": [
@@ -2635,7 +2635,7 @@
 		]
 	},
 	{
-		"name": "Sleep",
+		"name": "Sleep", "guid": "ebc9f25c-c20a-446c-b3d8-d6de1736bc1b",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -2644,7 +2644,7 @@
 		]
 	},
 	{
-		"name": "Sleet Storm",
+		"name": "Sleet Storm", "guid": "bbbe39b0-3b06-46e2-8d73-128c50048d2f",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -2654,7 +2654,7 @@
 		]
 	},
 	{
-		"name": "Slow",
+		"name": "Slow", "guid": "8112b9e2-4a67-4cec-b78c-a27900f4d6f4",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -2663,7 +2663,7 @@
 		]
 	},
 	{
-		"name": "Spare the Dying",
+		"name": "Spare the Dying", "guid": "e429693f-971f-4550-9495-41cb4c97cce5",
 		"level": 0,
 		"school": "Necromancy",
 		"sources": [
@@ -2672,7 +2672,7 @@
 		]
 	},
 	{
-		"name": "Speak with Animals",
+		"name": "Speak with Animals", "guid": "8c0e28b4-6432-4aa6-a4ed-8618c436a00c",
 		"level": 1,
 		"school": "Divination",
 		"tags": ["Ritual"],
@@ -2682,7 +2682,7 @@
 		]
 	},
 	{
-		"name": "Speak with Dead",
+		"name": "Speak with Dead", "guid": "683cc9fb-7599-45cc-bd93-383b88d2e5b9",
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
@@ -2691,7 +2691,7 @@
 		]
 	},
 	{
-		"name": "Speak with Plants",
+		"name": "Speak with Plants", "guid": "07ab9c5c-64ab-4aef-8489-800d551dfcf8",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -2699,7 +2699,7 @@
 		]
 	},
 	{
-		"name": "Spider Climb",
+		"name": "Spider Climb", "guid": "5e26ddb5-9f4e-4c32-8a5a-c49f63001ba6",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -2708,7 +2708,7 @@
 		]
 	},
 	{
-		"name": "Spike Growth",
+		"name": "Spike Growth", "guid": "40521147-8aae-4cdd-85a6-d6afba7f1680",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -2718,7 +2718,7 @@
 		]
 	},
 	{
-		"name": "Spirit Guardians",
+		"name": "Spirit Guardians", "guid": "eec12055-72a8-4427-8aa6-5e10506b87f4",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -2727,7 +2727,7 @@
 		]
 	},
 	{
-		"name": "Spiritual Weapon",
+		"name": "Spiritual Weapon", "guid": "41c15d3f-562e-4414-99c9-2eea74d1cfbc",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -2736,7 +2736,7 @@
 		]
 	},
 	{
-		"name": "Staggering Smite",
+		"name": "Staggering Smite", "guid": "9a395d7c-63ae-4bf1-bdea-7a2ca3aaecf5",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -2744,7 +2744,7 @@
 		]
 	},
 	{
-		"name": "Stinking Cloud",
+		"name": "Stinking Cloud", "guid": "1a10dfbb-5d4a-4035-9ccd-378a10e60bdc",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -2753,7 +2753,7 @@
 		]
 	},
 	{
-		"name": "Stone Shape",
+		"name": "Stone Shape", "guid": "d74307d2-36b2-4af8-a6a8-f712b0068fe9",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -2762,7 +2762,7 @@
 		]
 	},
 	{
-		"name": "Stoneskin",
+		"name": "Stoneskin", "guid": "e99a1f4c-986b-4eff-91d5-d67c6fca2249",
 		"level": 4,
 		"school": "Abjuration",
 		"sources": [
@@ -2771,7 +2771,7 @@
 		]
 	},
 	{
-		"name": "Storm of Vengeance",
+		"name": "Storm of Vengeance", "guid": "38f5bd8d-c85a-4e8e-baad-ad3e55c495c8",
 		"level": 9,
 		"school": "Conjuration",
 		"sources": [
@@ -2779,7 +2779,7 @@
 		]
 	},
 	{
-		"name": "Suggestion",
+		"name": "Suggestion", "guid": "43348323-d6d3-4ea7-b470-8b5fdf0d1ae5",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -2788,7 +2788,7 @@
 		]
 	},
 	{
-		"name": "Sunbeam",
+		"name": "Sunbeam", "guid": "75d1b5bf-0259-4809-94ef-ceec4ad1f827",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -2796,7 +2796,7 @@
 		]
 	},
 	{
-		"name": "Sunburst",
+		"name": "Sunburst", "guid": "dbee6f1a-8a7f-49e5-9318-aa30f511b1a7",
 		"level": 8,
 		"school": "Evocation",
 		"sources": [
@@ -2805,7 +2805,7 @@
 		]
 	},
 	{
-		"name": "Swift Quiver",
+		"name": "Swift Quiver", "guid": "98ab414f-a827-4aca-843d-4206b9da1228",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -2813,7 +2813,7 @@
 		]
 	},
 	{
-		"name": "Symbol",
+		"name": "Symbol", "guid": "906a9f3d-522a-40de-89ea-948ba9e3b965",
 		"level": 7,
 		"school": "Abjuration",
 		"sources": [
@@ -2821,7 +2821,7 @@
 		]
 	},
 	{
-		"name": "Tasha's Hideous Laughter",
+		"name": "Tasha's Hideous Laughter", "guid": "0880aaef-a5fc-4124-aa21-6ffeaa1d9023",
 		"level": 1,
 		"school": "Enchantment",
 		"sources": [
@@ -2829,7 +2829,7 @@
 		]
 	},
 	{
-		"name": "Telekinesis",
+		"name": "Telekinesis", "guid": "39d26f10-b62c-4a5b-93d6-bb2045434ddf",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -2838,7 +2838,7 @@
 		]
 	},
 	{
-		"name": "Telepathy",
+		"name": "Telepathy", "guid": "4bbc311e-adc1-466a-9bf3-9d265106bcbe",
 		"level": 8,
 		"school": "Evocation",
 		"sources": [
@@ -2846,7 +2846,7 @@
 		]
 	},
 	{
-		"name": "Teleport",
+		"name": "Teleport", "guid": "5b083ce2-3583-4de8-a47a-a87872cee736",
 		"level": 7,
 		"school": "Conjuration",
 		"sources": [
@@ -2855,7 +2855,7 @@
 		]
 	},
 	{
-		"name": "Teleportation Circle",
+		"name": "Teleportation Circle", "guid": "f3f76d30-f277-4745-9744-257bd401de44",
 		"level": 5,
 		"school": "Conjuration",
 		"sources": [
@@ -2863,7 +2863,7 @@
 		]
 	},
 	{
-		"name": "Tenser's Floating Disk",
+		"name": "Tenser's Floating Disk", "guid": "b4911323-ab1e-412f-8618-5f62615a74a6",
 		"level": 1,
 		"school": "Conjuration",
 		"tags": ["Ritual"],
@@ -2872,7 +2872,7 @@
 		]
 	},
 	{
-		"name": "Thaumaturgy",
+		"name": "Thaumaturgy", "guid": "22c9ac35-2959-4cde-8e4e-5d9118bd6ff3",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -2881,7 +2881,7 @@
 		]
 	},
 	{
-		"name": "Thorn Whip",
+		"name": "Thorn Whip", "guid": "e55d25d0-f607-4d67-b484-42bcdf9aef8c",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -2890,7 +2890,7 @@
 		]
 	},
 	{
-		"name": "Thunderous Smite",
+		"name": "Thunderous Smite", "guid": "df8d19ce-917b-4564-8ce0-09c76d2cfaf9",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -2898,7 +2898,7 @@
 		]
 	},
 	{
-		"name": "Thunderwave",
+		"name": "Thunderwave", "guid": "693371a9-f074-4bcc-a55b-2683a07d282f",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -2907,7 +2907,7 @@
 		]
 	},
 	{
-		"name": "Time Stop",
+		"name": "Time Stop", "guid": "0ba70824-282f-4016-a857-3b74aa5a4014",
 		"level": 9,
 		"school": "Transmutation",
 		"sources": [
@@ -2916,7 +2916,7 @@
 		]
 	},
 	{
-		"name": "Tongues",
+		"name": "Tongues", "guid": "fbc0a76c-21b7-41f5-b015-eaca85296010",
 		"level": 3,
 		"school": "Divination",
 		"sources": [
@@ -2925,7 +2925,7 @@
 		]
 	},
 	{
-		"name": "Transport via Plants",
+		"name": "Transport via Plants", "guid": "ca31e8ef-b69b-4d70-8fb7-f9aa688fecdc",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -2933,7 +2933,7 @@
 		]
 	},
 	{
-		"name": "Tree Stride",
+		"name": "Tree Stride", "guid": "979b00dc-f54b-4fe3-a0cd-c8a03405fd25",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -2941,7 +2941,7 @@
 		]
 	},
 	{
-		"name": "True Polymorph",
+		"name": "True Polymorph", "guid": "b8939e1d-6f3f-4669-8084-6b7a38ccd196",
 		"level": 9,
 		"school": "Transmutation",
 		"sources": [
@@ -2949,7 +2949,7 @@
 		]
 	},
 	{
-		"name": "True Resurrection",
+		"name": "True Resurrection", "guid": "21933674-1a5b-4541-afc2-9d1104859103",
 		"level": 9,
 		"school": "Necromancy",
 		"sources": [
@@ -2958,7 +2958,7 @@
 		]
 	},
 	{
-		"name": "True Seeing",
+		"name": "True Seeing", "guid": "ae50c38a-0869-4507-a0d2-a4b20565c2d6",
 		"level": 6,
 		"school": "Divination",
 		"sources": [
@@ -2967,7 +2967,7 @@
 		]
 	},
 	{
-		"name": "True Strike",
+		"name": "True Strike", "guid": "c07815d7-3efc-4424-9866-0c214a555211",
 		"level": 0,
 		"school": "Divination",
 		"sources": [
@@ -2975,7 +2975,7 @@
 		]
 	},
 	{
-		"name": "Tsunami",
+		"name": "Tsunami", "guid": "f9e4fd15-d348-4e4c-8c59-500e64dcbd78",
 		"level": 8,
 		"school": "Conjuration",
 		"sources": [
@@ -2983,7 +2983,7 @@
 		]
 	},
 	{
-		"name": "Unseen Servant",
+		"name": "Unseen Servant", "guid": "518ce930-6d0e-4036-b17d-db9e2d58c305",
 		"level": 1,
 		"school": "Conjuration",
 		"tags": ["Ritual"],
@@ -2992,7 +2992,7 @@
 		]
 	},
 	{
-		"name": "Vampiric Touch",
+		"name": "Vampiric Touch", "guid": "adff8138-47a1-4d05-97fa-e313bf4c1e3a",
 		"level": 3,
 		"school": "Necromancy",
 		"sources": [
@@ -3001,7 +3001,7 @@
 		]
 	},
 	{
-		"name": "Vicious Mockery",
+		"name": "Vicious Mockery", "guid": "b8e26b59-d890-47d2-a31d-30dc4111b725",
 		"level": 0,
 		"school": "Enchantment",
 		"sources": [
@@ -3010,7 +3010,7 @@
 		]
 	},
 	{
-		"name": "Wall of Fire",
+		"name": "Wall of Fire", "guid": "e80a370d-5fa8-4b3c-b376-d6cabfb2751b",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -3019,7 +3019,7 @@
 		]
 	},
 	{
-		"name": "Wall of Force",
+		"name": "Wall of Force", "guid": "89692c67-7a09-4b36-b5b3-75af30f51d2d",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -3027,7 +3027,7 @@
 		]
 	},
 	{
-		"name": "Wall of Ice",
+		"name": "Wall of Ice", "guid": "5bebfd10-45ce-4468-8782-d093805fb99b",
 		"level": 6,
 		"school": "Evocation",
 		"sources": [
@@ -3035,7 +3035,7 @@
 		]
 	},
 	{
-		"name": "Wall of Stone",
+		"name": "Wall of Stone", "guid": "12fe20fa-15ac-48d7-8d29-142b055b7244",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -3044,7 +3044,7 @@
 		]
 	},
 	{
-		"name": "Wall of Thorns",
+		"name": "Wall of Thorns", "guid": "e6c67d4c-dd4f-4048-beea-17ee9fa90cb4",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -3052,7 +3052,7 @@
 		]
 	},
 	{
-		"name": "Warding Bond",
+		"name": "Warding Bond", "guid": "3b79b6fb-ffe8-4d16-adfe-8ede151e497c",
 		"level": 2,
 		"school": "Abjuration",
 		"sources": [
@@ -3061,7 +3061,7 @@
 		]
 	},
 	{
-		"name": "Water Breathing",
+		"name": "Water Breathing", "guid": "a68f47e9-2e39-4de6-80bc-d1843e2d7c42",
 		"level": 3,
 		"school": "Transmutation",
 		"tags": ["Ritual"],
@@ -3071,7 +3071,7 @@
 		]
 	},
 	{
-		"name": "Water Walk",
+		"name": "Water Walk", "guid": "9fcd4116-14c3-44ac-a35c-feb16f258030",
 		"level": 3,
 		"school": "Transmutation",
 		"tags": ["Ritual"],
@@ -3081,7 +3081,7 @@
 		]
 	},
 	{
-		"name": "Web",
+		"name": "Web", "guid": "1a2da7cc-64f0-492c-a12d-b108469c3220",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -3090,7 +3090,7 @@
 		]
 	},
 	{
-		"name": "Weird",
+		"name": "Weird", "guid": "4da75d86-0a8f-459b-a850-5894b2a59f1f",
 		"level": 9,
 		"school": "Illusion",
 		"sources": [
@@ -3098,7 +3098,7 @@
 		]
 	},
 	{
-		"name": "Wind Walk",
+		"name": "Wind Walk", "guid": "e4fce2d8-6566-479c-a660-9f5e5d49a305",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3107,7 +3107,7 @@
 		]
 	},
 	{
-		"name": "Wind Wall",
+		"name": "Wind Wall", "guid": "a268063f-f4d8-442b-85b6-36523b1bb049",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -3115,7 +3115,7 @@
 		]
 	},
 	{
-		"name": "Wish",
+		"name": "Wish", "guid": "2cf5dcb7-607a-4a8c-b7d0-e4a03128bcc0",
 		"level": 9,
 		"school": "Conjuration",
 		"sources": [
@@ -3123,7 +3123,7 @@
 		]
 	},
 	{
-		"name": "Witch Bolt",
+		"name": "Witch Bolt", "guid": "0dda88f2-6693-4961-8fca-d2b679575544",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -3132,7 +3132,7 @@
 		]
 	},
 	{
-		"name": "Word of Recall",
+		"name": "Word of Recall", "guid": "d9358bdb-204d-4f14-af40-8de42d734208",
 		"level": 6,
 		"school": "Conjuration",
 		"sources": [
@@ -3140,7 +3140,7 @@
 		]
 	},
 	{
-		"name": "Wrathful Smite",
+		"name": "Wrathful Smite", "guid": "9aa2d555-a285-4828-9619-04b10b7383a1",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -3148,7 +3148,7 @@
 		]
 	},
 	{
-		"name": "Zone of Truth",
+		"name": "Zone of Truth", "guid": "0568638c-d4e7-4185-9c0d-204d1d0831c2",
 		"level": 2,
 		"school": "Enchantment",
 		"sources": [
@@ -3156,7 +3156,7 @@
 		]
 	},
 	{
-		"name": "Abi-Dalzim's Horrid Wilting",
+		"name": "Abi-Dalzim's Horrid Wilting", "guid": "d2898599-e0b1-4fcb-86cf-1de696b2c517",
 		"level": 8,
 		"school": "Necromancy",
 		"sources": [
@@ -3164,7 +3164,7 @@
 		]
 	},
 	{
-		"name": "Absorb Elements",
+		"name": "Absorb Elements", "guid": "39ed9eef-f4ca-4f84-8615-d44a1b56a7cf",
 		"level": 1,
 		"school": "Abjuration",
 		"sources": [
@@ -3172,7 +3172,7 @@
 		]
 	},
 	{
-		"name": "Aganazzar's Scorcher",
+		"name": "Aganazzar's Scorcher", "guid": "0f9421c3-bf85-43cf-be5c-5e7b059bd726",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -3180,7 +3180,7 @@
 		]
 	},
 	{
-		"name": "Beast Bond",
+		"name": "Beast Bond", "guid": "da6b287b-0010-4cd4-9114-07e1e4f49cf2",
 		"level": 1,
 		"school": "Divination",
 		"sources": [
@@ -3188,7 +3188,7 @@
 		]
 	},
 	{
-		"name": "Bones of the Earth",
+		"name": "Bones of the Earth", "guid": "b7c4c72d-c638-4183-9371-c298df86e1b9",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3196,7 +3196,7 @@
 		]
 	},
 	{
-		"name": "Catapult",
+		"name": "Catapult", "guid": "290c2258-91cc-4cc4-8c9c-f1c9ea7a5b21",
 		"level": 1,
 		"school": "Transmutation",
 		"sources": [
@@ -3204,7 +3204,7 @@
 		]
 	},
 	{
-		"name": "Control Flames",
+		"name": "Control Flames", "guid": "1144800d-e8de-4eb6-974f-043306a922d7",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -3212,7 +3212,7 @@
 		]
 	},
 	{
-		"name": "Control Winds",
+		"name": "Control Winds", "guid": "a10f7761-ad1e-4622-b34f-ab6268d9b5de",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -3220,7 +3220,7 @@
 		]
 	},
 	{
-		"name": "Create Bonfire",
+		"name": "Create Bonfire", "guid": "46f6e34f-28ab-49ee-abeb-22ec64bb0451",
 		"level": 0,
 		"school": "Conjuration",
 		"sources": [
@@ -3228,7 +3228,7 @@
 		]
 	},
 	{
-		"name": "Dust Devil",
+		"name": "Dust Devil", "guid": "75a37e88-53ae-49fa-bc0d-58bc89a9b0ee",
 		"level": 2,
 		"school": "Conjuration",
 		"sources": [
@@ -3236,7 +3236,7 @@
 		]
 	},
 	{
-		"name": "Earth Tremor",
+		"name": "Earth Tremor", "guid": "07c6f1dc-b474-4a6b-871e-3fd110e2fc67",
 		"level": 1,
 		"school": "Evocation",
 		"sources": [
@@ -3244,7 +3244,7 @@
 		]
 	},
 	{
-		"name": "Earthbind",
+		"name": "Earthbind", "guid": "d5cd0bec-3c35-4a1d-a24d-4a28db7c7331",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -3252,7 +3252,7 @@
 		]
 	},
 	{
-		"name": "Elemental Bane",
+		"name": "Elemental Bane", "guid": "acd695bb-77d3-47d9-a66c-0f89c87db63d",
 		"level": 4,
 		"school": "Transmutation",
 		"sources": [
@@ -3260,7 +3260,7 @@
 		]
 	},
 	{
-		"name": "Erupting Earth",
+		"name": "Erupting Earth", "guid": "6f700a7b-238e-44e6-a8eb-17d1629ff996",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -3268,7 +3268,7 @@
 		]
 	},
 	{
-		"name": "Flame Arrows",
+		"name": "Flame Arrows", "guid": "0dd5a7a1-7fcc-4319-a904-af4d02a8d016",
 		"level": 3,
 		"school": "Transmutation",
 		"sources": [
@@ -3276,7 +3276,7 @@
 		]
 	},
 	{
-		"name": "Frostbite",
+		"name": "Frostbite", "guid": "5aa3b3e5-b6d2-45e6-991d-7a6305b02c97",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -3284,7 +3284,7 @@
 		]
 	},
 	{
-		"name": "Gust",
+		"name": "Gust", "guid": "01e30c2e-8c9f-4128-b08c-b457cc61d367",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -3292,7 +3292,7 @@
 		]
 	},
 	{
-		"name": "Ice Knife",
+		"name": "Ice Knife", "guid": "874190b4-1bd1-4996-8523-612774554e1a",
 		"level": 1,
 		"school": "Conjuration",
 		"sources": [
@@ -3300,7 +3300,7 @@
 		]
 	},
 	{
-		"name": "Immolation",
+		"name": "Immolation", "guid": "dc1278a5-adbc-4dd7-9306-703e82431c0d",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -3308,7 +3308,7 @@
 		]
 	},
 	{
-		"name": "Investiture of Flame",
+		"name": "Investiture of Flame", "guid": "abd61d49-b75c-4fbe-8902-e8c94a011c26",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3316,7 +3316,7 @@
 		]
 	},
 	{
-		"name": "Investiture of Ice",
+		"name": "Investiture of Ice", "guid": "37006d79-3c5f-4255-bcc0-a5655e7debef",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3324,7 +3324,7 @@
 		]
 	},
 	{
-		"name": "Investiture of Stone",
+		"name": "Investiture of Stone", "guid": "7a4cc23b-5b5c-407a-88b5-7ec5da7e18cf",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3332,7 +3332,7 @@
 		]
 	},
 	{
-		"name": "Investiture of Wind",
+		"name": "Investiture of Wind", "guid": "bb121ff9-1151-4b5c-a77c-6609a0fb3b8d",
 		"level": 6,
 		"school": "Transmutation",
 		"sources": [
@@ -3340,7 +3340,7 @@
 		]
 	},
 	{
-		"name": "Maelstrom",
+		"name": "Maelstrom", "guid": "d44fcee8-20c3-49ca-9098-45b29818e182",
 		"level": 5,
 		"school": "Evocation",
 		"sources": [
@@ -3348,7 +3348,7 @@
 		]
 	},
 	{
-		"name": "Magic Stone",
+		"name": "Magic Stone", "guid": "1aecdf1d-614b-4557-998e-42a0c7c104e7",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -3356,7 +3356,7 @@
 		]
 	},
 	{
-		"name": "Maximilian's Earthen Grasp",
+		"name": "Maximilian's Earthen Grasp", "guid": "4162ff3e-a358-40e8-b22f-9459a7ed4bfd",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -3364,7 +3364,7 @@
 		]
 	},
 	{
-		"name": "Melf's Minute Meteors",
+		"name": "Melf's Minute Meteors", "guid": "3edfb6d9-f86f-4a14-812c-ba80d1a351f9",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -3372,7 +3372,7 @@
 		]
 	},
 	{
-		"name": "Mold Earth",
+		"name": "Mold Earth", "guid": "29f6eac9-5aec-475e-b165-2fa7cb143734",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -3380,7 +3380,7 @@
 		]
 	},
 	{
-		"name": "Primordial Ward",
+		"name": "Primordial Ward", "guid": "f667f38a-d2ab-4bf5-b96a-07e046fe07ae",
 		"level": 6,
 		"school": "Abjuration",
 		"sources": [
@@ -3388,7 +3388,7 @@
 		]
 	},
 	{
-		"name": "Pyrotechnics",
+		"name": "Pyrotechnics", "guid": "73477bef-5931-40c2-8957-1710f459f2e5",
 		"level": 2,
 		"school": "Transmutation",
 		"sources": [
@@ -3396,7 +3396,7 @@
 		]
 	},
 	{
-		"name": "Shape Water",
+		"name": "Shape Water", "guid": "13f2aacc-aee1-48d7-bf35-8d489826ab1e",
 		"level": 0,
 		"school": "Transmutation",
 		"sources": [
@@ -3404,7 +3404,7 @@
 		]
 	},
 	{
-		"name": "Skywrite",
+		"name": "Skywrite", "guid": "a6c0582d-44c3-4d6c-9703-3cdd8a552d87",
 		"level": 2,
 		"school": "Transmutation",
 		"tags": ["Ritual"],
@@ -3413,7 +3413,7 @@
 		]
 	},
 	{
-		"name": "Snilloc's Snowball Swarm",
+		"name": "Snilloc's Snowball Swarm", "guid": "32bad91d-d2c5-484c-9982-c05e71971733",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -3421,7 +3421,7 @@
 		]
 	},
 	{
-		"name": "Storm Sphere",
+		"name": "Storm Sphere", "guid": "5f5b87d5-3c1a-470e-a1b6-3a0aecbc3fdf",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -3429,7 +3429,7 @@
 		]
 	},
 	{
-		"name": "Thunderclap",
+		"name": "Thunderclap", "guid": "45c434e6-d7fc-4054-beb9-afce951fe4da",
 		"level": 0,
 		"school": "Evocation",
 		"sources": [
@@ -3437,7 +3437,7 @@
 		]
 	},
 	{
-		"name": "Tidal Wave",
+		"name": "Tidal Wave", "guid": "fdae31e0-b133-41e3-99c1-ae021a4ef96d",
 		"level": 3,
 		"school": "Conjuration",
 		"sources": [
@@ -3445,7 +3445,7 @@
 		]
 	},
 	{
-		"name": "Transmute Rock",
+		"name": "Transmute Rock", "guid": "fa0f50e3-d1fa-480f-a6e0-9d1e5a561a63",
 		"level": 5,
 		"school": "Transmutation",
 		"sources": [
@@ -3453,7 +3453,7 @@
 		]
 	},
 	{
-		"name": "Vitriolic Sphere",
+		"name": "Vitriolic Sphere", "guid": "a7eabe67-455e-4dbf-a09b-ace09aec6ab4",
 		"level": 4,
 		"school": "Evocation",
 		"sources": [
@@ -3461,7 +3461,7 @@
 		]
 	},
 	{
-		"name": "Wall of Sand",
+		"name": "Wall of Sand", "guid": "bd0edac4-e2ed-4a45-a8c2-b8a2506890ac",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -3469,7 +3469,7 @@
 		]
 	},
 	{
-		"name": "Wall of Water",
+		"name": "Wall of Water", "guid": "c26e792d-cb57-46f9-ad5f-40e9f46496a3",
 		"level": 3,
 		"school": "Evocation",
 		"sources": [
@@ -3477,7 +3477,7 @@
 		]
 	},
 	{
-		"name": "Warding Wind",
+		"name": "Warding Wind", "guid": "b1dc8240-7825-46e2-b3a7-c7ca39376924",
 		"level": 2,
 		"school": "Evocation",
 		"sources": [
@@ -3485,7 +3485,7 @@
 		]
 	},
 	{
-		"name": "Watery Sphere",
+		"name": "Watery Sphere", "guid": "636b61ea-3636-40f9-a0d1-067cae9bceb3",
 		"level": 4,
 		"school": "Conjuration",
 		"sources": [
@@ -3493,11 +3493,100 @@
 		]
 	},
 	{
-		"name": "Whirlwind",
+		"name": "Whirlwind", "guid": "19f31d85-ffea-4402-a7ea-723b733688b9",
 		"level": 7,
 		"school": "Evocation",
 		"sources": [
 			{ "name": "Elemental Evil Player's Companion", "page": 24 }
+		]
+	},
+	{
+		"name": "Droplets of Invigoration", "guid": "3945c247-0b83-4b4a-8022-8b6a44d36ec9",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 3, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Guardian of the Living", "guid": "3e18ddc4-f8b6-4fcc-b7d2-77ca4f6cd8c7",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 4, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Halo of Rejuvenation", "guid": "b894eb13-0d5e-4398-9186-86796edf13a9",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 4, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Life Seed", "guid": "e038d650-b107-4c95-942f-b06d55aaa64a",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 4, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Nature’s Ward", "guid": "b882ef51-c35d-4232-abe8-341f4a0da79f",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 4, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Regrowth", "guid": "84c6f977-674f-4090-8026-8cd2a7ffe3e3",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 4, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Shield of Honor", "guid": "bfa0a87f-c3d0-42b4-acbe-b64574eb7746",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Suppress Pain", "guid": "47fa99dc-17ab-434c-830a-2e057764ca60",
+		"level": 1,
+		"school": "Abjuration",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Strands of Life", "guid": "0547330e-81dc-4c67-89ff-4cc5165aac7b",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Virtue", "guid": "b2ea9c8f-360f-40d3-889c-90c34040fc76",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Warrior’s Blessing", "guid": "0e1ca5ed-debe-417c-aa8d-56ceebeee619",
+		"level": 3,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
 		]
 	}
 ]

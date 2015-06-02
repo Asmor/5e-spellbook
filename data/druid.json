@@ -142,11 +142,17 @@
 		"Watery Sphere",
 		"Whirlwind",
 		"Wind Walk",
-		"Wind Wall"
+		"Wind Wall",
+		"Nature’s Ward",
+		"Regrowth",
+		"Halo of Rejuvenation",
+		"Life Seed",
+		"Guardian of the Living"
 	],
+	"longNames": true,
 	"subClasses": [
 		{
-			"name": "Arctic",
+			"name": "Circle of the Land (Arctic)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -159,7 +165,7 @@
 			]
 		},
 		{
-			"name": "Coast",
+			"name": "Circle of the Land (Coast)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -172,7 +178,7 @@
 			]
 		},
 		{
-			"name": "Desert",
+			"name": "Circle of the Land (Desert)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -185,7 +191,7 @@
 			]
 		},
 		{
-			"name": "Forest",
+			"name": "Circle of the Land (Forest)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -198,7 +204,7 @@
 			]
 		},
 		{
-			"name": "Grassland",
+			"name": "Circle of the Land (Grassland)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -211,7 +217,7 @@
 			]
 		},
 		{
-			"name": "Mountain",
+			"name": "Circle of the Land (Mountain)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -224,7 +230,7 @@
 			]
 		},
 		{
-			"name": "Swamp",
+			"name": "Circle of the Land (Swamp)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -237,7 +243,7 @@
 			]
 		},
 		{
-			"name": "Underdark",
+			"name": "Circle of the Land (Underdark)",
 			"spells": [
 				"Commune with Nature",
 				"Cone of Cold",
@@ -248,6 +254,114 @@
 				"Slow",
 				"Spike Growth"
 			]
+		},
+		{
+			"name": "Circle of Elements (Air)",
+			"spells": [
+				"Gust of Wind",
+				"Warding Wind",
+				"Dust Devil",
+				"Wind Wall",
+				"Freedom of Movement",
+				"Storm Sphere",
+				"Cloudkill",
+				"Control Winds"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
+		},
+		{
+			"name": "Circle of Elements (Earth)",
+			"spells": [
+				"Earthbind",
+				"Earth Tremor",
+				"Erupting Earth",
+				"Meld into Stone",
+				"Stone Shape",
+				"Stone Skin",
+				"Pass Wall",
+				"Transmute Rock"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
+		},
+		{
+			"name": "Circle of Elements (Fire)",
+			"spells": [
+				"Flaming Sphere",
+				"Pyrotechnics",
+				"Fireball",
+				"Flame Arrows",
+				"Fire Shield",
+				"Wall of Fire",
+				"Flame Strike",
+				"Immolation"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
+		},
+		{
+			"name": "Circle of Elements (Water)",
+			"spells": [
+				"Fog Cloud",
+				"Ice Knife",
+				"Tidal Wave",
+				"Wall of Water",
+				"Control Water",
+				"Watery Sphere",
+				"Ice Storm",
+				"Maelstrom"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
+		},
+		{
+			"name": "Circle of Elements (All Elements)",
+			"spells": [
+				"Absorb Elements",
+				"Sky Write",
+				"Elemental Weapon",
+				"Gaseous Form",
+				"Conjure Minor Elementals",
+				"Freedom of Movement",
+				"Elemental Bane",
+				"Conjure Elemental"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
+		},
+		{
+			"name": "Circle of Life",
+			"spells": [
+				"Lesser Restoration",
+				"Healing Word",
+				"Beacon of Hope",
+				"Revivify",
+				"Death Ward",
+				"Mass Healing Word",
+				"Mass Cure Wounds",
+				"Raise Dead"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Circles of Power",
+				"url": "https://www.patreon.com/creation?hid=1973600"
+			}
 		}
 	]
 }

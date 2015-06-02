@@ -26,12 +26,19 @@
 					ng-if="class.subClasses.length"
 					ng-class="{ 'filters--sub-class-container__hidden': spells.filters.className.indexOf(class.name) == -1 }"
 				>
-					<ul class="filters--sub-class-list">
+					<ul
+						class="filters--sub-class-list"
+						ng-class="{'filters--sub-class-list__long-names': class.longNames}"
+					>
 						<li ng-repeat="subClass in class.subClasses">
 							<label>
 								<input type="radio" ng-model="spells.filters.className" value="{{ class.name }}:{{ subClass.name }}">
 								{{ subClass.name }}
 							</label>
+							<source-link
+								ng-if="subClass.source"
+								source="subClass.source"
+							></source-link>
 						</li>
 					</ul>
 

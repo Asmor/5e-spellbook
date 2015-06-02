@@ -17,8 +17,6 @@ $number-filters: 2;
 	.filters--sub-class-container {
 		margin-left: 10px;
 		display: block;
-		max-height: 100px;
-		transition: max-height 0.5s;
 		overflow: hidden;
 
 		> li {
@@ -29,9 +27,14 @@ $number-filters: 2;
 		&__hidden {
 			max-height: 0;
 		}
+
 	}
 
 	.filters--sub-class-list {
 		@include columns(2);
+
+		&__long-names {
+			@include columns(1);
+		}
 	}
 }

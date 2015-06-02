@@ -280,6 +280,11 @@ angular.module("spells", [])
 		}
 
 		if ( f.className ) {
+			if ( !classService.classesBySpell[spell.name] ) {
+				console.warn("No classes have", spell.name);
+				return false;
+			}
+
 			for ( i = 0; i < checkClasses.length; i++ ) {
 				if ( classService.classesBySpell[spell.name].indexOf(checkClasses[i]) > -1 ) {
 					return true;
