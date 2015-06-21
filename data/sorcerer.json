@@ -181,6 +181,25 @@
 				"name": "Waterborne Adventures",
 				"url": "http://dnd.wizards.com/articles/features/unearthed-arcana-waterborne-adventures"
 			}
+		},
+		{
+			"name": "Dread",
+			"spells": [
+				"Bane",
+				"Ray of Sickness",
+				"Gentle Repose",
+				"Ray of Enfeeblement",
+				"Animate Dead",
+				"Speak with Dead",
+				"Blight",
+				"Death Ward",
+				"Antilife Shell"
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "Volumes of Forgotten Lore: Arcane",
+				"url": "https://www.patreon.com/posts/2716738"
+			}
 		}
 	]
 }
