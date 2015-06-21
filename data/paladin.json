@@ -130,5 +130,24 @@
 				"url": "http://middlefingerofvecna.blogspot.com/2015/05/inquisitor.html"
 			}
 		}
+		{
+			"name": "Elder Sign",
+			"spells": [
+				"Arms of Hadar",
+				"Protection from Evil and Good",
+				"Detect Thoughts",
+				"Zone of Truth",
+				"Major Image",
+				"Speak with Dead",
+				"Greater Invisibility",
+				"Locate Creature",
+				"Mislead",
+				"Scrying"
+			],
+			"source": {
+				"name": "Middle Finger of Vecna",
+				"url": "http://middlefingerofvecna.blogspot.com/2015/06/keeper-of-elder-sign.html"
+			}
+		}
 	]
 }
