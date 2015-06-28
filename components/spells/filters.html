@@ -88,12 +88,16 @@
 			</li>
 		</ul>
 	</filter-block>
-	<!-- remember to update $number-filters when implementing this
 	<filter-block
 		title="'Sources'"
 		name='source'
 		filter-prop='showFilter'
 	>
-		COMING SOON
-	</filter-block> -->
+		<div class="" ng-repeat="(guid, source) in spells.sources">
+			<label>
+				<input type="checkbox" ng-model="spells.filters.sources[guid]">
+				{{ source.name }}
+			</label>
+		</div>
+	</filter-block>
 </div>

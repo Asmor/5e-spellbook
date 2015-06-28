@@ -23,8 +23,6 @@ angular.module("spells", [])
 		});
 	});
 
-	window.classService = classService;
-
 	return classService;
 
 	function registerClass(data, baseName) {
@@ -71,7 +69,9 @@ angular.module("spells", [])
 				"Necromancy": true,
 				"Transmutation": true,
 			},
+			sources: {},
 		},
+		sources: {},
 	};
 
 	var spellPromise = $http.get("data/spells.json").then(function (response) {
@@ -79,6 +79,7 @@ angular.module("spells", [])
 		response.data.forEach(function (spell) {
 			spellService.byGuid[spell.guid] = spell;
 			spell.sources = [];
+			spell.sourceGuids = {};
 		});
 	});
 
@@ -100,11 +101,19 @@ angular.module("spells", [])
 	return spellService;
 
 	function registerSource(data) {
-		spellPromise.then(function () {
-			var sourceName = data.name;
-			var sourceUrl = data.productLink;
-			var sourceCollection = data.collection;
+		var sourceName = data.name;
+		var sourceUrl = data.productLink;
+		var sourceCollection = data.collection;
+		var sourceGuid = data.guid;
 
+		spellService.sources[sourceGuid] = {
+			name: sourceCollection || sourceName,
+			guid: sourceGuid,
+		};
+
+		spellService.filters.sources[sourceGuid] = true;
+
+		spellPromise.then(function () {
 			data.spells.forEach(function (spellSourceData) {
 				var spell = spellService.byGuid[spellSourceData.guid];
 				spell.sources.push({
@@ -112,7 +121,9 @@ angular.module("spells", [])
 					name: sourceName,
 					url: sourceUrl,
 					page: spellSourceData.page,
+					guid: sourceGuid,
 				});
+				spell.sourceGuids[sourceGuid] = true;
 			});
 		});
 	}
@@ -309,6 +320,14 @@ angular.module("spells", [])
 		if ( spell.level < f.level.min ) { return false; }
 		if ( spell.level > f.level.max ) { return false; }
 		if ( !f.schools[spell.school] ) { return false; }
+
+		// Check that the spell is in at least one of the chosen sources
+		var chosenSources = _.invert(f.sources, true)["true"] || [];
+		var inChosenSource = chosenSources.some(function (sourceGuid) {
+			return spell.sourceGuids[sourceGuid];
+		});
+
+		if ( !inChosenSource ) { return false; }
 
 		if ( checkClasses[1] ) {
 			checkClasses[1] = checkClasses[0] + " (" + checkClasses[1] + ")";

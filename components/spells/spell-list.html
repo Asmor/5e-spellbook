@@ -48,7 +48,7 @@
 				</td>
 				<td>
 					<ul>
-						<li ng-repeat="source in spell.sources">
+						<li ng-repeat="source in spell.sources" ng-if="spells.filters.sources[source.guid]">
 							{{ source | sourceTitle }}
 							<span ng-if="source.page">
 								p.{{ source.page }}

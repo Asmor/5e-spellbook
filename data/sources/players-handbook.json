@@ -1,5 +1,5 @@
 {
-	"name": "Player's Handbook",
+	"name": "Player's Handbook", "guid": "15c2ac68-bbeb-4832-a560-3ce4ff16505e",
 	"spells": [
 		{ "guid": "a802dc40-b2a8-4415-8c4d-8f8a34d389ad", "page": 211, "name": "Acid Splash" },
 		{ "guid": "e57d2a2d-0030-4875-8cfb-995f57b7a0b1", "page": 211, "name": "Aid" },
