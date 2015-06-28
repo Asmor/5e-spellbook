@@ -49,7 +49,10 @@
 				<td>
 					<ul>
 						<li ng-repeat="source in spell.sources">
-							{{ source | sourceTitle }} p.{{ source.page }}
+							{{ source | sourceTitle }}
+							<span ng-if="source.page">
+								p.{{ source.page }}
+							</span>
 							<source-link
 								ng-if="source.url"
 								source="source"
