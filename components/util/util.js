@@ -3,7 +3,7 @@
 angular.module("util", [])
 .filter("sourceTitle", [function () {
 	return function (source) {
-		if ( !source ) { return "" };
+		if ( !source ) { return ""; }
 
 		var name = source.name || "";
 		var collection = source.collection;

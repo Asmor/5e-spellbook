@@ -23,6 +23,8 @@ angular.module("spells", [])
 		});
 	});
 
+	window.classService = classService;
+
 	return classService;
 
 	function registerClass(data, baseName) {
@@ -32,12 +34,13 @@ angular.module("spells", [])
 			name = baseName + " (" + name + ")";
 		}
 
-		data.spells.forEach(function (spellName) {
-			if ( classService.classesBySpell[spellName] ) {
-				classService.classesBySpell[spellName].push(name);
-				classService.classesBySpell[spellName].sort();
+		data.spells.forEach(function (spell) {
+			var spellGuid = spell.guid;
+			if ( classService.classesBySpell[spellGuid] ) {
+				classService.classesBySpell[spellGuid].push(name);
+				classService.classesBySpell[spellGuid].sort();
 			} else {
-				classService.classesBySpell[spellName] = [ name ];
+				classService.classesBySpell[spellGuid] = [ name ];
 			}
 		});
 
@@ -51,6 +54,7 @@ angular.module("spells", [])
 .service("spellService", ["$http", function ($http) {
 	var spellService = {
 		all: [],
+		byGuid: {},
 		filters: {
 			className: "",
 			level: {
@@ -70,11 +74,48 @@ angular.module("spells", [])
 		},
 	};
 
-	$http.get("data/spells.json").then(function (response) {
+	var spellPromise = $http.get("data/spells.json").then(function (response) {
 		spellService.all = response.data;
+		response.data.forEach(function (spell) {
+			spellService.byGuid[spell.guid] = spell;
+			spell.sources = [];
+		});
+	});
+
+	[
+		"basic-rules",
+		"elemental-evil-players-companion",
+		"en5ider",
+		"hoard-of-the-dragon-queen",
+		"not-really-complete-tome-of-spells",
+		"players-handbook",
+		"princes-of-the-apocalypse",
+		"rise-of-tiamat",
+	].forEach(function (source) {
+		$http.get("data/sources/" + source + ".json").then(function (response) {
+			registerSource(response.data);
+		});
 	});
 
 	return spellService;
+
+	function registerSource(data) {
+		spellPromise.then(function () {
+			var sourceName = data.name;
+			var sourceUrl = data.productLink;
+			var sourceCollection = data.collection;
+
+			data.spells.forEach(function (spellSourceData) {
+				var spell = spellService.byGuid[spellSourceData.guid];
+				spell.sources.push({
+					collection: sourceCollection,
+					name: sourceName,
+					url: sourceUrl,
+					page: spellSourceData.page,
+				});
+			});
+		});
+	}
 }])
 .directive("spellList", ["classService", "spellService", function (classService, spellService) {
 	return {
@@ -280,13 +321,13 @@ angular.module("spells", [])
 		}
 
 		if ( f.className ) {
-			if ( !classService.classesBySpell[spell.name] ) {
+			if ( !classService.classesBySpell[spell.guid] ) {
 				console.warn("No classes have", spell.name);
 				return false;
 			}
 
 			for ( i = 0; i < checkClasses.length; i++ ) {
-				if ( classService.classesBySpell[spell.name].indexOf(checkClasses[i]) > -1 ) {
+				if ( classService.classesBySpell[spell.guid].indexOf(checkClasses[i]) > -1 ) {
 					return true;
 				}
 			}

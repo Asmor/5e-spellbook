@@ -41,7 +41,7 @@
 				</td>
 				<td ng-show="!spells.filters.className">
 					<ul>
-						<li ng-repeat="class in classService.classesBySpell[spell.name]">
+						<li ng-repeat="class in classService.classesBySpell[spell.guid]">
 							{{ class }}
 						</li>
 					</ul>

@@ -1,0 +1,18 @@
+{
+	"collection": "En5ider",
+	"name": "Strands of Life",
+	"productLink": "https://www.patreon.com/posts/2322867",
+	"spells": [
+		{ "guid": "3945c247-0b83-4b4a-8022-8b6a44d36ec9", "page": 3, "name": "Droplets of Invigoration" },
+		{ "guid": "3e18ddc4-f8b6-4fcc-b7d2-77ca4f6cd8c7", "page": 4, "name": "Guardian of the Living" },
+		{ "guid": "b894eb13-0d5e-4398-9186-86796edf13a9", "page": 4, "name": "Halo of Rejuvenation" },
+		{ "guid": "e038d650-b107-4c95-942f-b06d55aaa64a", "page": 4, "name": "Life Seed" },
+		{ "guid": "b882ef51-c35d-4232-abe8-341f4a0da79f", "page": 4, "name": "Nature's Ward" },
+		{ "guid": "84c6f977-674f-4090-8026-8cd2a7ffe3e3", "page": 4, "name": "Regrowth" },
+		{ "guid": "bfa0a87f-c3d0-42b4-acbe-b64574eb7746", "page": 5, "name": "Shield of Honor" },
+		{ "guid": "47fa99dc-17ab-434c-830a-2e057764ca60", "page": 5, "name": "Suppress Pain" },
+		{ "guid": "0547330e-81dc-4c67-89ff-4cc5165aac7b", "page": 5, "name": "Strands of Life" },
+		{ "guid": "b2ea9c8f-360f-40d3-889c-90c34040fc76", "page": 5, "name": "Virtue" },
+		{ "guid": "0e1ca5ed-debe-417c-aa8d-56ceebeee619", "page": 5, "name": "Warrior's Blessing" }
+	]
+}
