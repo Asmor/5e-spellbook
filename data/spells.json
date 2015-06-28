@@ -3533,7 +3533,7 @@
 		]
 	},
 	{
-		"name": "Nature’s Ward", "guid": "b882ef51-c35d-4232-abe8-341f4a0da79f",
+		"name": "Nature's Ward", "guid": "b882ef51-c35d-4232-abe8-341f4a0da79f",
 		"level": 0,
 		"school": "Abjuration",
 		"sources": [
@@ -3581,12 +3581,3851 @@
 		]
 	},
 	{
-		"name": "Warrior’s Blessing", "guid": "0e1ca5ed-debe-417c-aa8d-56ceebeee619",
+		"name": "Warrior's Blessing", "guid": "0e1ca5ed-debe-417c-aa8d-56ceebeee619",
 		"level": 3,
 		"school": "Abjuration",
 		"tags": ["Ritual"],
 		"sources": [
 			{ "collection": "En5ider", "name": "Strands of Life", "page": 5, "url": "https://www.patreon.com/creation?hid=2322867" }
+		]
+	},
+	{
+		"name": "Acid Lash", "guid": "5d4d0280-626a-442d-89f2-fe80a235cdba",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Acid Storm", "guid": "1955c3f9-0e74-4e8f-99cf-0e192f1a70af",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Adamantine Mace", "guid": "578448d2-1432-4d1a-aa99-cc7e90f41640",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Adhesion", "guid": "2de451d6-9e67-4c1a-b56a-797559078083",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Age Animal", "guid": "6890ccbd-7966-470c-a5e8-156a0a5677fe",
+		"level": 6,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Age Object", "guid": "d4777588-9d43-4a0c-bc58-63fec1bb3e1e",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Agitate Wounds", "guid": "ebe493fb-66ec-4ecd-b00d-fece67a966ff",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Agra's Ambush", "guid": "adc42c15-7acc-4458-9bd7-a10ae9b267fd",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Airboat", "guid": "732ec52d-eb7f-458b-baa0-1bfff03666eb",
+		"level": 8,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Alert Vigil", "guid": "9251eb84-1cc7-4cbb-882f-d42da392b428",
+		"level": 1,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Allergy Field", "guid": "394a296b-5144-4fd5-9995-52f9400155bc",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Alter Beast", "guid": "14f88195-c4d1-4775-92f5-43f9a8b78838",
+		"level": 8,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Alter Instrument", "guid": "ba594717-b810-45e0-a5a5-63495227291e",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Alter Path", "guid": "7d29483f-05cd-40df-bc43-8a9975732a09",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Amanuensis", "guid": "ad4df5ad-c755-4f7f-845a-fd246a895c2b",
+		"level": 3,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Amorphous Blob", "guid": "1a3d8c8d-071e-4d70-adad-3e6a1ff8647b",
+		"level": 7,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Amulet", "guid": "d81add91-9d89-4064-995d-fd79fb2635a5",
+		"level": 3,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ancestral Blessing", "guid": "a6acd08a-1f6a-4f25-8bf7-f2f9615fc0c5",
+		"level": 2,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ancient Curse", "guid": "04efef0c-1193-4381-a58e-eecbdf08b522",
+		"level": 9,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Anesthesia", "guid": "43dbb3c1-68d1-4f6d-9cce-3fb30597dc17",
+		"level": 3,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Animal Animosity", "guid": "d5922c94-c364-4177-b4fc-747c3a65eca7",
+		"level": 1,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Animal Transfer", "guid": "0c39d84a-22e2-4e06-a124-ff35f171999d",
+		"level": 5,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Animal Trick", "guid": "6f3d14af-c485-4030-ac90-9057f4b21ee5",
+		"level": 3,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Animate Blood", "guid": "c8af9ae6-f3f4-4059-9007-ce3335619acd",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Animate Flame", "guid": "7d4f665b-b26d-472b-892a-e9ede767ea94",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Archer's Redoubt", "guid": "61cfe6d8-cf69-412e-aad7-50b25f98333f",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Arrow of Bone", "guid": "7e48f2ac-587a-4916-8d02-849aa19f6508",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Arrowflight", "guid": "59b664e8-07ad-4926-9f80-d1b48eea5d6a",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Assess Value", "guid": "b8ceff15-da27-436c-ae32-c61ca80f3f39",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Astral Awareness", "guid": "90dc0e1c-6401-4228-8ded-ee41f54be03f",
+		"level": 3,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Augment Artistry", "guid": "d64dac73-4e7e-423c-8d02-8b71d428918c",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bad Medicine", "guid": "e30f01be-4aad-4883-a953-a9a6d865a887",
+		"level": 9,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ballant's Stonesplit", "guid": "6bb88a95-2983-4bd3-a80e-65a7f04223fe",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ballant's Stonestrength", "guid": "068d6fd0-7c11-4355-96dd-82f32d0c6c7f",
+		"level": 5,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bands of Sirellyn", "guid": "d611b2da-a795-4c0a-bdf0-9e12db57f05e",
+		"level": 4,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Banish Blight", "guid": "b772c210-a25c-44ea-9c4e-21e24cf8a718",
+		"level": 2,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Banish Dazzle", "guid": "6e8a6333-8ac7-4879-a6fa-e63c8df587f2",
+		"level": 1,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Barrier Reaver", "guid": "7a2d7c52-add2-4ed5-82e4-8e282ad374c6",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Battletide", "guid": "fc30f679-e0ea-48d0-8623-e8a1d9949718",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bearhug", "guid": "a9a6cf3b-e965-4913-8b1a-b8666abd0317",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Beastmask", "guid": "2050cc04-f3cf-436a-9428-fae37cd83c27",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Beneficence", "guid": "d71925ea-ebea-4509-885c-c451fd3be883",
+		"level": 1,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bestow Enchantment", "guid": "61df5fb3-1887-413d-9eb1-480089d6de92",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bigby's Dexterous Digits", "guid": "1c8cfb58-d73b-4826-92ea-a428d4a584f5",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bigby's Force Sculpture", "guid": "5f9de147-b30c-4a53-91ed-00ca1a5b2657",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bigby's Bookworm Bane", "guid": "fedb94e9-c8c4-4db9-bb52-1f28849a9d48",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Biting Shadow", "guid": "43d86b67-98bf-4b05-b478-54ac64d733c3",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Black Blade of Disaster", "guid": "b2cbf075-6bb7-4725-bc8b-cc3e5ac12848",
+		"level": 9,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Blacksteel", "guid": "9398e90c-e8fb-41a2-807f-eaea6f9fab0c",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Blessed Abundance", "guid": "136be2c2-51a5-4a4c-b423-b24beedf05dd",
+		"level": 5,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Blessed Forgetfulness", "guid": "8fa5405a-a47f-40b6-8a83-8a14f26b425c",
+		"level": 4,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bliss", "guid": "6d84a20b-b80c-4252-9593-c78943984e8a",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Blood Bond", "guid": "2d15651f-6eb8-45a3-8aa4-eec93dccd47c",
+		"level": 1,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bloodbridge", "guid": "bbb213a2-d58e-4235-a689-88af4d2ac9a2",
+		"level": 0,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Blossom", "guid": "34ffe7be-7b5c-4f74-ba17-c763972c8cfe",
+		"level": 3,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Body Blades", "guid": "8bf0ae93-e5ca-4642-af19-d31b2980d5c3",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Body Link", "guid": "9c630d81-94e6-4350-96fc-30dc14b27d69",
+		"level": 9,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bolt of Glory", "guid": "c9847111-f4b1-479c-9d5b-cb4ca3e43654",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Bone Seize", "guid": "73b8c3a7-8054-48c8-b56c-3706ec01987a",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Boon of Fortune", "guid": "2583c55f-680f-4f1b-9b8e-cfbf16d50a9e",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Break Limb", "guid": "dec24b1b-2697-4fe7-91d4-0a2efeaa1be1",
+		"level": 5,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Breath of Death", "guid": "20def9b0-64a7-4e49-9c70-726aec2f62a1",
+		"level": 9,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Breath of Life", "guid": "fd757f10-70f9-4d76-acb6-00295ced1649",
+		"level": 9,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Burning Blood", "guid": "15c9e046-867d-41c8-9fc5-1d51aa610661",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Calder's Starry Sky", "guid": "5be440bb-f64d-4926-b3bd-ffd91c19a765",
+		"level": 1,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Call", "guid": "40eac615-c94d-4d6b-88cd-4b38da253ba4",
+		"level": 9,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Call of Despair", "guid": "7749714e-20f9-4be0-8c2c-471ace02fc1f",
+		"level": 8,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Call Society", "guid": "aa22d88a-fdf7-45f8-9439-62db0d01916c",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Call Upon Faith", "guid": "a501d818-4bd1-4762-929b-2b624b46cc9a",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Candletrick", "guid": "b40aa88a-18ad-4a3d-bec1-0e4e70fc49c8",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Castigate", "guid": "68fe897c-5c6e-4d51-85d0-c042abef2c3a",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Catching Chain", "guid": "1e194054-df4c-4f61-ba18-6c14ce7663ea",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Chain Madness", "guid": "f09da70f-5bda-4c94-9f39-21d19f06f904",
+		"level": 9,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Channel Flame", "guid": "e20d6674-0c69-4bcc-9920-deb77a9e296a",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Chant", "guid": "105b76c4-6188-4142-bbf0-c2d912c1177f",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Chariot of Sustarre", "guid": "b648f209-76da-4658-a896-29cf7fde30c5",
+		"level": 8,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Chilling Scythe", "guid": "b12f46b8-7044-4c3a-a650-c657ab43c503",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Chromatic Blade", "guid": "9c5a76d4-c910-43f0-b260-dc4db99f56ae",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Circle of Blindness", "guid": "4a63b135-074f-4447-8c1e-1ed9a186ab33",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Circle of Privacy", "guid": "00dfaef6-19be-47f9-bc8d-05da1ac475a4",
+		"level": 2,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Cloud of Purification", "guid": "1e25fcf0-0551-41b4-b341-054309f70e6f",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Cloud of Putrefaction", "guid": "0ece5561-fe3b-4b84-9a1b-8f8f2be4c983",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Color", "guid": "5f433f20-97b6-4d1f-9c7e-2778ab48b4ea",
+		"level": 1,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Comfort", "guid": "6d65b458-843a-46a6-8833-5fa0804e0d62",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Compass", "guid": "88b21394-561e-49d8-a3ac-e015528bfce3",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Conceal Item", "guid": "7b81643a-36e0-465c-a853-74dc9f00c09d",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Conjure Beast Spirits", "guid": "e6e75e9e-f655-4974-bcc5-acacd84c2b49",
+		"level": 7,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Conjure Divine Minion", "guid": "5b7fd10c-6b8e-439d-bf15-372df5abe378",
+		"level": 6,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Control Temperature", "guid": "a59dff53-456c-4016-9cb0-5c4ffa0a4f3d",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Control Vapor", "guid": "ef39581a-50f0-4230-b72a-49c304cb521e",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Converse", "guid": "06c84426-91e9-4a8e-a6aa-77268328caf4",
+		"level": 5,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Cook", "guid": "5fadca44-ba11-4f97-a1e8-121e8f9bc29a",
+		"level": 2,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Copy", "guid": "b7ce4160-7bd9-4ef0-b8a1-3ad7f93adc7b",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Corpse Host", "guid": "52656628-777c-4def-9e99-a6e0f3f7991f",
+		"level": 7,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Create Campsite", "guid": "3c5746a1-ec3f-4173-8c20-31b28a9887c0",
+		"level": 2,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Create Darkenbeast", "guid": "308688d6-5cc0-4b56-930f-1689b0a11edf",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Creeping Darkness", "guid": "fa10c938-c681-48bb-8b41-cdab63bdbe2f",
+		"level": 1,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Crown of Angels", "guid": "60336fb2-2971-4f68-b49f-62e36036e094",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Crystalbrittle", "guid": "8e854c3b-fca4-40fe-8c7e-798a2f4acf36",
+		"level": 9,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Curse of Lycanthropy", "guid": "09df4bac-bc16-4531-bf2f-88093242e308",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Curse Tablet", "guid": "cc5aae50-6b5c-4c7f-85d7-d6b20c2b80a7",
+		"level": 3,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Cursed Image", "guid": "38f41a64-c30e-4404-a319-82699190b232",
+		"level": 4,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Cyclone Chariot", "guid": "14a66438-6f12-4c9f-b829-ef7801159ef8",
+		"level": 7,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dancing Fire", "guid": "d841ac20-2187-4957-a807-29a6fae85398",
+		"level": 1,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Darkbolt", "guid": "3286a8b4-170e-4177-8a5a-1d067cd61458",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Darsson's Potion", "guid": "741f4b9e-9adc-484e-ab15-c85dbda568fd",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Darsson's Cooling Breeze", "guid": "04d0ab13-5431-4564-b8f8-1a2e1235f97d",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dead Man's Eyes", "guid": "57f79c3e-0381-4860-95aa-e7016b8afd9a",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Death Candle", "guid": "f51881f4-3574-458e-8e1f-4041a2565c71",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Death Pact", "guid": "83f58e9d-88ad-41b9-9941-428251ab899e",
+		"level": 9,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Death Prayer", "guid": "08b44fe7-e3cc-49b9-8b7f-6f36eae8ba96",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Death Recall", "guid": "b2b3d95a-7335-4cd9-946e-03872776bce6",
+		"level": 2,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Deathmaster's Vial", "guid": "1a55d968-02e8-4d24-a017-52a4b597069e",
+		"level": 5,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Decastave", "guid": "f83876e5-d61c-49f9-91f2-248d3c063537",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Deepen Shadows", "guid": "a7ca8672-eceb-4732-ac16-8d05a3bd4ddb",
+		"level": 0,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	}, 
+	{
+		"name": "Deeppockets", "guid": "13fd6403-73c9-40da-92a6-c3d695151b9e",
+		"level": 2,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Depress Resistance", "guid": "eba69b4a-a2a4-4736-a733-a72f902254c4",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Despair", "guid": "cb6eb20e-fc32-49ae-bcc0-330f9a1ca3b7",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Detect Charm", "guid": "7c9e68d5-19a7-454a-8251-c95bbd19a77e",
+		"level": 2,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Detect Harmony", "guid": "a78334be-2a67-4608-bf66-1e38a9f500ea",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Detect Metals and Minerals", "guid": "387e0ae0-641f-4ec0-a02c-72b1b7476e6c",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Detect Secret Passages and Portals", "guid": "66db0652-89d9-472c-88d1-571db56ccce7",
+		"level": 1,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Diction", "guid": "e4fe6f24-0885-4fd0-bfb2-d721bdb6b05f",
+		"level": 1,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dig", "guid": "5f492440-a5c6-4485-9488-9762126c672a",
+		"level": 3,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dimensional Anchor", "guid": "1b9d226c-6fa2-4a24-956f-00e4a0bb48b5",
+		"level": 4,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dire Charm", "guid": "551427f3-f76a-4fd2-9f26-eb0a2e5252ea",
+		"level": 3,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Disarm", "guid": "705b60fe-f552-4df0-8c7d-b89c7b929615",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Disbelief", "guid": "8bb213f5-7644-4707-893e-53a9cee7407f",
+		"level": 8,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Distort Life", "guid": "a22eee01-1284-4318-9f35-6c38c9a883c5",
+		"level": 6,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Distraction", "guid": "1643da98-90e1-4120-8fb7-dd8f4832c8d7",
+		"level": 0,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Divine Truth", "guid": "e5795b92-7200-4ba8-998b-d8490a7effc7",
+		"level": 8,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Doomhound", "guid": "5d83ff73-08e6-4223-925e-a4455dcde877",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dragon Breath", "guid": "e318b1fc-395b-43c9-ad80-c92cf9121021",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Draw Upon Holy Might", "guid": "1024a078-af21-4375-84f3-029558f8df39",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drawmij's Breath of Life", "guid": "07327e90-52d4-42a9-9fda-712e5ded4c19",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drawmij's Instant Exit", "guid": "f831b515-854f-4f25-97b5-527779f6ce54",
+		"level": 4,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drawmij's Light Step", "guid": "85ad9548-56b3-4ca4-a5d5-8c0e5df26a2a",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drawmij's Scent Mask", "guid": "fa952e72-e8e2-41f1-bf4f-71497b1631f5",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drawmij's Swift Mount", "guid": "3949518f-7d1c-4c7f-a946-11f179e14f6d",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drenal's Stone Flame", "guid": "6339a5bf-bedf-4051-a4f4-70b2711070f5",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Drought", "guid": "caca9b66-f697-48c4-967a-e0cf84744f84",
+		"level": 3,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Duo-Dimension", "guid": "f0c0d0b9-a3eb-4c6e-bd78-12a177513818",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Dusts of Death", "guid": "5e79d32a-7d3f-4aac-89b1-0af747c385e1",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Earthmaw", "guid": "1e970e74-88c9-482d-b77d-4fd9de879857",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ease Labor", "guid": "49c53ed8-03bb-42d1-ac61-89ef0c0b7917",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Echoes", "guid": "21579361-92c0-40a8-9d5e-a9944b70e857",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Electric Bow", "guid": "170114fa-b1ff-4c75-93cb-2650a406c371",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Elminster's Effulgent Epuration", "guid": "ccc35784-d870-4693-93d1-4f24c2496f3a",
+		"level": 9,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Elonia's Glamer", "guid": "4382395f-dd9b-4f14-8d07-9a76a6d1b9fb",
+		"level": 1,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Elude Blow", "guid": "61d1703d-bff4-4ae4-a865-41f4d17be25b",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Empathy", "guid": "842e0a8d-09ef-4c77-a056-117fd7826b3f",
+		"level": 0,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Encrypt", "guid": "b474f76b-c331-4256-8ec9-db5bf14dad12",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Endless Dance", "guid": "0053d991-9655-4869-b936-0e29ed80156a",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Energy Drain", "guid": "3adc71c7-b50e-47f7-88f6-8082ff73b7c7",
+		"level": 9,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Enervation", "guid": "c3b04895-76b5-4dcb-bdc8-840154df5c53",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Entomb", "guid": "3f32d0f8-e697-4bdb-b556-092b58a39f97",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Erase", "guid": "88838c8c-4f4b-45a2-8a7c-709f0eab1f6b",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Erik's Quills", "guid": "f9f2ac74-f642-480d-85ca-e1d27188c758",
+		"level": 0,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Estate Transference", "guid": "55475c40-9132-4c35-bdeb-77eebb0dd661",
+		"level": 9,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Everfull Quiver", "guid": "78fcb778-ee39-419d-89d8-ac9bb9f8a909",
+		"level": 4,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Evolve", "guid": "aba0a39c-fdc2-4a4f-abb2-216dafb95b66",
+		"level": 8,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Exorcism", "guid": "40d37b62-5f47-4713-ad3a-9ed9fed838a8",
+		"level": 2,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Exterminate", "guid": "f3ea9f2b-4eee-4b59-b371-3a1e154364a4",
+		"level": 1,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "False Tracks", "guid": "82080dad-50b4-4a59-bd5c-f89dc79a83fd",
+		"level": 1,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "False Vision", "guid": "6e3801f9-c511-4e45-91fb-d2fa409828c5",
+		"level": 5,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fang Fist", "guid": "f60362ce-be83-43f8-a5b5-9825030a05e8",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Farspeaker", "guid": "fc48243d-30d2-4030-944d-45471ca99713",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of Amelioration", "guid": "6711e971-ea3c-4fb3-b9ff-95665cd8cc70",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of Good Luck", "guid": "1cbd6e5b-e0aa-4c74-ab67-9fc5483db1d5",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of Ill Luck", "guid": "69c74ed0-b559-4329-b89c-a7f4b7a0077b",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of Serendipity", "guid": "6fd550bc-db6a-4bb3-a9bb-31f77448d5da",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of the Earth", "guid": "0233e113-b09d-47b2-a082-6efb6810db9d",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of the Flying Horse", "guid": "ae8dc1bf-7d79-428e-a575-64a24ca4c80b",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Favor of the Ocean Winds", "guid": "fb4bdf6e-b673-48a2-bd37-73f333a4bd8b",
+		"level": 5,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fertility", "guid": "05c22da3-6496-4938-9e27-7c4b7613700e",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fiery Eyes", "guid": "c9d74d88-b972-44d0-b0a3-3c9e26c291b0",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fiery Fists", "guid": "d25e7f3a-f6df-4cc3-bb12-104fea75cd96",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Filth's Bane", "guid": "1aabba2a-cd2a-4280-a0a0-a43f863506d8",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fire Arrows", "guid": "52844e0c-2c57-41c8-8bb2-f9a52ed6fe75",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fire Aura", "guid": "b6deaa32-ad0a-4a05-8b4a-57830c489038",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fire Charm", "guid": "eeb8aa82-5aa9-4fe1-9480-9a9e47b84edf",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fire Truth", "guid": "603073fa-d277-44d2-8eb3-a963123cfc0f",
+		"level": 1,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fireproof", "guid": "cee83910-7b29-482d-8214-a7af9c643246",
+		"level": 2,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Firestaff", "guid": "e4cf4f43-e9ea-4c11-9c97-110d7393e08c",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fireward", "guid": "e3b37a9d-46fe-419c-9bd7-8c430bec9c6d",
+		"level": 5,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "First Strike", "guid": "693be1d4-ab7f-4e0f-a674-0a8c453a724f",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fist of Stone", "guid": "89e9f21b-d2c5-4849-98e5-f412e3346fe7",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Flame Harvest", "guid": "b4b68b91-aaca-4d55-a088-19049e553765",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Flashpuff", "guid": "5cdc0f63-84b8-49f3-888d-89864b659933",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fool's Gold", "guid": "cbc97c40-fbe4-4b70-a71e-c591f18d7e27",
+		"level": 4,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Fool's Speech", "guid": "9290869c-fd97-4b32-ac47-6f840b10d3ce",
+		"level": 3,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Force Shapechange", "guid": "d505ceb6-8333-43de-9a78-db0dbb8df312",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Frost Fingers", "guid": "9ecf9841-7e84-494d-bf8a-efcc449961a4",
+		"level": 1,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Frost Whip", "guid": "08a377f8-601f-44ca-9819-9c12cbb793b2",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Frostfire", "guid": "972878a2-2305-4b6f-b0c2-74e26520b62e",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Gift of Speech", "guid": "4f5bcbdd-f8a3-4d11-8b18-f7156a1c9e1d",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Glass Storm", "guid": "a823ac8b-6cd8-412a-bd36-bf0e6ab4b76b",
+		"level": 8,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Glassee", "guid": "ad9bff19-59cb-45a2-9c4c-685c06d07f4d",
+		"level": 4,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Glassteel", "guid": "65a45f3f-4dc5-4990-b1ce-519d70e7dc87",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Glyph of Revealing", "guid": "4d68a1d5-0676-47b2-a588-d8ae0d4cda3c",
+		"level": 5,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Graft", "guid": "ebe729c7-47e5-4b49-ac92-7f15bf7d25bf",
+		"level": 6,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Grassdart", "guid": "3cb6b6ff-687e-411a-9e1d-0709df5db819",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ground Trace", "guid": "f26b1b26-c4fe-437b-92eb-e7ae13f2b92d",
+		"level": 2,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Guardian Seal", "guid": "7d0724d2-030c-4e29-a31d-acc8d05cfa84",
+		"level": 4,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Guardian Weapon", "guid": "1a00fc36-9141-49e1-bfc9-30a6d5b9af68",
+		"level": 4,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Gullship", "guid": "884a5144-11f3-44cd-82c0-9e8a229fb13b",
+		"level": 7,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Gunther's Kaleidoscopic Strike", "guid": "ec912cfd-d20f-4912-9196-fd8dca164c86",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hail of Stone", "guid": "a3eea160-9fae-45ba-a14e-0602f2003a84",
+		"level": 1,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hailstone", "guid": "27fff28c-8095-4c78-b6b1-8d155780aef9",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hair", "guid": "7e2d1bf7-48e1-497e-9121-5f110ae26d58",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Handcandle", "guid": "f9fb2451-d11c-4f5a-867e-0f8a3778dd5e",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Handfang", "guid": "042c955f-1761-40df-bec6-41e60d146ea9",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hard Water", "guid": "ee3941c3-457e-49b3-bfd4-ce6ecc0accb4",
+		"level": 5,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Harp of War", "guid": "93f39237-1ed2-4e42-a6d0-cca22e679cfd",
+		"level": 9,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Haunting", "guid": "af74a10e-9677-4b28-87b8-1795bf91e162",
+		"level": 0,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Heart Call", "guid": "21c8ff73-a597-4abd-96ec-9319c23a713d",
+		"level": 9,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Heart of Stone", "guid": "5cf71490-1a47-4a4b-8650-e12f22b0f88a",
+		"level": 8,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Heartseeker", "guid": "ee58fd4e-9bd1-4b3f-b718-5d96d0688def",
+		"level": 8,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Helping Hand", "guid": "e9b76016-1282-45dc-8b78-7bfffe25ca89",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hibernation", "guid": "bba1879f-3e0e-42e4-9194-04e7af45b8e9",
+		"level": 3,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hiding Place", "guid": "9f2362b3-5e59-4ded-a92a-9af3e9859f45",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hold Portal", "guid": "84464454-195c-4776-9d0d-d6f727ccce37",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Holy Flail", "guid": "7fba7f64-883b-41cc-8e9d-9611942b1bd6",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Horn of Plenty", "guid": "e18d3ab3-4a0c-4290-bd55-da7a46dd1c21",
+		"level": 6,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},	 
+	{
+		"name": "Hornung's Random Dispatcher", "guid": "369595a6-bd31-487b-93e7-7a8072d8c910",
+		"level": 8,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hovering Road", "guid": "17d9f189-d45e-49b7-8726-c279876bf007",
+		"level": 7,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hurl Rock", "guid": "8cedaa7a-fb06-40cc-9dad-67f2ad63bfff",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Hurl Thunderbolt", "guid": "f0a9e144-65d9-41c2-b23e-9d642d36b7e7",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ice Blade", "guid": "7c6839d8-2e3e-4fdb-b126-ae264f4a88df",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Idea", "guid": "dfced712-2ebd-4c67-8841-d5320045a3a9",
+		"level": 1,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ilyykur's Mantle", "guid": "b52b3d99-9a86-4559-83b1-86da18cda26f",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Imbue with Purpose", "guid": "a9845e7c-66ef-475d-8e50-b59656e3f92d",
+		"level": 6,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Immurk's Distraction", "guid": "b62fe1d4-1718-45c1-9825-c3141c088758",
+		"level": 2,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Impeding Permission", "guid": "9e6b36cd-82fa-4dd9-b8ab-60247f1fba54",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Impenetrable Falsehood", "guid": "c0b0af1f-9714-4d36-822b-93228ee01da3",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Instant Audience", "guid": "45e139f7-19f5-4b7f-812b-0611b196b356",
+		"level": 4,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Intensify Nature", "guid": "dc610960-7ef0-4014-9020-d12057397cf6",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Intensify Sensation", "guid": "000cc206-2655-4ea9-a2bd-ee6352274500",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Invisibility Purge", "guid": "ed37e7f0-2119-4a01-ba56-695c90f7ed79",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Iron Maiden", "guid": "2cde7c48-1965-4fb5-9d6b-c5a6d132f253",
+		"level": 4,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ironwood", "guid": "17327100-e6a5-4d00-a38f-840280a7b2d4",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Isolde's Answer", "guid": "2f0435dc-7253-4d9f-9cb0-d329d0ce3f1c",
+		"level": 3,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ivy Siege", "guid": "bbb14a87-8030-475b-b355-bed93f2c783a",
+		"level": 9,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Javelin", "guid": "6a62e965-4347-4464-96e4-942e672750cc",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Khelben's Blackstaff", "guid": "e86f0aa2-41a6-4f02-9cd5-f7d11c66ea7d",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Kiss of Torment", "guid": "b54a5ba4-b105-46d9-a2e0-82d19c74da0c",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Know Customs", "guid": "b5b9db02-afb5-43eb-846f-ac6ea38b2588",
+		"level": 3,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ladder", "guid": "4e851079-7958-4701-9e6d-36eeb0de840d",
+		"level": 1,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Laeral's Cutting Hand", "guid": "8c67a72b-d633-4176-89ff-74871ef46b63",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Laeral's Invisible Blade", "guid": "ace1ce77-2ed7-4095-bb79-d5c2e66d53fd",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Laughing Water", "guid": "6addbd8b-b75f-49f2-b605-12f46d382a68",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Leaf into Dagger", "guid": "d695408f-13b5-4fc4-be63-6463b2819143",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Legal Thoughts", "guid": "9c36d795-9f87-444c-ac8c-b05b8c6ba20c",
+		"level": 7,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Legerdemain", "guid": "0793bc82-9817-4e1c-8cf7-bbc24789ce9e",
+		"level": 0,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Leomund's Trap", "guid": "6262d4c7-cc12-487c-a4e5-498f3713c745",
+		"level": 2,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lifeblend", "guid": "15201240-ca5c-4dc6-9b53-81c5585f585d",
+		"level": 8,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lightning Rod", "guid": "b77deeb3-7322-4d82-8127-120124462499",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lightning Shield", "guid": "a3147be8-b83a-426f-a0be-5ad49ba047c2",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lightning Storm", "guid": "b5a94104-fa7a-4035-8805-f1c71e805155",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Liquid Orb", "guid": "860fe409-39a4-482e-824c-6e7d20b737e6",
+		"level": 0,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lizard Limbs", "guid": "095ac0e5-f437-44ef-bd3b-691ebc937ecf",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Log to Lizard", "guid": "254bab70-a8af-4e24-9604-066360eaae01",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Longevity", "guid": "fdfe2d40-91eb-4adc-88cd-88d8e848e934",
+		"level": 8,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lorloveim's Creeping Shadow", "guid": "7f34d5af-377f-4b8e-829f-33a39170db15",
+		"level": 5,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Love Charm", "guid": "8c5436e4-a8b9-479c-83e3-70d53cce3398",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mage Tunnel", "guid": "4c824c5d-c612-400c-b64b-71cd0ca2444b",
+		"level": 9,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Magic Susceptibility", "guid": "01012e35-814c-4228-9f8c-552f736c08d1",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Magical Tether", "guid": "af3e41bd-099a-4157-abdb-a776f278b3c3",
+		"level": 1,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Magnetism", "guid": "aae5ba6f-6cf0-49a7-9445-b9434f0f6b21",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Major Curse", "guid": "ea34ea20-943d-4482-a062-1bf2e61a5c0d",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass", "guid": "8630ea4e-3f33-4571-ac11-77df43788a61",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass Contagion", "guid": "c47dea4b-46ad-4c21-b790-609efec67c31",
+		"level": 8,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass Dominate Person", "guid": "ec7aa15c-bcde-4292-9f44-63d5accd770e",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass Jump", "guid": "c9dd50ac-bc9b-418a-a6e0-4f386edf9fd2",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass Protection from Energy", "guid": "1cf23374-635d-4ec0-9e5f-2fde588b777f",
+		"level": 6,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mass Protection from Evil and Good", "guid": "b973089a-56a4-4b89-a35c-e8122f4699b5",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Memory Read", "guid": "d46fdbfd-18bb-4416-9213-93bdb4531be9",
+		"level": 4,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Merchant's Glamer", "guid": "f70772e1-8f79-4cd8-8639-10828759ed72",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Metal Shape", "guid": "23249228-d66d-4ba0-8d4d-7a901e13e48c",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mindkiller", "guid": "85e1b7cd-6e51-4c3e-abe4-773adbb00c40",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mirage", "guid": "ad7a3d73-e8fd-4401-9500-8b84c9d178e6",
+		"level": 4,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mirage of Despair", "guid": "806e3427-6338-41ce-a232-241ada49b81f",
+		"level": 4,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mistaken Missive", "guid": "497a005a-30f9-4777-af13-55562e46490f",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Moon Rune", "guid": "2c8a887d-36cb-4f1f-bcc0-7a21b6b3c710",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Moonbow", "guid": "8d7b02c4-ba26-4fad-bc84-34f06d831608",
+		"level": 5,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mordenkainen's Defense Against Beasts", "guid": "61657909-84e0-47d7-ae30-502309628e49",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mordenkainen's Defense Against Lycanthropes", "guid": "7df316dd-c1b7-4f58-8a9d-a44ecead9910",
+		"level": 4,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mordenkainen's Defense Against Slime", "guid": "042d3447-65ac-42e5-a84e-d9cf7a24ee35",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Music of the Spheres", "guid": "af6d7011-2d4f-4f65-a559-cd23ffe3cfa1",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Mystic Rope", "guid": "eef61e92-75e0-43d8-8a9a-2b1cde4118fa",
+		"level": 3,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nap", "guid": "9aa9e603-c535-48a2-8c55-d7af37941d68",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nature Call", "guid": "8c0278ac-8129-4692-b1cf-e28ff7a4b59f",
+		"level": 0,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nature's Charm", "guid": "3a527376-3edf-49a0-9d30-e970adaa75e8",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nchaser's Glowing Globe", "guid": "881a1b73-8e70-4bd1-b8f0-badbd2e5bbd5",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nectar", "guid": "b8222141-7240-409e-b197-1ce42f825412",
+		"level": 3,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Needlestorm", "guid": "52b2f901-9404-4795-bfcb-57243cd1abee",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nerve Dance", "guid": "e3193f92-d858-4e52-8d89-1cb6a8c4793c",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nightscar", "guid": "c6d5753e-e8bc-4bc0-a0af-7a9de2e11ca1",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nymph's Beauty", "guid": "6fbc5d73-ac13-40bc-a65a-97767dbc5490",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nystul's Blacklight Burst", "guid": "66dc02d1-8523-409c-a61c-7271e4dd09fc",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Nystul's Radiant Baton", "guid": "6b3d88f7-29c1-422f-ad61-6f280d08d6f5",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Oathbinding", "guid": "257f0a26-2997-4683-862e-3d63b06888b6",
+		"level": 5,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Obedience", "guid": "fcbf4530-70fa-448a-92bc-1cb8c7a15b7a",
+		"level": 6,
+		"school": "Enchantment",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Obold's Brightness", "guid": "36afb304-dd95-4152-aef9-f2a2e5a42456",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Odeen's Magic Cloud", "guid": "4ca0efef-399e-439f-ab41-4441b6d6da07",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Odeen's Magic Tailor", "guid": "7176aef2-e53c-4535-bc53-421e8df383c0",
+		"level": 0,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Orison", "guid": "3977f56a-6f0a-44b4-81b1-c3e9a81d3af6",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otiluke's Fire and Ice", "guid": "83228258-ddf9-450f-a6f4-94cb805f1a02",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otiluke's Orb of Containment", "guid": "e0b74330-2f47-40fa-91c8-5968c884bd17",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otiluke's Siege Sphere", "guid": "11ecf372-6f87-4374-a6c3-ab6910e9c099",
+		"level": 7,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otto's Chime of Release", "guid": "4ea4147b-2fd0-4ab1-9a5e-bf3e8f27d088",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otto's Drums", "guid": "0af603a4-ab99-43fa-8b88-077311756795",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Otto's Soothing Vibrations", "guid": "ad83e3c9-6ee0-4440-8ca5-7946ad5a4595",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Pain", "guid": "446a0b53-6b0d-4c21-ac8d-17358d171101",
+		"level": 0,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Phantom Arms and Armor", "guid": "df3131a4-22ac-416d-97b1-f6c613d845bc",
+		"level": 3,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Phantom Plow", "guid": "6021d45c-8b02-43aa-a887-89f5534b3b2f",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Pillar of Borogar", "guid": "4c5c654d-72a1-49ec-a045-8d0a30480e5b",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Pit", "guid": "27c2ded4-314c-4051-8523-9acf76718d00",
+		"level": 4,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Poison", "guid": "441b4a17-be3f-4250-b78c-07f9cbb1925c",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Pool of Deeds", "guid": "a1da397d-562a-4adc-839e-636049e0b10c",
+		"level": 7,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Possess", "guid": "0ec5851a-4066-48ec-bdd7-a4a29a5e40dc",
+		"level": 5,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Power Word Banish", "guid": "40b1eea9-1487-42e3-8f3f-fdc225ebd323",
+		"level": 9,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Power Word Blind", "guid": "b21b2595-2ef9-452c-b495-161c3e5d8f42",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Power Word Sleep", "guid": "d8970aa5-c784-4e8c-b26e-025eac2c55d5",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Preservation", "guid": "d024ebb2-28f1-4e33-9c47-7a69f999b946",
+		"level": 2,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Prismal's Handy Mirror", "guid": "5726cf95-d520-4a97-a054-cebe0ef62d7d",
+		"level": 2,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Prismal's Pictograph", "guid": "211f39f5-1929-488d-8520-00e01e70aeaf",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Projected Magnification", "guid": "de0b5567-e15a-439a-8f9a-c88dc202a71e",
+		"level": 4,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Prophecy", "guid": "c7bc1d69-c84d-488c-86d2-129439c56f12",
+		"level": 6,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Protective Amulet", "guid": "3e8d123f-cd76-4ede-8159-62ad3cfe692a",
+		"level": 1,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Quench the Spirit", "guid": "b3d17f3a-0b85-4a53-9f57-0978c2935698",
+		"level": 8,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rain of Blood", "guid": "352f2563-d7b4-498b-b33b-67a02286bfa8",
+		"level": 5,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rain of Terror", "guid": "b2f94bef-c58a-4fa7-a5b3-6580325e6ad9",
+		"level": 7,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rainshield", "guid": "db9baf39-1ff1-47f3-a035-0a2adafc6f6a",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rary's Replay", "guid": "bf888103-f29d-4e68-b57c-f6f4bce287f8",
+		"level": 5,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rastor's Mystical Spy", "guid": "efb67367-7c44-4939-960d-7aa3a1025320",
+		"level": 4,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ray of Fatigue", "guid": "e5632a9f-7ec0-4d84-b46f-74be9cde8fe7",
+		"level": 1,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ray of Paralysis", "guid": "c7238a95-2b46-4a2c-b327-330b311aeaf4",
+		"level": 3,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Read Object", "guid": "75c9f0f7-4b6d-49ab-a1de-79760fd18c8c",
+		"level": 3,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Reed Staff", "guid": "d9c34fff-44f4-4540-8bf8-ad1b4c34e978",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Renew Deposit", "guid": "1853501b-bb69-4ff0-97c3-aa3e1590e43e",
+		"level": 9,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Resist Magic", "guid": "47fb284c-6147-4783-9e77-3066aa6a6b14",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Resist Turning", "guid": "30d5dc0f-8578-4c20-90ff-2c3f15ecd852",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Restore Earth", "guid": "49fb65fc-9cb7-4d53-bd83-c69ebd497f15",
+		"level": 3,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Return to Earth", "guid": "3471247b-6ba5-4bd1-b285-a7d778a8146f",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Revenance", "guid": "24c2e298-e05d-4d7f-a07f-8ba8f53a3046",
+		"level": 2,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Right of Might", "guid": "c4802409-4646-4941-82b3-89859ffa6862",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rising Colossus", "guid": "4a3a3b37-6aeb-4ac6-bcf9-dec9b66e5315",
+		"level": 9,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rising Rot", "guid": "718ce85e-1049-4173-ae02-a2de6d9369f3",
+		"level": 5,
+		"school": "Necromantic",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Ritual Strength", "guid": "7ecc7c02-6291-4ece-ada5-0867ad1e0a7a",
+		"level": 0,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Rusting Grasp", "guid": "3fdcb0e7-5f4c-415e-bc07-678d3d68f830",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sacred Guardian", "guid": "b8c5b5ba-93ee-4b22-b5c3-190bdbda41a6",
+		"level": 1,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sacred Strike", "guid": "08bd9d73-b076-45fc-8f8e-f39612d4f4c9",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sand Gems", "guid": "7f906b47-dc12-403a-a79f-1e25ef68c31b",
+		"level": 8,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sand Shroud", "guid": "47e13aed-829b-4517-bd0a-044bdad94ed2",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sand Sword", "guid": "4263b16b-601b-4ccb-a8fd-cbd282eb2b96",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sap", "guid": "93700b86-9d77-465c-a2cd-8ef0edfb7106",
+		"level": 2,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sarcophagus of Death", "guid": "4c10313c-8b19-4616-9a4a-90adb8adc40c",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sargasso", "guid": "079367db-47e5-40c3-a63b-7ef6ef84d72a",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Scalding Spout", "guid": "6250ce39-5df0-43e2-a352-b4c450611f50",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Scalesnare", "guid": "a8317682-03a6-49ad-bdfd-e4fb8e70fda7",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Scapegoat", "guid": "d4a418e4-e734-45a6-aa5d-41aa248f29bd",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Scatterspray", "guid": "ca7394f0-e45d-4a26-9c87-c30dbfaa2b57",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Scent of Vengeance", "guid": "7f8db04b-e58d-4f46-9fa2-11cb5d1b069a",
+		"level": 2,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Screen", "guid": "596173f9-2b81-410c-88c3-9fab1927eb2c",
+		"level": 8,
+		"school": "Illusion",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sea Sight", "guid": "e9609fd7-97d7-48b0-9f40-5541f94fd6bf",
+		"level": 1,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Seal Mouth", "guid": "444f7f23-afd7-4d0b-91a5-4f84cc3f673b",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Seal of Destiny", "guid": "2f8e08df-baeb-4e7b-a573-208dec6c3263",
+		"level": 7,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Searing Song", "guid": "908da718-ac1b-4da1-ab8a-989058f63ff9",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Secret Page", "guid": "1ba8e5ed-558e-4ff4-9dcf-6c6f3ebf54fd",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Secret Signs", "guid": "94028c05-177f-4373-8100-6dd08f031e65",
+		"level": 0,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "See Through Other Eyes", "guid": "c4af7045-d126-4370-9eeb-fb2db53942e6",
+		"level": 2,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Seek Teleporter", "guid": "71c7180b-e235-4407-adcc-31ea1a792ee6",
+		"level": 3,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Seeking", "guid": "a0fdff4e-5f85-4db3-9a3c-2a73a1ade4cb",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Segojan's Armor", "guid": "4d228f78-b8c8-4891-b774-6035c7da6470",
+		"level": 1,
+		"school": "Abjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Seven-Eyes", "guid": "140ea36a-0625-43f2-bf48-b6db51ebb541",
+		"level": 7,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shadow Blink", "guid": "c93c5327-33ed-4af3-be51-ddbd33a0ee6c",
+		"level": 5,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shadow Dance", "guid": "341b9194-634a-4893-9230-bddd56260a2f",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shadow Play", "guid": "8656caec-0ee5-4a45-b176-bec17a71f985",
+		"level": 5,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shadowcat", "guid": "4e855683-ea8e-4a98-ad4e-81ce49ff206a",
+		"level": 5,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shadowstrike", "guid": "fa98d9cf-e422-4e74-a840-747ea5870c7e",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shandaril's Tracer", "guid": "b226b651-84c1-4cfa-a6c6-33b7adbd6e4f",
+		"level": 5,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shape Wood", "guid": "58d40f9f-dfb7-4484-9ddf-f038c9e5eae2",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shark Bolt", "guid": "6e81dee9-4d6c-47ba-903b-1cfc8e159b30",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sharptooth", "guid": "2d4069e0-403a-453f-a0c2-a66bf88ed98e",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shellskin", "guid": "50c87246-833b-49fc-bbb8-58d65dd03d94",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shoondal's Seeking", "guid": "a7bd3ddf-58e8-4e16-bc18-e8f6afc59d95",
+		"level": 3,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Shout", "guid": "5814ebb4-9fc1-4363-8a4f-405495755a86",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Simbul's Skeletal Deliquescence", "guid": "ef5fe325-d4cf-4689-8868-1cd0e403e437",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Simulate Skill", "guid": "cbe13af5-6cf7-4172-94ac-94c54066a030",
+		"level": 4,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Singing Stone", "guid": "32eb81b5-856e-4342-a799-92118e4aeb63",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sinister Surroundings", "guid": "a37a3637-19ed-4290-b243-89046538d72d",
+		"level": 2,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Siren Song", "guid": "cca3d28b-8ccf-4dbc-bc14-169f499999aa",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Skip Day", "guid": "7e9aaab7-fefe-473d-a61f-d29c5b68f2b5",
+		"level": 9,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Skull Watch", "guid": "c2fa6a9c-d388-4109-a2b1-287c33113f95",
+		"level": 2,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Skycastle", "guid": "7bd7f3d4-8ffd-4e88-a8f0-4b1264b5bd7c",
+		"level": 9,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Skyhook", "guid": "6aacef8a-880c-48e5-a546-29cd89e292d0",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Skylight Blade", "guid": "3ba53f4d-095c-4524-9741-5d33e4799430",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sleepwalking", "guid": "e6bb6b70-2cbe-474f-bb37-ef923933e433",
+		"level": 4,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Smite", "guid": "7626301a-be26-454a-a149-0303ba602185",
+		"level": 8,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Smoke Shape", "guid": "5d7795dc-12b9-48b8-b230-f8ea18ceade4",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Snapdragon", "guid": "bb5aa375-f6a8-4aa7-83c7-d08696098ee8",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Snare", "guid": "47d8ff1e-df43-42bb-a581-6d81ef0f5d0e",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Song of Compulsion", "guid": "e329622f-b817-4129-a096-2f45c6bb5cd7",
+		"level": 3,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Soul Anchor", "guid": "3ce10217-5b57-46f4-92e2-724bf3d5bfac",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Speak with Water", "guid": "92e4e3dc-1d65-4da4-b401-b1d0d4a05c24",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Special Effects", "guid": "e6a93c15-e72e-44c1-bc97-d981b2d8eb3a",
+		"level": 1,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Spectral Beast", "guid": "d6d6373d-d274-4348-a071-84bfde5adb61",
+		"level": 6,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sphere of Adaptation", "guid": "2836bc1a-a22b-4a65-8238-b029068b2ffa",
+		"level": 7,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Spirit Mask", "guid": "c557b01d-ac91-4083-9c02-0a5d8fa2611c",
+		"level": 1,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Spirit of Flame", "guid": "969c01da-594e-4c62-8481-474f4054234e",
+		"level": 6,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Splinter Wood", "guid": "f339cd47-15bc-418f-8945-4f00f42ac6d7",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Spring", "guid": "88ad532b-916e-4aa6-8bd9-b6b86634de0d",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Squeaking Floor", "guid": "b22af73a-d5ad-4dbb-9938-2a399e351677",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Starharp", "guid": "d304888f-b11d-4fdf-80be-9e2ff9b01a58",
+		"level": 6,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sticks to Snakes", "guid": "1fef9eab-9bb7-4031-9d77-f02a8b60a341",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Stone Tell", "guid": "9b388fd2-3e93-4a45-9ed5-a7ede96c853d",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Storm", "guid": "b636600d-49c1-4e6f-8617-be145e765b1a",
+		"level": 8,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Lightning Curtain", "guid": "3b78bbfd-2370-4d5b-84ba-b9b3d18eb78c",
+		"level": 6,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Succor", "guid": "f448a523-0fbf-4353-bf2f-fab9050312d0",
+		"level": 8,
+		"school": "Conjuration",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Suffocate", "guid": "5fe5863d-db52-4bbf-8f07-ec2d6ec79edc",
+		"level": 7,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sunbolt", "guid": "012d0152-d074-41ac-a4c3-d17ff958ef63",
+		"level": 4,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sunscorch", "guid": "a7d828ba-2860-401b-867a-f0a7db404662",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Sustain Fire", "guid": "7e0080b0-f654-4752-a769-e79f59397995",
+		"level": 0,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Swim", "guid": "15287426-3df5-490b-8317-8ac4dedb05b3",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Talon's Skitmaster", "guid": "476c8d4c-bf63-408d-8982-d2fec9ac76d1",
+		"level": 4,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Talon's Soundmaster", "guid": "47d42afd-bc5d-411a-b942-add4d649a6a9",
+		"level": 4,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Talon's Waterproof", "guid": "18889143-e19e-4ec7-8a8b-090c4a161529",
+		"level": 0,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tame Animal", "guid": "5a1d8d0b-5848-4b18-b7e8-33990da99472",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tasirin's Haunted Sleep", "guid": "fd74b393-94d3-4994-887e-f46be559c5b5",
+		"level": 5,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tattoo of Power", "guid": "1813de0b-f583-40bd-bd92-f658bffcf4b2",
+		"level": 6,
+		"school": "Evocation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Telepathic Broadcast", "guid": "ebad2254-1983-489b-8064-0859f8ceca39",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Teleport Object", "guid": "8cce7570-412b-460e-bc2a-30b4de5d6bdd",
+		"level": 3,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tenfold Ironguard", "guid": "47e1e077-0545-4869-a3e7-cf4cba57e407",
+		"level": 7,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tenser's Hunting Hawk", "guid": "fb973ef0-5ed9-48f8-bf87-4194fb9e4d36",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tentacle of Withering", "guid": "b0032ae0-bf02-451e-8efc-ec87293f6290",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Tentacles", "guid": "7231ea14-450d-46b9-978d-c3e22d46e1e7",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Thief's Lament", "guid": "5e8dc32a-c28d-41ec-b9ff-d02b5786bb6f",
+		"level": 3,
+		"school": "Abjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Thornwrack", "guid": "ef7a4e97-3114-4786-a354-e7f38ff6078e",
+		"level": 5,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Throbbing Bones", "guid": "e728aeef-bb7f-4504-87af-06c2f595aa19",
+		"level": 5,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Thump", "guid": "9b06d2ea-0ce1-4523-8f1a-055805a14b3d",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Thunderball", "guid": "66c7eea3-94b0-4672-b837-64653ccade76",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Timed Stasis", "guid": "2ffba833-1b42-4a36-b441-114d3e903e91",
+		"level": 7,
+		"school": "Transmutation",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Timelessness", "guid": "71a3c3b3-a69b-4244-b439-4fac6eb2584a",
+		"level": 9,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Touch of the Styx", "guid": "335c8c21-6990-43f8-ab32-ea7097a2640c",
+		"level": 7,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Transmute Bone to Steel", "guid": "2a7bf80c-6dc0-46b1-b626-da043bf6eef0",
+		"level": 6,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Trick", "guid": "04df130f-6815-413a-96bf-6c3776dacf30",
+		"level": 5,
+		"school": "Illusion",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "True Name", "guid": "afe7f4ab-3c11-4ecb-9e50-105fdf10c87f",
+		"level": 6,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Unburn", "guid": "117ae9e3-b437-480f-8a3c-3537e6b0bcdd",
+		"level": 7,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Vaporize", "guid": "3b69ad34-a5eb-4f10-b354-a89d9b84b410",
+		"level": 8,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Venomdust", "guid": "08106e31-7407-4763-8fea-425e29cc8d72",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Venomous Blade", "guid": "f279d61e-8f6c-42b0-a31c-e1c993781a5f",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Vision Stone", "guid": "ab6c39ae-ebaf-4cdf-815e-dc85cdb12239",
+		"level": 4,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Wail of the Banshee", "guid": "83cec072-e4bd-4fc5-b8c8-55fd30de571b",
+		"level": 6,
+		"school": "Necromancy",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Warning Shout", "guid": "cd6fb05e-6f38-4daa-a9ed-30ffe3dfa811",
+		"level": 0,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Watching Shadow", "guid": "95825314-757b-4e0d-a9fb-8cbbc31d277a",
+		"level": 4,
+		"school": "Divination",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Weapon of the Earth", "guid": "51a17cc3-a127-44fb-a7f0-d2eae54bba9e",
+		"level": 1,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Weapon Return", "guid": "f1a55c31-ad76-40e2-9ede-87422a7f71e9",
+		"level": 3,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Weapon Shift", "guid": "6ee77f61-af49-4af3-b35d-d868964461a1",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Web of Shadows", "guid": "b4cf6b62-cccc-43d5-96db-e40ed9630509",
+		"level": 6,
+		"school": "Conjuration",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Whip of Flame", "guid": "48f33931-2c37-40af-bfb4-0c114c1fadee",
+		"level": 3,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Whispers", "guid": "71ef83d4-7299-4300-a159-1c97df7ca87d",
+		"level": 2,
+		"school": "Divination",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Wing Gifting", "guid": "92966905-b8fb-4863-834e-bf77adc9e945",
+		"level": 4,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Wingbind", "guid": "05374886-d392-4301-a0d5-e9fafae12533",
+		"level": 5,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Wolfjaws", "guid": "34ec439e-e032-4497-b6a0-43271320a226",
+		"level": 2,
+		"school": "Transmutation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Wyvern Watch", "guid": "6aee0060-4839-40c0-88e4-f6c4ea944244",
+		"level": 2,
+		"school": "Evocation",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Year Stealing", "guid": "670bc61b-cccf-46d8-9a4a-f400b884f683",
+		"level": 8,
+		"school": "Necromancy",
+		"tags": ["Ritual"],
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
+		]
+	},
+	{
+		"name": "Zone of Deception", "guid": "1d6d2796-4d25-48cf-b302-a9b4a71bdcb2",
+		"level": 2,
+		"school": "Enchantment",
+		"sources": [
+			{ "name": "The (Not Really) Complete Tome of Spells", "url": "http://www.reddit.com/r/dndnext/comments/3541tx/the_not_really_complete_tome_of_spells_updated/" }
 		]
 	}
 ]
