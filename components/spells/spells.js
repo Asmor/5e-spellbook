@@ -23,8 +23,6 @@ angular.module("spells", [])
 		});
 	});
 
-	window.classesBySpell = classService.classesBySpell;
-
 	return classService;
 
 	function registerClass(data, baseName) {
@@ -75,8 +73,6 @@ angular.module("spells", [])
 	$http.get("data/spells.json").then(function (response) {
 		spellService.all = response.data;
 	});
-
-	window.spellService = spellService;
 
 	return spellService;
 }])
