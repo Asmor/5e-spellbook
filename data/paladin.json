@@ -212,6 +212,46 @@
 				"name": "Middle Finger of Vecna",
 				"url": "http://middlefingerofvecna.blogspot.com/2015/05/inquisitor.html"
 			}
+		},
+		{
+			"name": "Oath of the Purge",
+			"spells": [
+				{ "name": "Burning Hands", "guid": "a7f52c3f-6328-4ee9-a6fd-5935e43fbf90" },
+				{ "name": "Sanctuary", "guid": "61def476-1788-43be-9708-65b7b9753d6b" },
+				{ "name": "Scorching Ray", "guid": "b8c2e226-0da7-4e41-a142-41e23054f9cd" },
+				{ "name": "Zone of Truth", "guid": "0568638c-d4e7-4185-9c0d-204d1d0831c2" },
+				{ "name": "Fireball", "guid": "eb074aab-7c9a-44db-a6e7-e250bf4026e9" },
+				{ "name": "Protection from Energy", "guid": "86114138-689b-4779-bc75-809bb99cec01" },
+				{ "name": "Aura of Purity", "guid": "c3d921f0-179a-4960-85cb-38f99ae25813" },
+				{ "name": "Wall of Fire", "guid": "e80a370d-5fa8-4b3c-b376-d6cabfb2751b" },
+				{ "name": "Flame Strike", "guid": "f21deec0-cac3-4a50-9573-29a661d9ec29" },
+				{ "name": "Destructive Smite", "guid": "5ef86407-0d0a-472d-8ed0-fe298ccf4b90" }
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "A Paladin's Dark Vows",
+				"url": "https://www.patreon.com/posts/2845846"
+			}
+		},
+		{
+			"name": "Oath of the Supremacy",
+			"spells": [
+				{ "name": "Command", "guid": "7f06a9cc-8db6-4902-b663-2b4e94e53caa" },
+				{ "name": "Heroism", "guid": "fbd1591e-3157-4961-8ab7-10a3a5850bf3" },
+				{ "name": "Enhance Ability", "guid": "316ddf01-a532-447c-8649-dce11f7c2777" },
+				{ "name": "Hold Person", "guid": "9e6a25be-672d-456b-9724-78e598e44807" },
+				{ "name": "Fear", "guid": "5f8c4476-1318-4ca2-a59c-ccf2a575f55b" },
+				{ "name": "Haste", "guid": "69d31f69-575a-4901-8956-b725e5172a00" },
+				{ "name": "Banishment", "guid": "a4ff50e2-e6c5-46c9-a61a-869eada8ec2c" },
+				{ "name": "Stoneskin", "guid": "e99a1f4c-986b-4eff-91d5-d67c6fca2249" },
+				{ "name": "Circle of Power", "guid": "cd5a14a2-ea52-4eac-9c07-622cc65e1b3b" },
+				{ "name": "Dominate Person", "guid": "88e3b2f3-7146-4c8c-948e-0c128c9b7f9d" }
+			],
+			"source": {
+				"collection": "En5ider",
+				"name": "A Paladin's Dark Vows",
+				"url": "https://www.patreon.com/posts/2845846"
+			}
 		}
 	]
 }
