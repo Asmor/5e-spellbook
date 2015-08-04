@@ -527,6 +527,19 @@
 		{ "guid": "4a3a3b37-6aeb-4ac6-bcf9-dec9b66e5315", "name": "Rising Colossus" },
 		{ "guid": "7e9aaab7-fefe-473d-a61f-d29c5b68f2b5", "name": "Skip Day" },
 		{ "guid": "7bd7f3d4-8ffd-4e88-a8f0-4b1264b5bd7c", "name": "Skycastle" },
-		{ "guid": "71a3c3b3-a69b-4244-b439-4fac6eb2584a", "name": "Timelessness" }
+		{ "guid": "71a3c3b3-a69b-4244-b439-4fac6eb2584a", "name": "Timelessness" },
+		{ "guid": "5400dd37-77e9-46d7-b5e3-80a39074cdf5", "name": "Arcane Hacking" },
+		{ "guid": "6c80a24c-430c-47e1-8251-99e3408418f9", "name": "Commune with City" },
+		{ "guid": "306a5b92-9caa-4d4a-a893-b6bc26c790d3", "name": "Conjure Knowbot" },
+		{ "guid": "c698b795-8fe2-484e-a0b9-f08a77cd25b4", "name": "Digital Phantom" },
+		{ "guid": "3acf1a17-e281-410c-a8ac-fe4f41ed6727", "name": "Find Vehicle" },
+		{ "guid": "d3ec9254-93c6-4f21-980d-6f7331e5ef64", "name": "Haywire" },
+		{ "guid": "e1cb39d4-1c81-4d0e-b142-8fc70ed0d423", "name": "Infallible Relay" },
+		{ "guid": "2a2b268e-e2d8-4c73-849e-8625c9708d95", "name": "Invisibility to Cameras" },
+		{ "guid": "43d32ee8-8f85-48a9-b114-3969b6e65d95", "name": "On/Off" },
+		{ "guid": "3801ed24-b819-464c-9de9-ff7159782435", "name": "Protection from Ballistics" },
+		{ "guid": "f7608101-9b31-4317-bcd1-4302043bd851", "name": "Remote Access" },
+		{ "guid": "13ff43ec-3896-4106-a8c6-3fad2b0a398e", "name": "Synchronicity" },
+		{ "guid": "939d9feb-c491-45c3-9110-605531435677", "name": "System Backdoor" }
 	]
 }

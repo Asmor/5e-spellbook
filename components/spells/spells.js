@@ -92,6 +92,7 @@ angular.module("spells", [])
 		"players-handbook",
 		"princes-of-the-apocalypse",
 		"rise-of-tiamat",
+		"urban-arcana",
 	].forEach(function (source) {
 		$http.get("data/sources/" + source + ".json").then(function (response) {
 			registerSource(response.data);

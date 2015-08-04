@@ -93,7 +93,8 @@
 		{ "guid": "1024a078-af21-4375-84f3-029558f8df39", "name": "Draw Upon Holy Might" },
 		{ "guid": "d505ceb6-8333-43de-9a78-db0dbb8df312", "name": "Force Shapechange" },
 		{ "guid": "257f0a26-2997-4683-862e-3d63b06888b6", "name": "Oathbinding" },
-		{ "guid": "47fb284c-6147-4783-9e77-3066aa6a6b14", "name": "Resist Magic" }
+		{ "guid": "47fb284c-6147-4783-9e77-3066aa6a6b14", "name": "Resist Magic" },
+		{ "guid": "3acf1a17-e281-410c-a8ac-fe4f41ed6727", "name": "Find Vehicle" }
 	],
 	"subClasses": [
 		{

@@ -243,8 +243,21 @@
 		{ "guid": "f09da70f-5bda-4c94-9f39-21d19f06f904", "name": "Chain Madness" },
 		{ "guid": "83f58e9d-88ad-41b9-9941-428251ab899e", "name": "Death Pact" },
 		{ "guid": "21c8ff73-a597-4abd-96ec-9319c23a713d", "name": "Heart Call" },
-		{ "guid": "7e9aaab7-fefe-473d-a61f-d29c5b68f2b5", "name": "Skip Day" }
-	],
+		{ "guid": "7e9aaab7-fefe-473d-a61f-d29c5b68f2b5", "name": "Skip Day" },
+		{ "guid": "5400dd37-77e9-46d7-b5e3-80a39074cdf5", "name": "Arcane Hacking" },
+		{ "guid": "6c80a24c-430c-47e1-8251-99e3408418f9", "name": "Commune with City" },
+		{ "guid": "306a5b92-9caa-4d4a-a893-b6bc26c790d3", "name": "Conjure Knowbot" },
+		{ "guid": "c698b795-8fe2-484e-a0b9-f08a77cd25b4", "name": "Digital Phantom" },
+		{ "guid": "3acf1a17-e281-410c-a8ac-fe4f41ed6727", "name": "Find Vehicle" },
+		{ "guid": "d3ec9254-93c6-4f21-980d-6f7331e5ef64", "name": "Haywire" },
+		{ "guid": "e1cb39d4-1c81-4d0e-b142-8fc70ed0d423", "name": "Infallible Relay" },
+		{ "guid": "2a2b268e-e2d8-4c73-849e-8625c9708d95", "name": "Invisibility to Cameras" },
+		{ "guid": "43d32ee8-8f85-48a9-b114-3969b6e65d95", "name": "On/Off" },
+		{ "guid": "3801ed24-b819-464c-9de9-ff7159782435", "name": "Protection from Ballistics" },
+		{ "guid": "f7608101-9b31-4317-bcd1-4302043bd851", "name": "Remote Access" },
+		{ "guid": "13ff43ec-3896-4106-a8c6-3fad2b0a398e", "name": "Synchronicity" },
+		{ "guid": "939d9feb-c491-45c3-9110-605531435677", "name": "System Backdoor" }
+	],	
 	"subClasses": [
 		{
 			"name": "The Archfey",
@@ -290,6 +303,26 @@
 				{ "guid": "0880aaef-a5fc-4124-aa21-6ffeaa1d9023", "name": "Tasha's Hideous Laughter" },
 				{ "guid": "39d26f10-b62c-4a5b-93d6-bb2045434ddf", "name": "Telekinesis" }
 			]
+		},
+		{
+			"name": "The Ghost in the Machine",
+			"spells": [
+				{ "name": "Infallible Relay", "guid": "e1cb39d4-1c81-4d0e-b142-8fc70ed0d423", "level": 1, "school": "Divination", "tags": [ "technomagic" ] },
+				{ "name": "Remote Access", "guid": "f7608101-9b31-4317-bcd1-4302043bd851", "level": 1, "school": "Transmutation", "tags": [ "technomagic" ] },
+				{ "name": "Arcane Hacking", "guid": "5400dd37-77e9-46d7-b5e3-80a39074cdf5", "level": 2, "school": "Transmutation", "tags": [ "technomagic" ] },
+				{ "name": "Digital Phantom", "guid": "c698b795-8fe2-484e-a0b9-f08a77cd25b4", "level": 2, "school": "Abjuration", "tags": [ "technomagic" ] },
+				{ "name": "Haywire", "guid": "d3ec9254-93c6-4f21-980d-6f7331e5ef64", "level": 3, "school": "Enchantment", "tags": [ "technomagic" ] },
+				{ "name": "Invisibility to Cameras", "guid": "2a2b268e-e2d8-4c73-849e-8625c9708d95", "level": 3, "school": "Illusion", "tags": [ "technomagic" ] },
+				{ "name": "Conjure Knowbot", "guid": "306a5b92-9caa-4d4a-a893-b6bc26c790d3", "level": 4, "school": "Conjuration", "tags": [ "technomagic" ] },
+				{ "name": "Synchronicity", "guid": "13ff43ec-3896-4106-a8c6-3fad2b0a398e", "level": 4, "school": "Enchantment" },
+				{ "name": "System Backdoor", "guid": "939d9feb-c491-45c3-9110-605531435677", "level": 5, "school": "Transmutation", "tags": [ "technomagic" ] },
+				{ "name": "Shutdown", "guid": "399ec350-6ed1-4aa1-99f6-b61e4a3b7f24", "level": 5, "school": "Transmutation", "tags": [ "technomagic" ] }
+			],
+			"source": {
+				"collection": "Unearthed Arcana",
+				"name": "Modern Magic",
+				"url": "http://dnd.wizards.com/articles/features/modern-magic"
+			}
 		},
 		{
 			"name": "The Machine",

@@ -412,6 +412,26 @@
 			]
 		},
 		{
+			"name": "City",
+			"spells": [
+				{ "name": "Comprehend Languages", "guid": "59c38d67-34e9-4323-9e7c-840a4ec97e3a", "level": 1, "school": "Divination", "tags": [ "Ritual" ] },
+				{ "name": "Remote Access", "guid": "f7608101-9b31-4317-bcd1-4302043bd851", "level": 1, "school": "Transmutation", "tags": [ "technomagic" ] },
+				{ "name": "Find Vehicle", "guid": "3acf1a17-e281-410c-a8ac-fe4f41ed6727", "level": 2, "school": "Conjuration" },
+				{ "name": "Heat Metal", "guid": "85c28bed-0041-45c9-bf9c-ba8bb9400dae", "level": 2, "school": "Transmutation" },
+				{ "name": "Lightning Bolt", "guid": "32a4d90c-18dc-46be-abd9-3b71d9ccc695", "level": 3, "school": "Evocation" },
+				{ "name": "Protection from Ballistics", "guid": "3801ed24-b819-464c-9de9-ff7159782435", "level": 3, "school": "Abjuration" },
+				{ "name": "Locate Creature", "guid": "8467af6f-7ac3-4384-ade5-0c60a75b85c8", "level": 4, "school": "Divination" },
+				{ "name": "Synchronicity", "guid": "13ff43ec-3896-4106-a8c6-3fad2b0a398e", "level": 4, "school": "Enchantment" },
+				{ "name": "Commune with City", "guid": "6c80a24c-430c-47e1-8251-99e3408418f9", "level": 5, "school": "Divination", "tags": [ "ritual" ] },
+				{ "name": "Shutdown", "guid": "399ec350-6ed1-4aa1-99f6-b61e4a3b7f24", "level": 5, "school": "Transmutation", "tags": [ "technomagic" ] }
+			],
+			"source": {
+				"collection": "Unearthed Arcana",
+				"name": "Modern Magic",
+				"url": "http://dnd.wizards.com/articles/features/modern-magic"
+			}
+		},
+		{
 			"name": "Luck",
 			"spells": [
 				{ "guid": "bc086a0e-a10c-42ca-95dc-8c9de340e31f", "name": "Bless" },
@@ -428,6 +448,25 @@
 			"source": {
 				"name": "Middle Finger of Vecna",
 				"url": "http://middlefingerofvecna.blogspot.com/2015/05/luck-domain.html"
+			}
+		},
+		{
+			"name": "Travel",
+			"spells": [
+				{ "name": "Longstrider", "guid": "f49d9708-da7c-4dce-9464-a23682c3fa04", "level": 1, "school": "Transmutation" },
+				{ "name": "Feather Fall", "guid": "ed9c0927-c3d5-4cee-95e5-dd69e7941ad3", "level": 1, "school": "Transmutation" },
+				{ "name": "Hold Person", "guid": "9e6a25be-672d-456b-9724-78e598e44807", "level": 2, "school": "Enchantment" },
+				{ "name": "Misty Step", "guid": "40599d9f-7223-4456-8a00-14b67e4cafbc", "level": 2, "school": "Conjuration" },
+				{ "name": "Fly", "guid": "6d9f58d5-515d-4383-b60d-23308e0c94ff", "level": 3, "school": "Transmutation" },
+				{ "name": "Haste", "guid": "69d31f69-575a-4901-8956-b725e5172a00", "level": 3, "school": "Transmutation" },
+				{ "name": "Dimension Door", "guid": "a829971b-4664-4351-8edf-4720872ed099", "level": 4, "school": "Conjuration" },
+				{ "name": "Mordenkainen's Private Sanctum", "guid": "bad05b64-d5c9-4197-ace6-3e699a69ee91", "level": 4, "school": "Abjuration" },
+				{ "name": "Hold Monster", "guid": "e9b65c10-a7da-4387-8a80-a58a34ce1f1b", "level": 5, "school": "Enchantment" },
+				{ "name": "Teleportation Circle", "guid": "f3f76d30-f277-4745-9744-257bd401de44", "level": 5, "school": "Conjuration" }
+			],
+			"source": {
+				"name": "Middle Finger of Vecna",
+				"url": "http://middlefingerofvecna.blogspot.com/2015/07/travel-domain.html"
 			}
 		}
 	]
