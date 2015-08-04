@@ -56,14 +56,6 @@ td {
       display: block; }
     .filters .filters--sub-class-container__hidden {
       max-height: 0; }
-  .filters .filters--sub-class-list {
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2; }
-    .filters .filters--sub-class-list__long-names {
-      -webkit-columns: 1;
-      -moz-columns: 1;
-      columns: 1; }
 
 .spell-list {
   bottom: 0;
