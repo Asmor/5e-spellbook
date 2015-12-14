@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("spells", [])
+angular.module("spells", ["util"])
 .service("classService", ["$http", function ($http) {
 	var classService = {
 		classes: {},
@@ -49,7 +49,7 @@ angular.module("spells", [])
 		}
 	}
 }])
-.service("spellService", ["$http", function ($http) {
+.service("spellService", ["$http", "storage", function ($http, storage) {
 	var spellService = {
 		all: [],
 		byGuid: {},
@@ -112,7 +112,7 @@ angular.module("spells", [])
 			guid: sourceGuid,
 		};
 
-		spellService.filters.sources[sourceGuid] = true;
+		initializeSourceFilter(sourceGuid);
 
 		spellPromise.then(function () {
 			data.spells.forEach(function (spellSourceData) {
@@ -125,6 +125,27 @@ angular.module("spells", [])
 					guid: sourceGuid,
 				});
 				spell.sourceGuids[sourceGuid] = true;
+			});
+		});
+	}
+
+	function initializeSourceFilter(sourceGuid) {
+		var storageKey = "filter.source." + sourceGuid;
+		storage.get(storageKey, function (_val) {
+			if ( typeof _val === "undefined" ) {
+				_val = true;
+			}
+			spellService.filters.sources[sourceGuid] = _val;
+
+			Object.defineProperty(spellService.filters.sources, sourceGuid, {
+				get: function () { return _val; },
+				set: function (val) {
+					if ( val === _val ) { return; }
+
+					storage.set(storageKey, val);
+
+					_val = val;
+				},
 			});
 		});
 	}

@@ -23,4 +23,28 @@ angular.module("util", [])
 		templateUrl: "components/util/source-link.html",
 	};
 }])
+.factory("storage", [function () {
+	var storage = {
+		get: function (key, callback) {
+			var data;
+			var raw = localStorage[key];
+
+			if (raw) {
+				try {
+					data = JSON.parse(localStorage[key]);
+				} catch (ex) {
+					console.warn("Unable to parse stored value for " + key);
+					data = undefined;
+				}
+			}
+
+			callback(data);
+		},
+		set: function (key, data) {
+			localStorage[key] = JSON.stringify(data);
+		},
+	};
+
+	return storage;
+}])
 ;
